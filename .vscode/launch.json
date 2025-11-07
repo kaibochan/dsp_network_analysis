@@ -9,7 +9,7 @@
             "cwd": "${workspaceFolder}/data_manipulation"
         },
         {
-            "name": "Generate Network Files",
+            "name": "Create Recipe Network",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/recipe_network/main.py",
