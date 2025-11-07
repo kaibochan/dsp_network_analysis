@@ -1,0 +1,213 @@
+Building,Recipe
+Accumulator,"6- Iron Ingot
+1- Supermagnetic Ring
+3- Crystal Silicon"
+Advanced Mining Machine,"20- Titanium Alloy
+10- Frame Material
+10- Supermagnetic Ring
+4- Quantum Chip
+40- Grating Crystal"
+Arc Smelter,"4- Iron Ingot
+2- Stone Brick
+4- Circuit Board
+2- Magnetic Coil"
+Artificial Star,"20- Titanium Alloy
+20- Frame Material
+10- Annihilation Constraint Sphere
+10- Quantum Chip"
+Assembling Machine MK I,"4- Iron Ingot
+8- Gear
+4- Circuit Board"
+Assembling Machine MK II,"1- Assembling Machine MK I
+8- Graphene
+4- Processor"
+Assembling Machine MK III,"1- Assembling Machine MK II
+8- Particle Broadband
+2- Quantum Chip"
+Automatic Piler,"3- Steel
+4- Gear
+1- Supermagnetic Ring
+2- Processor"
+Battlefield Analysis Base,"12- Iron Ingot
+18- Circuit Board
+6- Microcrystalline Component
+12- Engine"
+Chemical Plant,"8- Steel
+8- Stone Brick
+8- Glass
+2- Circuit Board"
+Conveyor Belt MK I,"2- Iron Ingot
+1- Gear"
+Conveyor Belt MK II,"3- Conveyor Belt MK I
+1- Electromagnetic Turbine"
+Conveyor Belt MK III,"3- Conveyor Belt MK II
+1- Supermagnetic Ring
+1- Graphene"
+Depot MK I,"4- Iron Ingot
+4- Stone Brick"
+Depot MK II,"8- Steel
+8- Stone Brick"
+E-M Rail Ejector,"20- Steel
+20- Gear
+5- Processor
+10- Supermagnetic Ring"
+Energy Exchanger,"40- Titanium Alloy
+40- Steel
+40- Processor
+8- Particle Container"
+Fractionator ,"8- Steel
+4- Stone Brick
+4- Glass
+1- Processor"
+Gause Turret,"8- Iron Ingot
+8- Gear
+2- Circuit Board
+4- Magnetic Coil"
+Geothermal Power Station,"15- Steel
+20- Copper Ingot
+4- Photon Combiner
+1- Supermagnettic Ring"
+Implosion Cannon,"10- Iron Ingot
+8- Electric Motor
+10- Circuit Board
+2- Supermagnetic Ring"
+Interstellar Logistics Station,"1- Planetary Logistics Station
+40- Titanium Alloy
+20- Particle Container"
+Jammer Tower,"12- Copper Ingot
+9- Plasma Exciter
+6- Diamond
+3- Processor"
+Laser Turret,"9- Iron Ingot
+6- Plasma Exciter
+6- Circuit Board
+9- Photon Combiner"
+Logistics Distributor,"8- Iron Ingot
+4- Plasma Exciter
+4- Processor"
+Matrix Lab,"8- Iron Ingot
+4- Glass
+4- Circuit Board
+4- Magnetic Coil"
+Mini Fusion Power Plant,"12- Titanium Alloy
+10- Supermagnetic Ring
+8- Carbon Nanotube
+4- Processor"
+Miniature Particle Collider,"20- Titanium Alloy
+20- Frame Material
+25- Supermagnetic Ring
+10- Graphene
+8- Processor"
+Mining Machine,"4- Iron Ingot
+2- Circuit Board
+2- Magnetic Coil
+2- Gear"
+Missile Turret,"8- Iron Ingot
+6- Electric Motor
+12- Circuit Board
+6- Engine"
+Negentropy Smelter,"1- Plane Smelter
+10- Negentropy Singularity
+30- Energy Shard
+4- Quantum Chip"
+Oil Extractor,"12- Steel
+12- Stone Brick
+6- Circuit Board
+4- Plasma Exciter"
+Oil Refinery,"10- Steel
+10- Stone Brick
+6- Circuit Board
+6- Plasma Exciter"
+Orbital Collector,"1- Interstellar Logistics Station
+50- Supermagnetic Ring
+20- Reinforced Thruster
+20- Accumulator (Charged)"
+Pile Sorter,"2- Sorter MK III
+1- Supermagnetic Ring
+1- Processor"
+Plane Smelter,"1- Arc Smelter
+5- Frame Material
+4- Plane Filter
+15- Unipolar Magnet"
+Planetary Logistics Station,"40- Steel
+40- Titanium Ingot
+40- Processor
+20- Particle Container"
+Planetary Shield Generator,"20- Steel
+10- Electromagnetic Turbine
+5- Supermagnetic Ring
+5- Particle Container"
+Plasma Turret,"20- Titanium Alloy
+10- Titanium Glass
+10- Supermagnetic Ring
+5- Plasma Exciter
+5- Processor"
+Quantum Chemical Plant,"1- Chemical Plant
+10- Glass
+3- Strange Matter
+3- Quantum Chip"
+Ray Receiver,"20- Steel
+20- High-Purity Silicon
+10- Photon Combiner
+5- Processor
+20- Supermagnetic Ring"
+Recomposing Assembler,"1- Assembling Machine MK III
+10- Matter Rocombinator
+30- Energy Shard
+4- Quantum Chip"
+Satellite Substation,"1- Wireless Power Tower
+10- Supermagnetic Ring
+2- Frame Material"
+Self-Evolution Lab,"1- Matrix Lab
+10- Silicon-Based Neuron
+20- Dark Fog Matrix
+4- Quantum Chip"
+Signal tower,"2- Wireless Power Tower
+12- Iron Ingot
+5- Crystal Silicon"
+Solar Panel,"10- Copper Ingot
+10- High-Purity Silicon
+5- Circuit Board"
+Sorter MK I,"1- Iron Ingot
+1- Circuit Board"
+Sorter MK II,"2- Sorter MK I
+1- Electronic Motor"
+Sorter MK III,"2- Sorter MK II
+1- Electromagnetic Turbine"
+Splitter,"3- Iron Ingot
+2- Gear
+1- Circuit Board"
+Spray Coater,"4- Steel
+2- Plasma Exciter
+2- Circuit Board
+2- Microcrystalline Component"
+S-R Plasma Turret,"15- Iron Ingot
+5- Supermagnetic Ring
+5- Plasma Exciter
+5- Processor"
+Storage Tank,"8- Iron Ingot
+4- Stone Brick
+4- Glass"
+Tesla Tower,"2- Iron Ingot
+1- Magnetic Coil"
+Thermal Power Plant,"10- Iron Ingot
+4- Stone Brick
+4- Gear
+4- Magnetic Coil"
+Traffic Monitor,"3- Iron Ingot
+2- Gear
+1- Glass
+2- Circuit Board"
+Vertical Launching Silo,"80- Titanium Alloy
+30- Frame Material
+20- Graviton Lens
+10- Quantum Chip"
+Water Pump,"8- Iron Ingot
+4- Stone Brick
+4- Electric Motor
+2- Circuit Board"
+Wind Turbine,"6- Iron Ingot
+1- Gear
+3- Magnetic Coil"
+Wireless Power Tower,"1- Tesla Tower
+3- Plasma Exciter"

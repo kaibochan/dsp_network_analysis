@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Manipulate Data",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/data_manipulation/main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/data_manipulation"
+        }
+    ]
+}
