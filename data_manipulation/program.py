@@ -2,7 +2,8 @@
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from config import PROCESSED_DATA_DIR, FINAL_DATA_DIR, LOG_FN, LOGGING_DIR, LOG_LEVELS
+from config import PROCESSED_DATA_DIR, FINAL_DATA_DIR, LOGGING_DIR, LOG_LEVELS
+from utils.logging import Logger
 
 from data_manipulator import FuckassDSPDataTransformer
 
@@ -10,14 +11,12 @@ from data_manipulator import FuckassDSPDataTransformer
 
 def data_transformation():
     # transform item data
-    item_transformer = FuckassDSPDataTransformer(PROCESSED_DATA_DIR, FINAL_DATA_DIR, LOG_FN, LOGGING_DIR, "items.log")
-    item_transformer.set_log_levels(LOG_LEVELS)
+    item_transformer = FuckassDSPDataTransformer(PROCESSED_DATA_DIR, FINAL_DATA_DIR, logger=Logger(LOGGING_DIR, "items.log", LOG_LEVELS))
     item_transformer.parse_file("items.csv")
     item_transformer.save_transformed_data("items.json")
     
     # transform building data
-    building_transformer = FuckassDSPDataTransformer(PROCESSED_DATA_DIR, FINAL_DATA_DIR, LOG_FN, LOGGING_DIR, "buildings.log")
-    building_transformer.set_log_levels(LOG_LEVELS)
+    building_transformer = FuckassDSPDataTransformer(PROCESSED_DATA_DIR, FINAL_DATA_DIR, logger=Logger(LOGGING_DIR, "buildings.log", LOG_LEVELS))
     building_transformer.parse_file("buildings.csv")
     building_transformer.save_transformed_data("buildings.json")
     
