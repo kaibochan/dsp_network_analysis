@@ -24,8 +24,8 @@ log_level = LogLevel.bitmask(
 )
 
 class RecipeNetwork:
-    def __init__(self, recipe_json_path: str = "recipes/", log_path: str = "logs/", log_name: str = "networks.log") -> None:
-        self.recipe_json_path = recipe_json_path
+    def __init__(self, data_dir: str, log_path: str = "logs/", log_name: str = "networks.log") -> None:
+        self.data_dir = data_dir
         self.log_path = log_path
         self.log_name = log_name
         self.network = igraph.Graph(directed=True)
@@ -38,8 +38,8 @@ class RecipeNetwork:
         write_mode = "a"
         if reset:
             write_mode = "w"
-        
-        with open(f"{self.log_path}{self.log_name}", write_mode) as log_file:
+
+        with open(f"{self.log_path}/{self.log_name}", write_mode) as log_file:
             log_file.write(f"{now}: [{level.name}] - {message}\n")
     
     def import_network_from_json(self, *filenames: str) -> None:
@@ -50,7 +50,7 @@ class RecipeNetwork:
         file_data = []
         for filename in filenames:
             try:
-                with open(f"{self.recipe_json_path}{filename}", "r") as network_file:
+                with open(f"{self.data_dir}/{filename}", "r") as network_file:
                     file_data.append(json.load(network_file))
                     assert file_data[-1] is not None
             except Exception as e:

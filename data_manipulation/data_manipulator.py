@@ -13,7 +13,7 @@ class LogLevel(enum.Enum):
 log_level = LogLevel.DEBUG
 
 class FuckassDSPDataTransformer:
-    def __init__(self, raw_data_path: str = "raw/", transformed_data_path: str = "transformed/", log_path: str = "logs/", log_name: str = "transformation.log") -> None:
+    def __init__(self, raw_data_path: str, transformed_data_path: str, log_path: str = "logs/", log_name: str = "transformation.log") -> None:
         self.raw_data_path = raw_data_path
         self.transformed_data_path = transformed_data_path
         self.df = None
@@ -24,10 +24,10 @@ class FuckassDSPDataTransformer:
     def _logger(self, message: str, reset: bool = False) -> None:        
         now = time.asctime()
         if reset:
-            with open(f"{self.log_path}{self.log_name}", "w") as log_file:
+            with open(f"{self.log_path}/{self.log_name}", "w") as log_file:
                 log_file.write(f"{now}: {message}\n")
         else:
-            with open(f"{self.log_path}{self.log_name}", "a") as log_file:
+            with open(f"{self.log_path}/{self.log_name}", "a") as log_file:
                 log_file.write(f"{now}: {message}\n")
                 
     def _parse_line(self, line: str):
@@ -72,7 +72,7 @@ class FuckassDSPDataTransformer:
         self._logger(f"[INFO] - Starting to parse file: {filename}")
         
         try:
-            with open(f"{self.raw_data_path}{filename}", "r") as raw_file:
+            with open(f"{self.raw_data_path}/{filename}", "r") as raw_file:
                 for line in raw_file:
                     self._parse_line(line.strip())
         except Exception as e:
@@ -83,7 +83,7 @@ class FuckassDSPDataTransformer:
         
     def save_transformed_data(self, output_filename: str) -> None:
         try:
-            with open(f"{self.transformed_data_path}{output_filename}", "w") as output_file:
+            with open(f"{self.transformed_data_path}/{output_filename}", "w") as output_file:
                 json.dump(self.transformed_data, output_file, indent=4)
         except Exception as e:
             self._logger(f"[ERROR] - Failed to save transformed data to: {output_filename}. Error: {e}")
