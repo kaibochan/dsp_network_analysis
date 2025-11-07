@@ -1,0 +1,101 @@
+Fri Nov  7 00:29:47 2025: [INFO] - Finished parsing json from file: items.json
+Fri Nov  7 00:31:31 2025: [INFO] - Finished parsing json from file: items.json
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Annihilation Constrain Sphere in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Antimatter Capsule in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Antimatter Fuel Rod in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Attack Drone in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Carbon Nanotube in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Carbon Nanotube in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Casimir Crystal in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Casimir Crystal in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Circuit Board in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Combustible Unit in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Copper Ingot in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Corvette in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Crystal Explosive Unit in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Crystal Shell Set in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Crystal Silicon in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Crystal Silicon in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Destroyer in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Deuterium in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Deuteron Fuel Rod in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Diamond in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Diamond in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Deuterium Fractionation in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Dyson Sphere Component in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Electric Motor in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Electromagnetic Turbine in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Electromagnetic Matrix in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Energetic Graphite in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Energy Matrix in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Engine in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Explosive Unit in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Foundation in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Frame Material in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Gear in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Glass in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Graphene in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Graphene in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Gravitation Lens in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Gravity Matrix in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Gravity Missile Set in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found High-Explosive Shell Set in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found High-Purity Silicon in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Hydrogen Fuel Rod in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Information Matrix in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Interstellar Logistics Carrier in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Iron Ingot in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Jamming Capsule in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Logistics Bot in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Logistics Drone in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Magnet in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Magnetic Coil in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Magnum Ammo Box in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Mass Energy Storage in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Microcrystalline Component in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Missile Set in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Organic Crystal in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Particle Broadband in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Particle Container in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Particle Container in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Photon Combiner in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Photon Combiner in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Plane Filter in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Plasma Capsule in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Plasma Exciter in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Plasma Refining in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Plastic in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Precision Drone in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Prism in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Processor in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Proliferator MK I in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Proliferator MK II in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Proliferator MK III in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Prototype in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Quantum Chip in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Reformed Refinement in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Reinforced Thruster in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Shell Set in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Silicon Ore in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Small Carrier Rocket in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Solar Sail in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Space Warper in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Space Warper in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Steel in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Stone Brick in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Strange Annihilation Fuel Rod in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Strange Matter in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Structure Matrix in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Sulfuric Acid in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Superalloy Ammo Box in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Super-Magnetic Ring in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Supersonic Missile Set in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Suppressing Capsule in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Thruster in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Titanium Alloy in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Titanium Ammo Box in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Titanium Crystal in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Titanium Glass in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Titanium Ingot in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found Universe Matrix in network_data
+Fri Nov  7 00:31:31 2025: [TRACE] - Found X-Ray Cracking in network_data
