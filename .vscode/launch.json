@@ -7,6 +7,14 @@
             "program": "${workspaceFolder}/data_manipulation/main.py",
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}/data_manipulation"
+        },
+        {
+            "name": "Generate Network Files",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/recipe_network/main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/recipe_network"
         }
     ]
 }
