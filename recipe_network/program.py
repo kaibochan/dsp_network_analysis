@@ -19,5 +19,5 @@ def build_pyviz_network():
     graph_builder.build_pyvis_graph()
 
 if __name__ == "__main__":
-    #build_igraph_network()
-    build_pyviz_network()
+    build_igraph_network()
+    # build_pyviz_network()

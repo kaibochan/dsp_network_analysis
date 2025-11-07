@@ -1,5 +1,602 @@
-Fri Nov  7 10:46:16 2025: [INFO] - ====================================================================================================
-Fri Nov  7 10:46:16 2025: [INFO] - Starting to parse json from file: items.json
-Fri Nov  7 10:46:16 2025: [INFO] - Finished parsing json from file: items.json
-Fri Nov  7 10:46:16 2025: [INFO] - Starting to parse json from file: buildings.json
-Fri Nov  7 10:46:16 2025: [INFO] - Finished parsing json from file: buildings.json
+Fri Nov  7 13:16:57 2025: [INFO] - ====================================================================================================
+Fri Nov  7 13:16:57 2025: [INFO] - Starting to parse json from file: items.json
+Fri Nov  7 13:16:57 2025: [INFO] - Finished parsing json from file: items.json
+Fri Nov  7 13:16:57 2025: [INFO] - Starting to parse json from file: buildings.json
+Fri Nov  7 13:16:57 2025: [INFO] - Finished parsing json from file: buildings.json
+Fri Nov  7 13:16:57 2025: [INFO] - Converting json data into igraph network
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Annihilation Constrain Sphere
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Particle Collider
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Antimatter Capsule
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Plasma Capsule
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Particle Container
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Antimatter
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Antimatter Fuel Rod
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Antimatter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Annihilation Constrains Sphere
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Attack Drone
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Prototype
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Electromagnetic Turbine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Particle Container
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Carbon Nanotube
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Graphene
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Titanium Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Carbon Nanotube
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Stalagmite Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Casimir Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Titanium Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Graphene
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Casimir Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Grating Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Graphene
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Combustible Unit
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Coal
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Copper Ore
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Corvette
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Reinforced Thruster
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Particle Container
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Crystal Explosive Unit
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Combustible Unit
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Casimir Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Crystal Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Crystal Shell Set
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: High-Explosive Shell Set
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Crystal Explosive Unit
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Crystal Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: High-Purity Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Crystal Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Fractal Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Destroyer
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Frame Material
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Reinforced Thruster
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Strange Matter
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Deuterium
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Deuteron Fuel Rod
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Diamond
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Energetic Graphite
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Diamond
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Kimberlite Ore
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Deuterium Fractionation
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Dyson Sphere Component
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Frame Material
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Solar Sail
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Electric Motor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Gear
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Magnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Electromagnetic Turbine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electric Motor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Electromagnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Electromagnetic Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Energetic Graphite
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Coal
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Energy Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Energetic Graphite
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Engine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Explosive Unit
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Combustible Unit
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Plastic
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Sulfuric Acid
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Foundation
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Stone Brick
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Frame Material
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Carbon Nanotube
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: High-Purity Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Gear
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Stone
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Graphene
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Sulfuric Acid
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Energetic Graphite
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Graphene
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Fire Ice
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Gravitation Lens
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Diamond
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Strange Matter
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Gravity Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Graviton Lens
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Quantum Chip
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Gravity Missile Set
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Supersonic Missile Set
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Crystal Explosive Unit
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Strange Matter
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: High-Explosive Shell Set
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Shell Set
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Explosive Unit
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: High-Purity Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Silicon Ore
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Hydrogen Fuel Rod
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Information Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Particle Broadband
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Interstellar Logistics Carrier
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Reinforced Thruster
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Iron Ore
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Jamming Capsule
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electromagnetic Turbine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Plasma Exciter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Logistics Bot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Engine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Logistics Drone
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Thruster
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Magnet
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ore
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Magnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnet
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Magnum Ammo Box
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Mass Energy Storage
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Critical Photon
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Microcrystalline Component
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: High-Purity Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Missile Set
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Combustible Unit
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Engine
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Organic Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plastic
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Refined Oil
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Water
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Particle Broadband
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Carbon Nanotube
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Crystal Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plastic
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Particle Container
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electromagnetic Turbine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Graphene
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Particle Container
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Unipolar Magnet
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Photon Combiner
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Prism
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Photon Combiner
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Grating Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Plane Filter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Casimir Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Titanium Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Plasma Capsule
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Graphene
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnet
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Deuterium
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Plasma Exciter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Prism
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Plasma Refining
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Crude Oil
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Plastic
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Energetic Graphite
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Refined Oil
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Precision Drone
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Prototype
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electromagnetic Turbine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Photon Combiner
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Prism
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Microcrystalline Component
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Proliferator MK I
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Coal
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Proliferator MK II
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Proliferator MK I
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Diamond
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Proliferator MK III
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Proliferator MK II
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Carbon Nanotube
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Prototype
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Engine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plasma Exciter
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Quantum Chip
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plane Filter
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Reformed Refinement
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Refined Oil
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Coal
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Reinforced Thruster
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electromagnetic Turbine
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Shell Set
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Combustible Unit
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Silicon Ore
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Small Carrier Rocket
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Dyson Sphere Component
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Deuteron Fuel Rod
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Quantum Chip
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Solar Sail
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Graphene
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Photon Combiner
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Space Warper
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Graviton Lens
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Space Warper
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Gravity Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Stone Brick
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Strange Annihilation Fuel Rod
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Antimatter Fuel Rod
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Core Element
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Strange Matter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Frame Material
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Strange Matter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Particle Container
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Deuterium
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Structure Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Diamond
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Sulfuric Acid
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Refined Oil
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Water
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Superalloy Ammo Box
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Titanium Ammo Box
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Super-Magnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electromagnetic Turbine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnet
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Energetic Graphite
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Supersonic Missile Set
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Missile Set
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Explosive Unit
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Thruster
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Suppressing Capsule
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Jamming Capsule
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Thruster
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Sulfuric Acid
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Titanium Ammo Box
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnum Ammo Box
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Titanium Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Organic Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Titanium Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Water
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Titanium Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Titanium Ore
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Universe Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electromagnetic Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Energy Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Structure Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Information Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Gravity Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Antimatter
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: X-Ray Cracking
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Refined Oil
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Hydrogen
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Accumulator
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Crystal Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Advanced Mining Machine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Frame Material
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Quantum Chip
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Grating Crystal
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Arc Smelter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone Brick
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Artificial Star
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Frame Material
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Annihilation Constraint Sphere
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Quantum Chip
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Assembling Machine MK I
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Gear
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Assembling Machine MK II
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Assembling Machine MK I
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Graphene
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Assembling Machine MK III
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Assembling Machine MK II
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Particle Broadband
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Quantum Chip
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Automatic Piler
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Gear
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Battlefield Analysis Base
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Microcrystalline Component
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Engine
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Chemical Plant
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone Brick
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Conveyor Belt MK I
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Gear
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Conveyor Belt MK II
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Conveyor Belt MK I
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electromagnetic Turbine
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Conveyor Belt MK III
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Conveyor Belt MK II
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Graphene
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Depot MK I
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone Brick
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Depot MK II
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone Brick
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: E-M Rail Ejector
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Gear
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Energy Exchanger
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Particle Container
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Fractionator 
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone Brick
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Gause Turret
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Gear
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Geothermal Power Station
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Photon Combiner
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Implosion Cannon
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electric Motor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Interstellar Logistics Station
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Planetary Logistics Station
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Particle Container
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Jammer Tower
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plasma Exciter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Diamond
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Laser Turret
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plasma Exciter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Photon Combiner
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Logistics Distributor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plasma Exciter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Matrix Lab
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Mini Fusion Power Plant
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Carbon Nanotube
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Miniature Particle Collider
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Frame Material
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Graphene
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Mining Machine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Gear
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Missile Turret
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electric Motor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Engine
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Negentropy Smelter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Plane Smelter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Negentropy Singularity
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Energy Shard
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Quantum Chip
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Oil Extractor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone Brick
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plasma Exciter
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Oil Refinery
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone Brick
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plasma Exciter
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Orbital Collector
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Interstellar Logistics Station
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Reinforced Thruster
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Accumulator (Charged)
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Pile Sorter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Sorter MK III
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Plane Smelter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Arc Smelter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Frame Material
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plane Filter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Unipolar Magnet
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Planetary Logistics Station
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Particle Container
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Planetary Shield Generator
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electromagnetic Turbine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Particle Container
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Plasma Turret
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plasma Exciter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Quantum Chemical Plant
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Chemical Plant
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Strange Matter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Quantum Chip
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Ray Receiver
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: High-Purity Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Photon Combiner
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Recomposing Assembler
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Assembling Machine MK III
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Matter Rocombinator
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Energy Shard
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Quantum Chip
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Satellite Substation
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Wireless Power Tower
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Frame Material
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Self-Evolution Lab
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Matrix Lab
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Silicon-Based Neuron
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Dark Fog Matrix
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Quantum Chip
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Signal tower
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Wireless Power Tower
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Crystal Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Solar Panel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Copper Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: High-Purity Silicon
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Sorter MK I
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Sorter MK II
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Sorter MK I
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient implicitly added: Electronic Motor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Sorter MK III
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Sorter MK II
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electromagnetic Turbine
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Splitter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Gear
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Spray Coater
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plasma Exciter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Microcrystalline Component
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: S-R Plasma Turret
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Steel
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Supermagnetic Ring
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plasma Exciter
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Processor
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Storage Tank
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone Brick
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Tesla Tower
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Thermal Power Plant
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone Brick
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Gear
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Traffic Monitor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Gear
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Glass
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Vertical Launching Silo
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Titanium Alloy
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Frame Material
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Graviton Lens
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Quantum Chip
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Water Pump
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Stone Brick
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Electric Motor
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Circuit Board
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Wind Turbine
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Iron Ingot
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Gear
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Magnetic Coil
+Fri Nov  7 13:16:57 2025: [TRACE] - Product added: Wireless Power Tower
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Tesla Tower
+Fri Nov  7 13:16:57 2025: [TRACE] - Ingredient already in network: Plasma Exciter
+Fri Nov  7 13:16:57 2025: [INFO] - ====================================================================================================
