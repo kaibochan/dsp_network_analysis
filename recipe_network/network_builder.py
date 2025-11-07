@@ -75,11 +75,16 @@ class RecipeNetwork:
         for data in network_data:
             name = data.get("product")
             self.network.add_vertex(name, label=name)
+            self._logger(LogLevel.TRACE, f"Product added: {name}")
 
             dependencies = data.get("ingredients")
             for ingredient, quantity in dependencies.items():
-                try: self.network.vs.find(name=ingredient)
-                except: self.network.add_vertex(ingredient, label=ingredient)
+                try:
+                    self.network.vs.find(name=ingredient)
+                    self._logger(LogLevel.TRACE, f"Ingredient already in network: {ingredient}")
+                except:
+                    self.network.add_vertex(ingredient, label=ingredient)
+                    self._logger(LogLevel.TRACE, f"Ingredient implicitly added: {ingredient}")
 
                 edges.append((name, ingredient))
                 edge_attributes["quantity"].append(quantity)
