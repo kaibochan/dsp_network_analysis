@@ -17,6 +17,7 @@ The **data_manipulation** program is a **Dyson Sphere Program recipe parser** th
 - Processes both **items** and **buildings** separately with detailed logging
 
 **Input:** CSV files with recipes in format: `Product Name,"quantity- ingredient,quantity- ingredient"`
+
 **Output:** JSON arrays with structured objects:
 ```json
 {
@@ -32,4 +33,5 @@ The **data_manipulation** program is a **Dyson Sphere Program recipe parser** th
 The **recipe_network** program brings the recipe date previously parsed by the **data_manipulation** program and creates a network of relation from the JSON.
 
 **Input:** JSON arrays with recipe objects
+
 **Output:** Directed graph plotted using matplotlib
