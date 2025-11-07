@@ -4,7 +4,7 @@
             "name": "Manipulate Data",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/data_manipulation/main.py",
+            "program": "${workspaceFolder}/data_manipulation/program.py",
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}/data_manipulation"
         },
@@ -12,7 +12,7 @@
             "name": "Create Recipe Network",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/recipe_network/main.py",
+            "program": "${workspaceFolder}/recipe_network/program.py",
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}/recipe_network"
         }
