@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 from utils.logging import logger, LogLevel
 
@@ -13,3 +12,6 @@ FINAL_DATA_DIR = DATA_DIR / "final/"
 LOG_LEVELS = LogLevel
 LOGGING_DIR = PROJECT_ROOT / "logs/"
 LOG_FN = logger
+
+# graphing configuration
+GRAPH_OUTPUT_DIR = PROJECT_ROOT / "graphs/"

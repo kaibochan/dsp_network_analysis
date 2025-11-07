@@ -16,7 +16,11 @@ class LogLevel(enum.Enum):
         return mask
 
 log_level = LogLevel.bitmask(
-    LogLevel.TRACE, LogLevel.DEBUG, LogLevel.INFO
+    LogLevel.TRACE, 
+    LogLevel.DEBUG, 
+    LogLevel.INFO,
+    LogLevel.WARNING,
+    LogLevel.ERROR
 )
 
 def logger(level: LogLevel, log_dir: str, log_name: str, message: str, reset: bool = False) -> None:

@@ -1,27 +1,6 @@
-import time
-import enum
 import json
-
 import igraph
 import matplotlib.pyplot as plt
-
-class LogLevel(enum.Enum):
-    TRACE = 1
-    DEBUG = 2
-    INFO = 4
-    WARNING = 8
-    ERROR = 16
-
-    @staticmethod
-    def bitmask(*modes):
-        mask = 0
-        for mode in modes:
-            mask |= mode.value
-        return mask
-
-log_level = LogLevel.bitmask(
-    LogLevel.TRACE, LogLevel.DEBUG, LogLevel.INFO
-)
 
 class RecipeNetwork:
     def __init__(self, data_dir: str, log_fn, log_path: str = "logs/", log_name: str = "networks.log") -> None:
@@ -31,32 +10,35 @@ class RecipeNetwork:
         self.log_fn = log_fn
         self.network = igraph.Graph(directed=True)
 
-    def _logger(self, level: LogLevel, message: str, reset: bool = False) -> None:
+    def set_log_levels(self, levels):
+        self.log_levels = levels
+
+    def _logger(self, level, message: str, reset: bool = False) -> None:
         self.log_fn(level, self.log_path, self.log_name, message, reset=reset)
     
     def import_network_from_json(self, *filenames: str) -> None:
         # read json for recipes generated from data_manipulation module
         # converts json into graph structure using igraph module
         # this graph can then be saved into a .gml file to skip the json parsing step later
-        self._logger(LogLevel.INFO, "=" * 100, reset=True)        
+        self._logger(self.log_levels.INFO, "=" * 100, reset=True)        
         
         file_data = []
         for filename in filenames:
-            self._logger(LogLevel.INFO, f"Starting to parse json from file: {filename}")
+            self._logger(self.log_levels.INFO, f"Starting to parse json from file: {filename}")
             try:
                 with open(f"{self.data_dir}/{filename}", "r") as network_file:
                     file_data.append(json.load(network_file))
                     assert file_data[-1] is not None
             except Exception as e:
-                self._logger(LogLevel.ERROR, f"Failed to parse json from file: {filename}. Error: {e}")
+                self._logger(self.log_levels.ERROR, f"Failed to parse json from file: {filename}. Error: {e}")
                 return
-            self._logger(LogLevel.INFO, f"Finished parsing json from file: {filename}")
+            self._logger(self.log_levels.INFO, f"Finished parsing json from file: {filename}")
         
         network_data = []
         for data in file_data:
             network_data.extend(data)
             
-        self._logger(LogLevel.INFO, f"Converting json data into igraph network")
+        self._logger(self.log_levels.INFO, f"Converting json data into igraph network")
 
         edges = []
         edge_attributes = {
@@ -76,7 +58,7 @@ class RecipeNetwork:
                 edge_attributes["quantity"].append(quantity)
         self.network.add_edges(edges, edge_attributes)
         
-        self._logger(LogLevel.INFO, "=" * 100)
+        self._logger(self.log_levels.INFO, "=" * 100)
 
     def plot_network(self):
         fig = plt.figure(0)
