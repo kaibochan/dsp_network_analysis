@@ -1,6 +1,0 @@
-Fri Nov  7 10:15:30 2025: [INFO] - ====================================================================================================
-Fri Nov  7 10:15:30 2025: [INFO] - Starting to parse json from file: items.json
-Fri Nov  7 10:15:30 2025: [INFO] - Finished parsing json from file: items.json
-Fri Nov  7 10:15:30 2025: [INFO] - Starting to parse json from file: buildings.json
-Fri Nov  7 10:15:30 2025: [INFO] - Finished parsing json from file: buildings.json
-Fri Nov  7 10:15:30 2025: [INFO] - Converting json data into igraph network

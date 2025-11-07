@@ -1,47 +1,16 @@
-import time
-import enum
 import json
 from pathlib import Path
 
 import igraph
 import matplotlib.pyplot as plt
 
-class LogLevel(enum.Enum):
-    TRACE = 1
-    DEBUG = 2
-    INFO = 4
-    WARNING = 8
-    ERROR = 16
-
-    @staticmethod
-    def bitmask(*modes):
-        mask = 0
-        for mode in modes:
-            mask |= mode.value
-        return mask
-
-log_level = LogLevel.bitmask(
-    LogLevel.TRACE, LogLevel.DEBUG, LogLevel.INFO
-)
+from utils.logging import Logger, LogLevel
 
 class RecipeNetwork:
-    def __init__(self, data_dir: str|Path, log_path: str|Path = "logs/", log_name: str = "networks.log") -> None:
+    def __init__(self, data_dir: str|Path, logger: Logger) -> None:
         self.data_dir = data_dir
-        self.log_path = log_path
-        self.log_name = log_name
+        self._logger = logger
         self.network = igraph.Graph(directed=True)
-
-    def _logger(self, level: LogLevel, message: str, reset: bool = False) -> None:
-        if not level.value & log_level:
-            return
-        
-        now = time.asctime()
-        write_mode = "a"
-        if reset:
-            write_mode = "w"
-
-        with open(f"{self.log_path}/{self.log_name}", write_mode) as log_file:
-            log_file.write(f"{now}: [{level.name}] - {message}\n")
     
     def import_network_from_json(self, *filenames: str) -> None:
         # read json for recipes generated from data_manipulation module
