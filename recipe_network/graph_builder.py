@@ -98,12 +98,21 @@ class GraphBuilder:
             except Exception as e:
                 self._logger(LogLevel.ERROR, f"Failed to parse json from file: {filename}. Error: {e}")
                 return
-            self._logger(LogLevel.INFO, f"Finished parsing json from file: {filename}")    
-    
-    def build_pyvis_graph(self) -> None:
+            self._logger(LogLevel.INFO, f"Finished parsing json from file: {filename}")
+        
         # build the networkx graph data from the imported json
         self._build_graph_data()
-        
+    
+    def partition_into_clusters(self) -> None:
+        # use the Clauset-Newman-Moore greedy modularity maximization method to
+        # partition the graph into modular communities
+
+        communities = nx.community.greedy_modularity_communities(self.nx_graph, weight='quantity', resolution=1.5)
+        for i, community in enumerate(communities):
+            for node in community:
+                self.nx_graph.nodes[node]['group'] = i
+
+    def build_pyvis_graph(self) -> None:       
         self._logger(LogLevel.INFO, f"NetworkX graph has {self.nx_graph.number_of_nodes()} nodes and {self.nx_graph.number_of_edges()} edges")
         self._logger(LogLevel.INFO, f"Building pyvis graph from networkx graph")
         if self.nx_graph.number_of_nodes() == 0:
