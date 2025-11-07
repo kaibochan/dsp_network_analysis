@@ -10,15 +10,6 @@ class FuckassDSPDataTransformer:
         self.df = None
         self.transformed_data = []
         self._logger = logger
-        # self.log_path = log_path
-        # self.log_fn = log_fn
-        # self.log_name = log_name
-        
-    # def set_log_levels(self, levels):
-    #     self.log_levels = levels
-
-    # def _logger(self, level, message: str, reset: bool = False) -> None:
-    #     self.log_fn(level, self.log_path, self.log_name, message, reset=reset)
 
     def _parse_line(self, line: str):
         # read in a line from the raw dsp data file and generate a usable dictionary

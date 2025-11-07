@@ -15,9 +15,6 @@ class GraphBuilder:
         self.nx_graph = nx.DiGraph()
         self.pyvis_graph = Network(directed=True)
 
-    # def _logger(self, level, message: str, reset: bool = False) -> None:
-    #     self.log_fn(level, self.log_path, self.log_name, message, reset=reset)
-
     def _add_edge(self, from_node: str, to_node: str, **attributes) -> None:
         self.nx_graph.add_edge(from_node, to_node, **attributes)
 
@@ -84,9 +81,6 @@ class GraphBuilder:
         
         self._logger(LogLevel.INFO, f"Finished building networkx graph")
         self._logger(LogLevel.INFO, "=" * 100)
-    
-    # def set_log_levels(self, levels):
-    #     self.log_levels = levels
         
     def import_network_from_json(self, *filenames: str) -> None:
         # read json for recipes generated from data_manipulation module
