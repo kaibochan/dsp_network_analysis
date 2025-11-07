@@ -1,6 +1,7 @@
 import time
 import enum
 import json
+from pathlib import Path
 
 import igraph
 import matplotlib.pyplot as plt
@@ -24,7 +25,7 @@ log_level = LogLevel.bitmask(
 )
 
 class RecipeNetwork:
-    def __init__(self, data_dir: str, log_path: str = "logs/", log_name: str = "networks.log") -> None:
+    def __init__(self, data_dir: str|Path, log_path: str|Path = "logs/", log_name: str = "networks.log") -> None:
         self.data_dir = data_dir
         self.log_path = log_path
         self.log_name = log_name

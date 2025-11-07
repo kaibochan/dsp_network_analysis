@@ -2,6 +2,7 @@ import pandas as pd
 import json
 import time
 import enum
+from pathlib import Path
 
 class LogLevel(enum.Enum):
     TRACE = 0
@@ -13,7 +14,7 @@ class LogLevel(enum.Enum):
 log_level = LogLevel.DEBUG
 
 class FuckassDSPDataTransformer:
-    def __init__(self, raw_data_path: str, transformed_data_path: str, log_path: str = "logs/", log_name: str = "transformation.log") -> None:
+    def __init__(self, raw_data_path: str|Path, transformed_data_path: str|Path, log_path: str|Path = "logs/", log_name: str = "transformation.log") -> None:
         self.raw_data_path = raw_data_path
         self.transformed_data_path = transformed_data_path
         self.df = None
