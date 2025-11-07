@@ -27,3 +27,9 @@ The **data_manipulation** program is a **Dyson Sphere Program recipe parser** th
   }
 }
 ```
+
+### Recipe Network Program
+The **recipe_network** program brings the recipe date previously parsed by the **data_manipulation** program and creates a network of relation from the JSON.
+
+**Input:** JSON arrays with recipe objects
+**Output:** Directed graph plotted using matplotlib
