@@ -1,7 +1,12 @@
 # Dyson Sphere Program Network Analysis
 ### Kai and Nick
 
+## Motivations
+The DSP Network Analysis program's aim to leverage graph theory and community detection on the variously connected recipes of the game Dyson Sphere Program.
+Our hope is that through community detection, we will derive an optimal clustering of factories into manufacturing districts.
+
 ## Program Descriptions
+
 ### Data Manipulation Program
 The **data_manipulation** program is a **Dyson Sphere Program recipe parser** that converts crafting recipe data from CSV format into structured JSON. 
 
