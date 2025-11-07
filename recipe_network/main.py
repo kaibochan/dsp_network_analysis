@@ -1,4 +1,4 @@
-from network_factory import RecipeNetwork
+from recipe_network.recipe_network import RecipeNetwork
 
 def main():
     recipe_network = RecipeNetwork("recipes_json/")
