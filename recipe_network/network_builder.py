@@ -46,9 +46,11 @@ class RecipeNetwork:
         # read json for recipes generated from data_manipulation module
         # converts json into graph structure using igraph module
         # this graph can then be saved into a .gml file to skip the json parsing step later
-
+        self._logger(LogLevel.INFO, "=" * 100, reset=True)        
+        
         file_data = []
         for filename in filenames:
+            self._logger(LogLevel.INFO, f"Starting to parse json from file: {filename}")
             try:
                 with open(f"{self.data_dir}/{filename}", "r") as network_file:
                     file_data.append(json.load(network_file))
@@ -78,10 +80,11 @@ class RecipeNetwork:
                 try: self.network.vs.find(name=ingredient)
                 except: self.network.add_vertex(ingredient, label=ingredient)
 
-
                 edges.append((name, ingredient))
                 edge_attributes["quantity"].append(quantity)
         self.network.add_edges(edges, edge_attributes)
+        
+        self._logger(LogLevel.INFO, "=" * 100)
 
     def plot_network(self):
         fig = plt.figure(0)
