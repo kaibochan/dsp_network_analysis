@@ -1,0 +1,339 @@
+Fri Nov  7 10:37:11 2025: [INFO] - ====================================================================================================
+Fri Nov  7 10:37:11 2025: [INFO] - Starting to parse file: buildings.csv
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Accumulator,"6- Iron Ingot,1- Supermagnetic Ring,3- Crystal Silicon"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['6- Iron Ingot', '1- Supermagnetic Ring', '3- Crystal Silicon']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 6
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Crystal Silicon, Weight: 3
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Advanced Mining Machine,"20- Titanium Alloy,10- Frame Material,10- Supermagnetic Ring,4- Quantum Chip,40- Grating Crystal"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['20- Titanium Alloy', '10- Frame Material', '10- Supermagnetic Ring', '4- Quantum Chip', '40- Grating Crystal']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Titanium Alloy, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Frame Material, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Quantum Chip, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Grating Crystal, Weight: 40
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Arc Smelter,"4- Iron Ingot,2- Stone Brick,4- Circuit Board,2- Magnetic Coil"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['4- Iron Ingot', '2- Stone Brick', '4- Circuit Board', '2- Magnetic Coil']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Stone Brick, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Magnetic Coil, Weight: 2
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Artificial Star,"20- Titanium Alloy,20- Frame Material,10- Annihilation Constraint Sphere,10- Quantum Chip"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['20- Titanium Alloy', '20- Frame Material', '10- Annihilation Constraint Sphere', '10- Quantum Chip']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Titanium Alloy, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Frame Material, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Annihilation Constraint Sphere, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Quantum Chip, Weight: 10
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Assembling Machine MK I,"4- Iron Ingot,8- Gear,4- Circuit Board"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['4- Iron Ingot', '8- Gear', '4- Circuit Board']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Gear, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Assembling Machine MK II,"1- Assembling Machine MK I,8- Graphene,4- Processor"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['1- Assembling Machine MK I', '8- Graphene', '4- Processor']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Assembling Machine MK I, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Graphene, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Assembling Machine MK III,"1- Assembling Machine MK II,8- Particle Broadband,2- Quantum Chip"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['1- Assembling Machine MK II', '8- Particle Broadband', '2- Quantum Chip']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Assembling Machine MK II, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Particle Broadband, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Quantum Chip, Weight: 2
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Automatic Piler,"3- Steel,4- Gear,1- Supermagnetic Ring,2- Processor"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['3- Steel', '4- Gear', '1- Supermagnetic Ring', '2- Processor']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 3
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Gear, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 2
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Battlefield Analysis Base,"12- Iron Ingot,18- Circuit Board,6- Microcrystalline Component,12- Engine"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['12- Iron Ingot', '18- Circuit Board', '6- Microcrystalline Component', '12- Engine']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 12
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 18
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Microcrystalline Component, Weight: 6
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Engine, Weight: 12
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Chemical Plant,"8- Steel,8- Stone Brick,8- Glass,2- Circuit Board"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['8- Steel', '8- Stone Brick', '8- Glass', '2- Circuit Board']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Stone Brick, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Glass, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 2
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Conveyor Belt MK I,"2- Iron Ingot,1- Gear"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['2- Iron Ingot', '1- Gear']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Gear, Weight: 1
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Conveyor Belt MK II,"3- Conveyor Belt MK I,1- Electromagnetic Turbine"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['3- Conveyor Belt MK I', '1- Electromagnetic Turbine']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Conveyor Belt MK I, Weight: 3
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Electromagnetic Turbine, Weight: 1
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Conveyor Belt MK III,"3- Conveyor Belt MK II,1- Supermagnetic Ring,1- Graphene"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['3- Conveyor Belt MK II', '1- Supermagnetic Ring', '1- Graphene']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Conveyor Belt MK II, Weight: 3
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Graphene, Weight: 1
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Depot MK I,"4- Iron Ingot,4- Stone Brick"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['4- Iron Ingot', '4- Stone Brick']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Stone Brick, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Depot MK II,"8- Steel,8- Stone Brick"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['8- Steel', '8- Stone Brick']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Stone Brick, Weight: 8
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: E-M Rail Ejector,"20- Steel,20- Gear,5- Processor,10- Supermagnetic Ring"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['20- Steel', '20- Gear', '5- Processor', '10- Supermagnetic Ring']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Gear, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 5
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 10
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Energy Exchanger,"40- Titanium Alloy,40- Steel,40- Processor,8- Particle Container"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['40- Titanium Alloy', '40- Steel', '40- Processor', '8- Particle Container']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Titanium Alloy, Weight: 40
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 40
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 40
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Particle Container, Weight: 8
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Fractionator ,"8- Steel,4- Stone Brick,4- Glass,1- Processor"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['8- Steel', '4- Stone Brick', '4- Glass', '1- Processor']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Stone Brick, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Glass, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 1
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Gause Turret,"8- Iron Ingot,8- Gear,2- Circuit Board,4- Magnetic Coil"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['8- Iron Ingot', '8- Gear', '2- Circuit Board', '4- Magnetic Coil']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Gear, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Magnetic Coil, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Geothermal Power Station,"15- Steel,20- Copper Ingot,4- Photon Combiner,1- Supermagnetic Ring"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['15- Steel', '20- Copper Ingot', '4- Photon Combiner', '1- Supermagnetic Ring']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 15
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Copper Ingot, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Photon Combiner, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 1
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Implosion Cannon,"10- Iron Ingot,8- Electric Motor,10- Circuit Board,2- Supermagnetic Ring"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['10- Iron Ingot', '8- Electric Motor', '10- Circuit Board', '2- Supermagnetic Ring']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Electric Motor, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 2
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Interstellar Logistics Station,"1- Planetary Logistics Station,40- Titanium Alloy,20- Particle Container"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['1- Planetary Logistics Station', '40- Titanium Alloy', '20- Particle Container']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Planetary Logistics Station, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Titanium Alloy, Weight: 40
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Particle Container, Weight: 20
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Jammer Tower,"12- Copper Ingot,9- Plasma Exciter,6- Diamond,3- Processor"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['12- Copper Ingot', '9- Plasma Exciter', '6- Diamond', '3- Processor']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Copper Ingot, Weight: 12
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Plasma Exciter, Weight: 9
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Diamond, Weight: 6
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 3
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Laser Turret,"9- Iron Ingot,6- Plasma Exciter,6- Circuit Board,9- Photon Combiner"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['9- Iron Ingot', '6- Plasma Exciter', '6- Circuit Board', '9- Photon Combiner']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 9
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Plasma Exciter, Weight: 6
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 6
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Photon Combiner, Weight: 9
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Logistics Distributor,"8- Iron Ingot,4- Plasma Exciter,4- Processor"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['8- Iron Ingot', '4- Plasma Exciter', '4- Processor']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Plasma Exciter, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Matrix Lab,"8- Iron Ingot,4- Glass,4- Circuit Board,4- Magnetic Coil"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['8- Iron Ingot', '4- Glass', '4- Circuit Board', '4- Magnetic Coil']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Glass, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Magnetic Coil, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Mini Fusion Power Plant,"12- Titanium Alloy,10- Supermagnetic Ring,8- Carbon Nanotube,4- Processor"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['12- Titanium Alloy', '10- Supermagnetic Ring', '8- Carbon Nanotube', '4- Processor']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Titanium Alloy, Weight: 12
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Carbon Nanotube, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Miniature Particle Collider,"20- Titanium Alloy,20- Frame Material,25- Supermagnetic Ring,10- Graphene,8- Processor"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['20- Titanium Alloy', '20- Frame Material', '25- Supermagnetic Ring', '10- Graphene', '8- Processor']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Titanium Alloy, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Frame Material, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 25
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Graphene, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 8
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Mining Machine,"4- Iron Ingot,2- Circuit Board,2- Magnetic Coil,2- Gear"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['4- Iron Ingot', '2- Circuit Board', '2- Magnetic Coil', '2- Gear']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Magnetic Coil, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Gear, Weight: 2
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Missile Turret,"8- Iron Ingot,6- Electric Motor,12- Circuit Board,6- Engine"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['8- Iron Ingot', '6- Electric Motor', '12- Circuit Board', '6- Engine']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Electric Motor, Weight: 6
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 12
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Engine, Weight: 6
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Negentropy Smelter,"1- Plane Smelter,10- Negentropy Singularity,30- Energy Shard,4- Quantum Chip"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['1- Plane Smelter', '10- Negentropy Singularity', '30- Energy Shard', '4- Quantum Chip']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Plane Smelter, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Negentropy Singularity, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Energy Shard, Weight: 30
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Quantum Chip, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Oil Extractor,"12- Steel,12- Stone Brick,6- Circuit Board,4- Plasma Exciter"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['12- Steel', '12- Stone Brick', '6- Circuit Board', '4- Plasma Exciter']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 12
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Stone Brick, Weight: 12
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 6
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Plasma Exciter, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Oil Refinery,"10- Steel,10- Stone Brick,6- Circuit Board,6- Plasma Exciter"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['10- Steel', '10- Stone Brick', '6- Circuit Board', '6- Plasma Exciter']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Stone Brick, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 6
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Plasma Exciter, Weight: 6
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Orbital Collector,"1- Interstellar Logistics Station,50- Supermagnetic Ring,20- Reinforced Thruster,20- Accumulator (Charged)"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['1- Interstellar Logistics Station', '50- Supermagnetic Ring', '20- Reinforced Thruster', '20- Accumulator (Charged)']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Interstellar Logistics Station, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 50
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Reinforced Thruster, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Accumulator (Charged), Weight: 20
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Pile Sorter,"2- Sorter MK III,1- Supermagnetic Ring,1- Processor"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['2- Sorter MK III', '1- Supermagnetic Ring', '1- Processor']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Sorter MK III, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 1
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Plane Smelter,"1- Arc Smelter,5- Frame Material,4- Plane Filter,15- Unipolar Magnet"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['1- Arc Smelter', '5- Frame Material', '4- Plane Filter', '15- Unipolar Magnet']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Arc Smelter, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Frame Material, Weight: 5
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Plane Filter, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Unipolar Magnet, Weight: 15
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Planetary Logistics Station,"40- Steel,40- Titanium Ingot,40- Processor,20- Particle Container"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['40- Steel', '40- Titanium Ingot', '40- Processor', '20- Particle Container']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 40
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Titanium Ingot, Weight: 40
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 40
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Particle Container, Weight: 20
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Planetary Shield Generator,"20- Steel,10- Electromagnetic Turbine,5- Supermagnetic Ring,5- Particle Container"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['20- Steel', '10- Electromagnetic Turbine', '5- Supermagnetic Ring', '5- Particle Container']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Electromagnetic Turbine, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 5
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Particle Container, Weight: 5
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Plasma Turret,"20- Titanium Alloy,10- Titanium Glass,10- Supermagnetic Ring,5- Plasma Exciter,5- Processor"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['20- Titanium Alloy', '10- Titanium Glass', '10- Supermagnetic Ring', '5- Plasma Exciter', '5- Processor']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Titanium Alloy, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Titanium Glass, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Plasma Exciter, Weight: 5
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 5
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Quantum Chemical Plant,"1- Chemical Plant,10- Glass,3- Strange Matter,3- Quantum Chip"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['1- Chemical Plant', '10- Glass', '3- Strange Matter', '3- Quantum Chip']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Chemical Plant, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Glass, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Strange Matter, Weight: 3
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Quantum Chip, Weight: 3
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Ray Receiver,"20- Steel,20- High-Purity Silicon,10- Photon Combiner,5- Processor,20- Supermagnetic Ring"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['20- Steel', '20- High-Purity Silicon', '10- Photon Combiner', '5- Processor', '20- Supermagnetic Ring']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: High-Purity Silicon, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Photon Combiner, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 5
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 20
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Recomposing Assembler,"1- Assembling Machine MK III,10- Matter Rocombinator,30- Energy Shard,4- Quantum Chip"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['1- Assembling Machine MK III', '10- Matter Rocombinator', '30- Energy Shard', '4- Quantum Chip']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Assembling Machine MK III, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Matter Rocombinator, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Energy Shard, Weight: 30
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Quantum Chip, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Satellite Substation,"1- Wireless Power Tower,10- Supermagnetic Ring,2- Frame Material"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['1- Wireless Power Tower', '10- Supermagnetic Ring', '2- Frame Material']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Wireless Power Tower, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Frame Material, Weight: 2
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Self-Evolution Lab,"1- Matrix Lab,10- Silicon-Based Neuron,20- Dark Fog Matrix,4- Quantum Chip"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['1- Matrix Lab', '10- Silicon-Based Neuron', '20- Dark Fog Matrix', '4- Quantum Chip']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Matrix Lab, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Silicon-Based Neuron, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Dark Fog Matrix, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Quantum Chip, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Signal tower,"2- Wireless Power Tower,12- Iron Ingot,5- Crystal Silicon"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['2- Wireless Power Tower', '12- Iron Ingot', '5- Crystal Silicon']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Wireless Power Tower, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 12
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Crystal Silicon, Weight: 5
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Solar Panel,"10- Copper Ingot,10- High-Purity Silicon,5- Circuit Board"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['10- Copper Ingot', '10- High-Purity Silicon', '5- Circuit Board']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Copper Ingot, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: High-Purity Silicon, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 5
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Sorter MK I,"1- Iron Ingot,1- Circuit Board"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['1- Iron Ingot', '1- Circuit Board']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 1
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Sorter MK II,"2- Sorter MK I,1- Electronic Motor"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['2- Sorter MK I', '1- Electronic Motor']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Sorter MK I, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Electronic Motor, Weight: 1
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Sorter MK III,"2- Sorter MK II,1- Electromagnetic Turbine"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['2- Sorter MK II', '1- Electromagnetic Turbine']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Sorter MK II, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Electromagnetic Turbine, Weight: 1
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Splitter,"3- Iron Ingot,2- Gear,1- Circuit Board"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['3- Iron Ingot', '2- Gear', '1- Circuit Board']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 3
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Gear, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 1
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Spray Coater,"4- Steel,2- Plasma Exciter,2- Circuit Board,2- Microcrystalline Component"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['4- Steel', '2- Plasma Exciter', '2- Circuit Board', '2- Microcrystalline Component']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Plasma Exciter, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Microcrystalline Component, Weight: 2
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: S-R Plasma Turret,"15- Iron Ingot,10- Steel,5- Supermagnetic Ring,5- Plasma Exciter,5- Processor"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['15- Iron Ingot', '10- Steel', '5- Supermagnetic Ring', '5- Plasma Exciter', '5- Processor']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 15
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Steel, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Supermagnetic Ring, Weight: 5
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Plasma Exciter, Weight: 5
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Processor, Weight: 5
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Storage Tank,"8- Iron Ingot,4- Stone Brick,4- Glass"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['8- Iron Ingot', '4- Stone Brick', '4- Glass']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Stone Brick, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Glass, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Tesla Tower,"2- Iron Ingot,1- Magnetic Coil"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['2- Iron Ingot', '1- Magnetic Coil']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Magnetic Coil, Weight: 1
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Thermal Power Plant,"10- Iron Ingot,4- Stone Brick,4- Gear,4- Magnetic Coil"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['10- Iron Ingot', '4- Stone Brick', '4- Gear', '4- Magnetic Coil']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 10
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Stone Brick, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Gear, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Magnetic Coil, Weight: 4
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Traffic Monitor,"3- Iron Ingot,2- Gear,1- Glass,2- Circuit Board"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['3- Iron Ingot', '2- Gear', '1- Glass', '2- Circuit Board']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 3
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Gear, Weight: 2
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Glass, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 2
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Vertical Launching Silo,"80- Titanium Alloy,30- Frame Material,20- Graviton Lens,10- Quantum Chip"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['80- Titanium Alloy', '30- Frame Material', '20- Graviton Lens', '10- Quantum Chip']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Titanium Alloy, Weight: 80
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Frame Material, Weight: 30
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Graviton Lens, Weight: 20
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Quantum Chip, Weight: 10
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Water Pump,"8- Iron Ingot,4- Stone Brick,4- Electric Motor,2- Circuit Board"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['8- Iron Ingot', '4- Stone Brick', '4- Electric Motor', '2- Circuit Board']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 8
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Stone Brick, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Electric Motor, Weight: 4
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Circuit Board, Weight: 2
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Wind Turbine,"6- Iron Ingot,1- Gear,3- Magnetic Coil"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['6- Iron Ingot', '1- Gear', '3- Magnetic Coil']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Iron Ingot, Weight: 6
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Gear, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Magnetic Coil, Weight: 3
+Fri Nov  7 10:37:11 2025: [DEBUG] - Parsing line: Wireless Power Tower,"1- Tesla Tower,3- Plasma Exciter"
+Fri Nov  7 10:37:11 2025: [TRACE] - weighted_valuemap: ['1- Tesla Tower', '3- Plasma Exciter']
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Tesla Tower, Weight: 1
+Fri Nov  7 10:37:11 2025: [TRACE] - Ingredient parsed - Name: Plasma Exciter, Weight: 3
+Fri Nov  7 10:37:11 2025: [INFO] - Finished parsing file: buildings.csv
+Fri Nov  7 10:37:11 2025: [INFO] - Saved transformed data to: buildings.json
+Fri Nov  7 10:37:11 2025: [INFO] - buildings.json saved successfully.
+Fri Nov  7 10:37:11 2025: [INFO] - ====================================================================================================
