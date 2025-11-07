@@ -24,23 +24,15 @@ log_level = LogLevel.bitmask(
 )
 
 class RecipeNetwork:
-    def __init__(self, data_dir: str, log_path: str = "logs/", log_name: str = "networks.log") -> None:
+    def __init__(self, data_dir: str, log_fn, log_path: str = "logs/", log_name: str = "networks.log") -> None:
         self.data_dir = data_dir
         self.log_path = log_path
         self.log_name = log_name
+        self.log_fn = log_fn
         self.network = igraph.Graph(directed=True)
 
     def _logger(self, level: LogLevel, message: str, reset: bool = False) -> None:
-        if not level.value & log_level:
-            return
-        
-        now = time.asctime()
-        write_mode = "a"
-        if reset:
-            write_mode = "w"
-
-        with open(f"{self.log_path}/{self.log_name}", write_mode) as log_file:
-            log_file.write(f"{now}: [{level.name}] - {message}\n")
+        self.log_fn(level, self.log_path, self.log_name, message, reset=reset)
     
     def import_network_from_json(self, *filenames: str) -> None:
         # read json for recipes generated from data_manipulation module
