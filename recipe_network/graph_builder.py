@@ -30,7 +30,7 @@ class GraphBuilder:
             raise ValueError("pyvis_graph is None")
         
         try:
-            self.pyvis_graph.show(str(output_path))
+            self.pyvis_graph.show(str(output_path), notebook=False)
         except Exception as e:
             self._logger(LogLevel.ERROR, f"Failed to save pyvis graph with show(): {e}")
             self._logger(LogLevel.ERROR, f"Pyvis graph type: {type(self.pyvis_graph)}")
@@ -107,8 +107,8 @@ class GraphBuilder:
         # use the Clauset-Newman-Moore greedy modularity maximization method to
         # partition the graph into modular communities
 
-        communities = nx.community.greedy_modularity_communities(self.nx_graph, weight='quantity', resolution=1.5)
-        for i, community in enumerate(communities):
+        self.communities = nx.community.greedy_modularity_communities(self.nx_graph, weight='quantity', resolution=2.0)
+        for i, community in enumerate(self.communities):
             for node in community:
                 self.nx_graph.nodes[node]['group'] = i
 
@@ -121,7 +121,7 @@ class GraphBuilder:
             
         # Reinitialize pyvis graph to ensure clean state
         self._logger(LogLevel.INFO, f"Reinitializing pyvis graph")
-        self.pyvis_graph = Network(directed=True, height="600px", width="100%")
+        self.pyvis_graph = Network(directed=True, height="1000px", width="100%")
         
         try:
             self.pyvis_graph.from_nx(self.nx_graph)
