@@ -30,7 +30,7 @@ class FuckassDSPDataTransformer:
             with open(f"{self.log_path}{self.log_name}", "a") as log_file:
                 log_file.write(f"{now}: {message}\n")
                 
-    def _parse_line(self, line: str) -> dict:
+    def _parse_line(self, line: str):
         # read in a line from the raw dsp data file and generate a usable dictionary
         # output dictionary format:
         # {
