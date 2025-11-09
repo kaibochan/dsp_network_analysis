@@ -17,7 +17,9 @@ def build_pyviz_network():
     graph_builder = GraphBuilder(FINAL_DATA_DIR, GRAPH_OUTPUT_DIR, "pyviz_graph", logger=Logger(LOGGING_DIR, "pyvis_graph_builder.log", LOG_LEVELS))
     graph_builder.import_network_from_json("items.json", "buildings.json")
     graph_builder.partition_into_clusters()
-    graph_builder.build_pyvis_graph()
+    graph_builder.build_pyviz_graph()
+    graph_builder.print_items_summary()
+    graph_builder.partition_into_common_ingredient_clusters()
 
 if __name__ == "__main__":
     # build_igraph_network()

@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1000px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Corvette", "label": "Corvette", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Interstellar Logistics Carrier", "label": "Interstellar Logistics Carrier", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Energy Exchanger", "label": "Energy Exchanger", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Planetary Logistics Station", "label": "Planetary Logistics Station", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Electric Motor", "label": "Electric Motor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Gause Turret", "label": "Gause Turret", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Mining Machine", "label": "Mining Machine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Thermal Power Plant", "label": "Thermal Power Plant", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Wind Turbine", "label": "Wind Turbine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Arc Smelter", "label": "Arc Smelter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Assembling Machine MK I", "label": "Assembling Machine MK I", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Matrix Lab", "label": "Matrix Lab", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Splitter", "label": "Splitter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Traffic Monitor", "label": "Traffic Monitor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Prototype", "label": "Prototype", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Battlefield Analysis Base", "label": "Battlefield Analysis Base", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Laser Turret", "label": "Laser Turret", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Missile Turret", "label": "Missile Turret", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Implosion Cannon", "label": "Implosion Cannon", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Water Pump", "label": "Water Pump", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Advanced Mining Machine", "label": "Advanced Mining Machine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Artificial Star", "label": "Artificial Star", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Miniature Particle Collider", "label": "Miniature Particle Collider", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Vertical Launching Silo", "label": "Vertical Launching Silo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Mini Fusion Power Plant", "label": "Mini Fusion Power Plant", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Plasma Turret", "label": "Plasma Turret", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Automatic Piler", "label": "Automatic Piler", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Ray Receiver", "label": "Ray Receiver", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "S-R Plasma Turret", "label": "S-R Plasma Turret", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "E-M Rail Ejector", "label": "E-M Rail Ejector", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Geothermal Power Station", "label": "Geothermal Power Station", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Logistics Distributor", "label": "Logistics Distributor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Chemical Plant", "label": "Chemical Plant", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Fractionator", "label": "Fractionator", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Oil Extractor", "label": "Oil Extractor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Oil Refinery", "label": "Oil Refinery", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Spray Coater", "label": "Spray Coater", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "Corvette", "to": "Interstellar Logistics Carrier", "width": 3}, {"from": "Corvette", "to": "Energy Exchanger", "width": 3}, {"from": "Energy Exchanger", "to": "Planetary Logistics Station", "width": 3}, {"from": "Electric Motor", "to": "Gause Turret", "width": 3}, {"from": "Electric Motor", "to": "Mining Machine", "width": 3}, {"from": "Electric Motor", "to": "Thermal Power Plant", "width": 3}, {"from": "Electric Motor", "to": "Wind Turbine", "width": 3}, {"from": "Gause Turret", "to": "Arc Smelter", "width": 3}, {"from": "Gause Turret", "to": "Assembling Machine MK I", "width": 3}, {"from": "Gause Turret", "to": "Matrix Lab", "width": 3}, {"from": "Gause Turret", "to": "Splitter", "width": 3}, {"from": "Gause Turret", "to": "Thermal Power Plant", "width": 3}, {"from": "Gause Turret", "to": "Traffic Monitor", "width": 3}, {"from": "Gause Turret", "to": "Wind Turbine", "width": 3}, {"from": "Mining Machine", "to": "Arc Smelter", "width": 3}, {"from": "Mining Machine", "to": "Assembling Machine MK I", "width": 3}, {"from": "Mining Machine", "to": "Matrix Lab", "width": 3}, {"from": "Mining Machine", "to": "Splitter", "width": 3}, {"from": "Mining Machine", "to": "Thermal Power Plant", "width": 3}, {"from": "Mining Machine", "to": "Traffic Monitor", "width": 3}, {"from": "Mining Machine", "to": "Wind Turbine", "width": 3}, {"from": "Thermal Power Plant", "to": "Arc Smelter", "width": 3}, {"from": "Thermal Power Plant", "to": "Wind Turbine", "width": 3}, {"from": "Prototype", "to": "Battlefield Analysis Base", "width": 3}, {"from": "Prototype", "to": "Laser Turret", "width": 3}, {"from": "Prototype", "to": "Missile Turret", "width": 3}, {"from": "Battlefield Analysis Base", "to": "Missile Turret", "width": 3}, {"from": "Missile Turret", "to": "Implosion Cannon", "width": 3}, {"from": "Missile Turret", "to": "Water Pump", "width": 3}, {"from": "Advanced Mining Machine", "to": "Artificial Star", "width": 3}, {"from": "Advanced Mining Machine", "to": "Miniature Particle Collider", "width": 3}, {"from": "Advanced Mining Machine", "to": "Vertical Launching Silo", "width": 3}, {"from": "Artificial Star", "to": "Vertical Launching Silo", "width": 3}, {"from": "Miniature Particle Collider", "to": "Mini Fusion Power Plant", "width": 3}, {"from": "Miniature Particle Collider", "to": "Plasma Turret", "width": 3}, {"from": "Arc Smelter", "to": "Matrix Lab", "width": 3}, {"from": "Arc Smelter", "to": "Water Pump", "width": 3}, {"from": "Matrix Lab", "to": "Traffic Monitor", "width": 3}, {"from": "Water Pump", "to": "Implosion Cannon", "width": 3}, {"from": "Assembling Machine MK I", "to": "Splitter", "width": 3}, {"from": "Assembling Machine MK I", "to": "Traffic Monitor", "width": 3}, {"from": "Splitter", "to": "Traffic Monitor", "width": 3}, {"from": "Automatic Piler", "to": "Ray Receiver", "width": 3}, {"from": "Automatic Piler", "to": "S-R Plasma Turret", "width": 3}, {"from": "Ray Receiver", "to": "E-M Rail Ejector", "width": 3}, {"from": "Ray Receiver", "to": "Geothermal Power Station", "width": 3}, {"from": "Ray Receiver", "to": "S-R Plasma Turret", "width": 3}, {"from": "S-R Plasma Turret", "to": "E-M Rail Ejector", "width": 3}, {"from": "S-R Plasma Turret", "to": "Logistics Distributor", "width": 3}, {"from": "S-R Plasma Turret", "to": "Plasma Turret", "width": 3}, {"from": "Chemical Plant", "to": "Fractionator", "width": 3}, {"from": "Chemical Plant", "to": "Oil Extractor", "width": 3}, {"from": "Chemical Plant", "to": "Oil Refinery", "width": 3}, {"from": "Oil Extractor", "to": "Spray Coater", "width": 3}, {"from": "Oil Refinery", "to": "Spray Coater", "width": 3}, {"from": "Mini Fusion Power Plant", "to": "Plasma Turret", "width": 3}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1000px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Antimatter Capsule", "label": "Antimatter Capsule", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Antimatter Fuel Rod", "label": "Antimatter Fuel Rod", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Deuteron Fuel Rod", "label": "Deuteron Fuel Rod", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Advanced Mining Machine", "label": "Advanced Mining Machine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Mini Fusion Power Plant", "label": "Mini Fusion Power Plant", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Miniature Particle Collider", "label": "Miniature Particle Collider", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Plasma Turret", "label": "Plasma Turret", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Attack Drone", "label": "Attack Drone", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Corvette", "label": "Corvette", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Precision Drone", "label": "Precision Drone", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Energy Exchanger", "label": "Energy Exchanger", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Planetary Logistics Station", "label": "Planetary Logistics Station", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Planetary Shield Generator", "label": "Planetary Shield Generator", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Destroyer", "label": "Destroyer", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Interstellar Logistics Station", "label": "Interstellar Logistics Station", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Laser Turret", "label": "Laser Turret", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Interstellar Logistics Carrier", "label": "Interstellar Logistics Carrier", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Automatic Piler", "label": "Automatic Piler", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "E-M Rail Ejector", "label": "E-M Rail Ejector", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Fractionator", "label": "Fractionator", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Ray Receiver", "label": "Ray Receiver", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "S-R Plasma Turret", "label": "S-R Plasma Turret", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Titanium Alloy", "label": "Titanium Alloy", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Geothermal Power Station", "label": "Geothermal Power Station", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Dyson Sphere Component", "label": "Dyson Sphere Component", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Strange Annihilation Fuel Rod", "label": "Strange Annihilation Fuel Rod", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Frame Material", "label": "Frame Material", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Pile Sorter", "label": "Pile Sorter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Artificial Star", "label": "Artificial Star", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Assembling Machine MK II", "label": "Assembling Machine MK II", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Conveyor Belt MK III", "label": "Conveyor Belt MK III", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Satellite Substation", "label": "Satellite Substation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Vertical Launching Silo", "label": "Vertical Launching Silo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Suppressing Capsule", "label": "Suppressing Capsule", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Jammer Tower", "label": "Jammer Tower", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Logistics Distributor", "label": "Logistics Distributor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Electric Motor", "label": "Electric Motor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Arc Smelter", "label": "Arc Smelter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Assembling Machine MK I", "label": "Assembling Machine MK I", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Conveyor Belt MK I", "label": "Conveyor Belt MK I", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Matrix Lab", "label": "Matrix Lab", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Splitter", "label": "Splitter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Tesla Tower", "label": "Tesla Tower", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Traffic Monitor", "label": "Traffic Monitor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Electromagnetic Matrix", "label": "Electromagnetic Matrix", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Prototype", "label": "Prototype", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Battlefield Analysis Base", "label": "Battlefield Analysis Base", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Chemical Plant", "label": "Chemical Plant", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Depot MK I", "label": "Depot MK I", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Implosion Cannon", "label": "Implosion Cannon", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Missile Turret", "label": "Missile Turret", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Oil Extractor", "label": "Oil Extractor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Oil Refinery", "label": "Oil Refinery", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Sorter MK I", "label": "Sorter MK I", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Storage Tank", "label": "Storage Tank", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Wind Turbine", "label": "Wind Turbine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Thermal Power Plant", "label": "Thermal Power Plant", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Water Pump", "label": "Water Pump", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Gause Turret", "label": "Gause Turret", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Mining Machine", "label": "Mining Machine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Foundation", "label": "Foundation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Depot MK II", "label": "Depot MK II", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Spray Coater", "label": "Spray Coater", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Gravity Matrix", "label": "Gravity Matrix", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Logistics Bot", "label": "Logistics Bot", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Logistics Drone", "label": "Logistics Drone", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Supersonic Missile Set", "label": "Supersonic Missile Set", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Missile Set", "label": "Missile Set", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Processor", "label": "Processor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Accumulator", "label": "Accumulator", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Microcrystalline Component", "label": "Microcrystalline Component", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Solar Panel", "label": "Solar Panel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Shell Set", "label": "Shell Set", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Organic Crystal", "label": "Organic Crystal", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Sulfuric Acid", "label": "Sulfuric Acid", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Reformed Refinement", "label": "Reformed Refinement", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "X-Ray Cracking", "label": "X-Ray Cracking", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Thruster", "label": "Thruster", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Signal tower", "label": "Signal tower", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Negentropy Smelter", "label": "Negentropy Smelter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Recomposing Assembler", "label": "Recomposing Assembler", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "Antimatter Capsule", "to": "Antimatter Fuel Rod", "width": 2}, {"from": "Antimatter Fuel Rod", "to": "Deuteron Fuel Rod", "width": 2}, {"from": "Deuteron Fuel Rod", "to": "Advanced Mining Machine", "width": 2}, {"from": "Deuteron Fuel Rod", "to": "Mini Fusion Power Plant", "width": 2}, {"from": "Deuteron Fuel Rod", "to": "Miniature Particle Collider", "width": 2}, {"from": "Deuteron Fuel Rod", "to": "Plasma Turret", "width": 2}, {"from": "Attack Drone", "to": "Corvette", "width": 2}, {"from": "Attack Drone", "to": "Precision Drone", "width": 2}, {"from": "Attack Drone", "to": "Energy Exchanger", "width": 2}, {"from": "Attack Drone", "to": "Planetary Logistics Station", "width": 2}, {"from": "Attack Drone", "to": "Planetary Shield Generator", "width": 2}, {"from": "Corvette", "to": "Destroyer", "width": 2}, {"from": "Corvette", "to": "Interstellar Logistics Station", "width": 2}, {"from": "Corvette", "to": "Mini Fusion Power Plant", "width": 2}, {"from": "Corvette", "to": "Miniature Particle Collider", "width": 2}, {"from": "Corvette", "to": "Planetary Logistics Station", "width": 2}, {"from": "Corvette", "to": "Plasma Turret", "width": 2}, {"from": "Precision Drone", "to": "Laser Turret", "width": 2}, {"from": "Energy Exchanger", "to": "Interstellar Logistics Carrier", "width": 2}, {"from": "Energy Exchanger", "to": "Automatic Piler", "width": 2}, {"from": "Energy Exchanger", "to": "E-M Rail Ejector", "width": 2}, {"from": "Energy Exchanger", "to": "Fractionator", "width": 2}, {"from": "Energy Exchanger", "to": "Interstellar Logistics Station", "width": 2}, {"from": "Energy Exchanger", "to": "Mini Fusion Power Plant", "width": 2}, {"from": "Energy Exchanger", "to": "Miniature Particle Collider", "width": 2}, {"from": "Energy Exchanger", "to": "Planetary Shield Generator", "width": 2}, {"from": "Energy Exchanger", "to": "Plasma Turret", "width": 2}, {"from": "Energy Exchanger", "to": "Ray Receiver", "width": 2}, {"from": "Energy Exchanger", "to": "S-R Plasma Turret", "width": 2}, {"from": "Planetary Logistics Station", "to": "Titanium Alloy", "width": 2}, {"from": "Planetary Logistics Station", "to": "Automatic Piler", "width": 2}, {"from": "Planetary Logistics Station", "to": "E-M Rail Ejector", "width": 2}, {"from": "Planetary Logistics Station", "to": "Fractionator", "width": 2}, {"from": "Planetary Logistics Station", "to": "Planetary Shield Generator", "width": 2}, {"from": "Planetary Logistics Station", "to": "Ray Receiver", "width": 2}, {"from": "Planetary Logistics Station", "to": "S-R Plasma Turret", "width": 2}, {"from": "Planetary Shield Generator", "to": "Automatic Piler", "width": 2}, {"from": "Planetary Shield Generator", "to": "E-M Rail Ejector", "width": 2}, {"from": "Planetary Shield Generator", "to": "Geothermal Power Station", "width": 2}, {"from": "Planetary Shield Generator", "to": "Ray Receiver", "width": 2}, {"from": "Planetary Shield Generator", "to": "S-R Plasma Turret", "width": 2}, {"from": "Destroyer", "to": "Dyson Sphere Component", "width": 2}, {"from": "Destroyer", "to": "Interstellar Logistics Carrier", "width": 2}, {"from": "Destroyer", "to": "Strange Annihilation Fuel Rod", "width": 2}, {"from": "Destroyer", "to": "Miniature Particle Collider", "width": 2}, {"from": "Mini Fusion Power Plant", "to": "Frame Material", "width": 2}, {"from": "Mini Fusion Power Plant", "to": "Interstellar Logistics Carrier", "width": 2}, {"from": "Mini Fusion Power Plant", "to": "Advanced Mining Machine", "width": 2}, {"from": "Mini Fusion Power Plant", "to": "Automatic Piler", "width": 2}, {"from": "Mini Fusion Power Plant", "to": "E-M Rail Ejector", "width": 2}, {"from": "Mini Fusion Power Plant", "to": "Pile Sorter", "width": 2}, {"from": "Mini Fusion Power Plant", "to": "Ray Receiver", "width": 2}, {"from": "Mini Fusion Power Plant", "to": "S-R Plasma Turret", "width": 2}, {"from": "Miniature Particle Collider", "to": "Dyson Sphere Component", "width": 2}, {"from": "Miniature Particle Collider", "to": "Interstellar Logistics Carrier", "width": 2}, {"from": "Miniature Particle Collider", "to": "Artificial Star", "width": 2}, {"from": "Miniature Particle Collider", "to": "Assembling Machine MK II", "width": 2}, {"from": "Miniature Particle Collider", "to": "Automatic Piler", "width": 2}, {"from": "Miniature Particle Collider", "to": "Conveyor Belt MK III", "width": 2}, {"from": "Miniature Particle Collider", "to": "E-M Rail Ejector", "width": 2}, {"from": "Miniature Particle Collider", "to": "Pile Sorter", "width": 2}, {"from": "Miniature Particle Collider", "to": "Ray Receiver", "width": 2}, {"from": "Miniature Particle Collider", "to": "Satellite Substation", "width": 2}, {"from": "Miniature Particle Collider", "to": "S-R Plasma Turret", "width": 2}, {"from": "Miniature Particle Collider", "to": "Vertical Launching Silo", "width": 2}, {"from": "Plasma Turret", "to": "Interstellar Logistics Carrier", "width": 2}, {"from": "Plasma Turret", "to": "Suppressing Capsule", "width": 2}, {"from": "Plasma Turret", "to": "Advanced Mining Machine", "width": 2}, {"from": "Plasma Turret", "to": "Automatic Piler", "width": 2}, {"from": "Plasma Turret", "to": "E-M Rail Ejector", "width": 2}, {"from": "Plasma Turret", "to": "Jammer Tower", "width": 2}, {"from": "Plasma Turret", "to": "Logistics Distributor", "width": 2}, {"from": "Plasma Turret", "to": "Pile Sorter", "width": 2}, {"from": "Plasma Turret", "to": "Ray Receiver", "width": 2}, {"from": "Advanced Mining Machine", "to": "Satellite Substation", "width": 2}, {"from": "Electric Motor", "to": "Arc Smelter", "width": 2}, {"from": "Electric Motor", "to": "Assembling Machine MK I", "width": 2}, {"from": "Electric Motor", "to": "Conveyor Belt MK I", "width": 2}, {"from": "Electric Motor", "to": "Matrix Lab", "width": 2}, {"from": "Electric Motor", "to": "Splitter", "width": 2}, {"from": "Electric Motor", "to": "Tesla Tower", "width": 2}, {"from": "Electric Motor", "to": "Traffic Monitor", "width": 2}, {"from": "Arc Smelter", "to": "Electromagnetic Matrix", "width": 2}, {"from": "Arc Smelter", "to": "Prototype", "width": 2}, {"from": "Arc Smelter", "to": "Assembling Machine MK I", "width": 2}, {"from": "Arc Smelter", "to": "Battlefield Analysis Base", "width": 2}, {"from": "Arc Smelter", "to": "Chemical Plant", "width": 2}, {"from": "Arc Smelter", "to": "Depot MK I", "width": 2}, {"from": "Arc Smelter", "to": "Implosion Cannon", "width": 2}, {"from": "Arc Smelter", "to": "Laser Turret", "width": 2}, {"from": "Arc Smelter", "to": "Missile Turret", "width": 2}, {"from": "Arc Smelter", "to": "Oil Extractor", "width": 2}, {"from": "Arc Smelter", "to": "Oil Refinery", "width": 2}, {"from": "Arc Smelter", "to": "Sorter MK I", "width": 2}, {"from": "Arc Smelter", "to": "Splitter", "width": 2}, {"from": "Arc Smelter", "to": "Storage Tank", "width": 2}, {"from": "Arc Smelter", "to": "Tesla Tower", "width": 2}, {"from": "Arc Smelter", "to": "Traffic Monitor", "width": 2}, {"from": "Arc Smelter", "to": "Wind Turbine", "width": 2}, {"from": "Assembling Machine MK I", "to": "Prototype", "width": 2}, {"from": "Assembling Machine MK I", "to": "Battlefield Analysis Base", "width": 2}, {"from": "Assembling Machine MK I", "to": "Conveyor Belt MK I", "width": 2}, {"from": "Assembling Machine MK I", "to": "Implosion Cannon", "width": 2}, {"from": "Assembling Machine MK I", "to": "Laser Turret", "width": 2}, {"from": "Assembling Machine MK I", "to": "Matrix Lab", "width": 2}, {"from": "Assembling Machine MK I", "to": "Missile Turret", "width": 2}, {"from": "Assembling Machine MK I", "to": "Sorter MK I", "width": 2}, {"from": "Assembling Machine MK I", "to": "Thermal Power Plant", "width": 2}, {"from": "Assembling Machine MK I", "to": "Water Pump", "width": 2}, {"from": "Assembling Machine MK I", "to": "Wind Turbine", "width": 2}, {"from": "Conveyor Belt MK I", "to": "Gause Turret", "width": 2}, {"from": "Conveyor Belt MK I", "to": "Mining Machine", "width": 2}, {"from": "Conveyor Belt MK I", "to": "Splitter", "width": 2}, {"from": "Conveyor Belt MK I", "to": "Thermal Power Plant", "width": 2}, {"from": "Conveyor Belt MK I", "to": "Traffic Monitor", "width": 2}, {"from": "Conveyor Belt MK I", "to": "Wind Turbine", "width": 2}, {"from": "Matrix Lab", "to": "Electromagnetic Matrix", "width": 2}, {"from": "Matrix Lab", "to": "Prototype", "width": 2}, {"from": "Matrix Lab", "to": "Battlefield Analysis Base", "width": 2}, {"from": "Matrix Lab", "to": "Chemical Plant", "width": 2}, {"from": "Matrix Lab", "to": "Implosion Cannon", "width": 2}, {"from": "Matrix Lab", "to": "Laser Turret", "width": 2}, {"from": "Matrix Lab", "to": "Missile Turret", "width": 2}, {"from": "Matrix Lab", "to": "Sorter MK I", "width": 2}, {"from": "Matrix Lab", "to": "Splitter", "width": 2}, {"from": "Matrix Lab", "to": "Storage Tank", "width": 2}, {"from": "Matrix Lab", "to": "Tesla Tower", "width": 2}, {"from": "Matrix Lab", "to": "Thermal Power Plant", "width": 2}, {"from": "Matrix Lab", "to": "Water Pump", "width": 2}, {"from": "Matrix Lab", "to": "Wind Turbine", "width": 2}, {"from": "Splitter", "to": "Prototype", "width": 2}, {"from": "Splitter", "to": "Battlefield Analysis Base", "width": 2}, {"from": "Splitter", "to": "Implosion Cannon", "width": 2}, {"from": "Splitter", "to": "Laser Turret", "width": 2}, {"from": "Splitter", "to": "Missile Turret", "width": 2}, {"from": "Splitter", "to": "Sorter MK I", "width": 2}, {"from": "Splitter", "to": "Thermal Power Plant", "width": 2}, {"from": "Splitter", "to": "Water Pump", "width": 2}, {"from": "Splitter", "to": "Wind Turbine", "width": 2}, {"from": "Tesla Tower", "to": "Gause Turret", "width": 2}, {"from": "Tesla Tower", "to": "Mining Machine", "width": 2}, {"from": "Tesla Tower", "to": "Thermal Power Plant", "width": 2}, {"from": "Tesla Tower", "to": "Wind Turbine", "width": 2}, {"from": "Traffic Monitor", "to": "Prototype", "width": 2}, {"from": "Traffic Monitor", "to": "Battlefield Analysis Base", "width": 2}, {"from": "Traffic Monitor", "to": "Chemical Plant", "width": 2}, {"from": "Traffic Monitor", "to": "Implosion Cannon", "width": 2}, {"from": "Traffic Monitor", "to": "Laser Turret", "width": 2}, {"from": "Traffic Monitor", "to": "Missile Turret", "width": 2}, {"from": "Traffic Monitor", "to": "Sorter MK I", "width": 2}, {"from": "Traffic Monitor", "to": "Storage Tank", "width": 2}, {"from": "Traffic Monitor", "to": "Thermal Power Plant", "width": 2}, {"from": "Traffic Monitor", "to": "Water Pump", "width": 2}, {"from": "Traffic Monitor", "to": "Wind Turbine", "width": 2}, {"from": "Electromagnetic Matrix", "to": "Gause Turret", "width": 2}, {"from": "Electromagnetic Matrix", "to": "Mining Machine", "width": 2}, {"from": "Gause Turret", "to": "Prototype", "width": 2}, {"from": "Gause Turret", "to": "Battlefield Analysis Base", "width": 2}, {"from": "Gause Turret", "to": "Implosion Cannon", "width": 2}, {"from": "Gause Turret", "to": "Laser Turret", "width": 2}, {"from": "Gause Turret", "to": "Missile Turret", "width": 2}, {"from": "Gause Turret", "to": "Sorter MK I", "width": 2}, {"from": "Gause Turret", "to": "Water Pump", "width": 2}, {"from": "Mining Machine", "to": "Prototype", "width": 2}, {"from": "Mining Machine", "to": "Battlefield Analysis Base", "width": 2}, {"from": "Mining Machine", "to": "Implosion Cannon", "width": 2}, {"from": "Mining Machine", "to": "Laser Turret", "width": 2}, {"from": "Mining Machine", "to": "Missile Turret", "width": 2}, {"from": "Mining Machine", "to": "Sorter MK I", "width": 2}, {"from": "Mining Machine", "to": "Water Pump", "width": 2}, {"from": "Foundation", "to": "Chemical Plant", "width": 2}, {"from": "Foundation", "to": "Depot MK II", "width": 2}, {"from": "Foundation", "to": "Fractionator", "width": 2}, {"from": "Foundation", "to": "Oil Extractor", "width": 2}, {"from": "Foundation", "to": "Oil Refinery", "width": 2}, {"from": "Chemical Plant", "to": "Depot MK II", "width": 2}, {"from": "Chemical Plant", "to": "Spray Coater", "width": 2}, {"from": "Chemical Plant", "to": "Storage Tank", "width": 2}, {"from": "Chemical Plant", "to": "Water Pump", "width": 2}, {"from": "Depot MK II", "to": "Fractionator", "width": 2}, {"from": "Depot MK II", "to": "Oil Extractor", "width": 2}, {"from": "Depot MK II", "to": "Oil Refinery", "width": 2}, {"from": "Fractionator", "to": "Automatic Piler", "width": 2}, {"from": "Fractionator", "to": "E-M Rail Ejector", "width": 2}, {"from": "Fractionator", "to": "Oil Extractor", "width": 2}, {"from": "Fractionator", "to": "Oil Refinery", "width": 2}, {"from": "Fractionator", "to": "Ray Receiver", "width": 2}, {"from": "Fractionator", "to": "S-R Plasma Turret", "width": 2}, {"from": "Fractionator", "to": "Storage Tank", "width": 2}, {"from": "Oil Extractor", "to": "Prototype", "width": 2}, {"from": "Oil Extractor", "to": "Laser Turret", "width": 2}, {"from": "Oil Extractor", "to": "S-R Plasma Turret", "width": 2}, {"from": "Oil Extractor", "to": "Water Pump", "width": 2}, {"from": "Oil Refinery", "to": "Prototype", "width": 2}, {"from": "Oil Refinery", "to": "Laser Turret", "width": 2}, {"from": "Oil Refinery", "to": "S-R Plasma Turret", "width": 2}, {"from": "Oil Refinery", "to": "Water Pump", "width": 2}, {"from": "Gravity Matrix", "to": "Vertical Launching Silo", "width": 2}, {"from": "Logistics Bot", "to": "Logistics Drone", "width": 2}, {"from": "Logistics Bot", "to": "Prototype", "width": 2}, {"from": "Logistics Bot", "to": "Battlefield Analysis Base", "width": 2}, {"from": "Logistics Bot", "to": "Logistics Distributor", "width": 2}, {"from": "Logistics Bot", "to": "Missile Turret", "width": 2}, {"from": "Logistics Bot", "to": "S-R Plasma Turret", "width": 2}, {"from": "Logistics Drone", "to": "Supersonic Missile Set", "width": 2}, {"from": "Logistics Drone", "to": "Logistics Distributor", "width": 2}, {"from": "Logistics Drone", "to": "S-R Plasma Turret", "width": 2}, {"from": "Prototype", "to": "Missile Set", "width": 2}, {"from": "Prototype", "to": "Implosion Cannon", "width": 2}, {"from": "Prototype", "to": "Logistics Distributor", "width": 2}, {"from": "Prototype", "to": "Sorter MK I", "width": 2}, {"from": "Prototype", "to": "Spray Coater", "width": 2}, {"from": "Prototype", "to": "S-R Plasma Turret", "width": 2}, {"from": "Prototype", "to": "Water Pump", "width": 2}, {"from": "Battlefield Analysis Base", "to": "Missile Set", "width": 2}, {"from": "Battlefield Analysis Base", "to": "Processor", "width": 2}, {"from": "Battlefield Analysis Base", "to": "Implosion Cannon", "width": 2}, {"from": "Battlefield Analysis Base", "to": "Laser Turret", "width": 2}, {"from": "Battlefield Analysis Base", "to": "Sorter MK I", "width": 2}, {"from": "Battlefield Analysis Base", "to": "Spray Coater", "width": 2}, {"from": "Battlefield Analysis Base", "to": "Water Pump", "width": 2}, {"from": "Logistics Distributor", "to": "Jammer Tower", "width": 2}, {"from": "Logistics Distributor", "to": "Laser Turret", "width": 2}, {"from": "Missile Turret", "to": "Missile Set", "width": 2}, {"from": "Missile Turret", "to": "Laser Turret", "width": 2}, {"from": "Missile Turret", "to": "Sorter MK I", "width": 2}, {"from": "S-R Plasma Turret", "to": "Accumulator", "width": 2}, {"from": "S-R Plasma Turret", "to": "Geothermal Power Station", "width": 2}, {"from": "S-R Plasma Turret", "to": "Implosion Cannon", "width": 2}, {"from": "S-R Plasma Turret", "to": "Jammer Tower", "width": 2}, {"from": "S-R Plasma Turret", "to": "Laser Turret", "width": 2}, {"from": "S-R Plasma Turret", "to": "Pile Sorter", "width": 2}, {"from": "S-R Plasma Turret", "to": "Spray Coater", "width": 2}, {"from": "Microcrystalline Component", "to": "Solar Panel", "width": 2}, {"from": "Solar Panel", "to": "Missile Set", "width": 2}, {"from": "Missile Set", "to": "Shell Set", "width": 2}, {"from": "Organic Crystal", "to": "Sulfuric Acid", "width": 2}, {"from": "Laser Turret", "to": "Implosion Cannon", "width": 2}, {"from": "Laser Turret", "to": "Sorter MK I", "width": 2}, {"from": "Laser Turret", "to": "Spray Coater", "width": 2}, {"from": "Laser Turret", "to": "Water Pump", "width": 2}, {"from": "Processor", "to": "Spray Coater", "width": 2}, {"from": "Implosion Cannon", "to": "Accumulator", "width": 2}, {"from": "Implosion Cannon", "to": "Sorter MK I", "width": 2}, {"from": "Sorter MK I", "to": "Water Pump", "width": 2}, {"from": "Water Pump", "to": "Depot MK I", "width": 2}, {"from": "Water Pump", "to": "Storage Tank", "width": 2}, {"from": "Water Pump", "to": "Thermal Power Plant", "width": 2}, {"from": "Reformed Refinement", "to": "X-Ray Cracking", "width": 2}, {"from": "Thruster", "to": "Geothermal Power Station", "width": 2}, {"from": "Geothermal Power Station", "to": "Automatic Piler", "width": 2}, {"from": "Geothermal Power Station", "to": "E-M Rail Ejector", "width": 2}, {"from": "Accumulator", "to": "Signal tower", "width": 2}, {"from": "Depot MK I", "to": "Storage Tank", "width": 2}, {"from": "Depot MK I", "to": "Thermal Power Plant", "width": 2}, {"from": "Storage Tank", "to": "Thermal Power Plant", "width": 2}, {"from": "Automatic Piler", "to": "Pile Sorter", "width": 2}, {"from": "Pile Sorter", "to": "E-M Rail Ejector", "width": 2}, {"from": "Pile Sorter", "to": "Ray Receiver", "width": 2}, {"from": "Negentropy Smelter", "to": "Recomposing Assembler", "width": 2}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
