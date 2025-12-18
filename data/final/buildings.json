@@ -1,515 +1,575 @@
 [
     {
         "product": "Accumulator",
+        "quantity": 20.0,
         "ingredients": {
-            "Iron Ingot": 6,
-            "Supermagnetic Ring": 1,
-            "Crystal Silicon": 3
+            "Iron Ingot": 120.0,
+            "Supermagnetic Ring": 20.0,
+            "Crystal Silicon": 60.0
         }
     },
     {
         "product": "Advanced Mining Machine",
+        "quantity": 1.0,
         "ingredients": {
-            "Titanium Alloy": 20,
-            "Frame Material": 10,
-            "Supermagnetic Ring": 10,
-            "Quantum Chip": 4,
-            "Grating Crystal": 40
+            "Titanium Alloy": 20.0,
+            "Frame Material": 10.0,
+            "Supermagnetic Ring": 10.0,
+            "Quantum Chip": 4.0,
+            "Grating Crystal": 40.0
         }
     },
     {
         "product": "Arc Smelter",
+        "quantity": 20.0,
         "ingredients": {
-            "Iron Ingot": 4,
-            "Stone Brick": 2,
-            "Circuit Board": 4,
-            "Magnetic Coil": 2
+            "Iron Ingot": 80.0,
+            "Stone Brick": 40.0,
+            "Circuit Board": 80.0,
+            "Magnetic Coil": 40.0
         }
     },
     {
         "product": "Artificial Star",
+        "quantity": 1.0,
         "ingredients": {
-            "Titanium Alloy": 20,
-            "Frame Material": 20,
-            "Annihilation Constraint Sphere": 10,
-            "Quantum Chip": 10
+            "Titanium Alloy": 20.0,
+            "Frame Material": 20.0,
+            "Annihilation Constraint Sphere": 10.0,
+            "Quantum Chip": 10.0
         }
     },
     {
         "product": "Assembling Machine MK I",
+        "quantity": 30.0,
         "ingredients": {
-            "Iron Ingot": 4,
-            "Gear": 8,
-            "Circuit Board": 4
+            "Iron Ingot": 120.0,
+            "Gear": 240.0,
+            "Circuit Board": 120.0
         }
     },
     {
         "product": "Assembling Machine MK II",
+        "quantity": 20.0,
         "ingredients": {
-            "Assembling Machine MK I": 1,
-            "Graphene": 8,
-            "Processor": 4
+            "Assembling Machine MK I": 20.0,
+            "Graphene": 160.0,
+            "Processor": 80.0
         }
     },
     {
         "product": "Assembling Machine MK III",
+        "quantity": 15.0,
         "ingredients": {
-            "Assembling Machine MK II": 1,
-            "Particle Broadband": 8,
-            "Quantum Chip": 2
+            "Assembling Machine MK II": 15.0,
+            "Particle Broadband": 120.0,
+            "Quantum Chip": 30.0
         }
     },
     {
         "product": "Automatic Piler",
+        "quantity": 15.0,
         "ingredients": {
-            "Steel": 3,
-            "Gear": 4,
-            "Supermagnetic Ring": 1,
-            "Processor": 2
+            "Steel": 45.0,
+            "Gear": 60.0,
+            "Supermagnetic Ring": 15.0,
+            "Processor": 30.0
         }
     },
     {
         "product": "Battlefield Analysis Base",
+        "quantity": 1.0,
         "ingredients": {
-            "Iron Ingot": 12,
-            "Circuit Board": 18,
-            "Microcrystalline Component": 6,
-            "Engine": 12
+            "Iron Ingot": 12.0,
+            "Circuit Board": 18.0,
+            "Microcrystalline Component": 6.0,
+            "Engine": 12.0
         }
     },
     {
         "product": "Chemical Plant",
+        "quantity": 12.0,
         "ingredients": {
-            "Steel": 8,
-            "Stone Brick": 8,
-            "Glass": 8,
-            "Circuit Board": 2
+            "Steel": 96.0,
+            "Stone Brick": 96.0,
+            "Glass": 96.0,
+            "Circuit Board": 24.0
         }
     },
     {
         "product": "Conveyor Belt MK I",
+        "quantity": 180.0,
         "ingredients": {
-            "Iron Ingot": 2,
-            "Gear": 1
+            "Iron Ingot": 120.0,
+            "Gear": 60.0
         }
     },
     {
         "product": "Conveyor Belt MK II",
+        "quantity": 180.0,
         "ingredients": {
-            "Conveyor Belt MK I": 3,
-            "Electromagnetic Turbine": 1
+            "Conveyor Belt MK I": 180.0,
+            "Electromagnetic Turbine": 60.0
         }
     },
     {
         "product": "Conveyor Belt MK III",
+        "quantity": 180.0,
         "ingredients": {
-            "Conveyor Belt MK II": 3,
-            "Supermagnetic Ring": 1,
-            "Graphene": 1
+            "Conveyor Belt MK II": 180.0,
+            "Supermagnetic Ring": 60.0,
+            "Graphene": 60.0
         }
     },
     {
         "product": "Depot MK I",
+        "quantity": 30.0,
         "ingredients": {
-            "Iron Ingot": 4,
-            "Stone Brick": 4
+            "Iron Ingot": 120.0,
+            "Stone Brick": 120.0
         }
     },
     {
         "product": "Depot MK II",
+        "quantity": 15.0,
         "ingredients": {
-            "Steel": 8,
-            "Stone Brick": 8
+            "Steel": 120.0,
+            "Stone Brick": 120.0
         }
     },
     {
         "product": "E-M Rail Ejector",
+        "quantity": 1.0,
         "ingredients": {
-            "Steel": 20,
-            "Gear": 20,
-            "Processor": 5,
-            "Supermagnetic Ring": 10
+            "Steel": 20.0,
+            "Gear": 20.0,
+            "Processor": 5.0,
+            "Supermagnetic Ring": 10.0
         }
     },
     {
         "product": "Energy Exchanger",
+        "quantity": 1.0,
         "ingredients": {
-            "Titanium Alloy": 40,
-            "Steel": 40,
-            "Processor": 40,
-            "Particle Container": 8
+            "Titanium Alloy": 40.0,
+            "Steel": 40.0,
+            "Processor": 40.0,
+            "Particle Container": 8.0
         }
     },
     {
         "product": "Fractionator",
+        "quantity": 20.0,
         "ingredients": {
-            "Steel": 8,
-            "Stone Brick": 4,
-            "Glass": 4,
-            "Processor": 1
+            "Steel": 160.0,
+            "Stone Brick": 80.0,
+            "Glass": 80.0,
+            "Processor": 20.0
         }
     },
     {
         "product": "Gause Turret",
+        "quantity": 1.0,
         "ingredients": {
-            "Iron Ingot": 8,
-            "Gear": 8,
-            "Circuit Board": 2,
-            "Magnetic Coil": 4
+            "Iron Ingot": 8.0,
+            "Gear": 8.0,
+            "Circuit Board": 2.0,
+            "Magnetic Coil": 4.0
         }
     },
     {
         "product": "Geothermal Power Station",
+        "quantity": 10.0,
         "ingredients": {
-            "Steel": 15,
-            "Copper Ingot": 20,
-            "Photon Combiner": 4,
-            "Supermagnetic Ring": 1
+            "Steel": 150.0,
+            "Copper Ingot": 200.0,
+            "Photon Combiner": 40.0,
+            "Supermagnetic Ring": 10.0
         }
     },
     {
         "product": "Implosion Cannon",
+        "quantity": 1.0,
         "ingredients": {
-            "Iron Ingot": 10,
-            "Electric Motor": 8,
-            "Circuit Board": 10,
-            "Supermagnetic Ring": 2
+            "Iron Ingot": 10.0,
+            "Electric Motor": 8.0,
+            "Circuit Board": 10.0,
+            "Supermagnetic Ring": 2.0
         }
     },
     {
         "product": "Interstellar Logistics Station",
+        "quantity": 2.0,
         "ingredients": {
-            "Planetary Logistics Station": 1,
-            "Titanium Alloy": 40,
-            "Particle Container": 20
+            "Planetary Logistics Station": 2.0,
+            "Titanium Alloy": 80.0,
+            "Particle Container": 40.0
         }
     },
     {
         "product": "Jammer Tower",
+        "quantity": 1.0,
         "ingredients": {
-            "Copper Ingot": 12,
-            "Plasma Exciter": 9,
-            "Diamond": 6,
-            "Processor": 3
+            "Copper Ingot": 12.0,
+            "Plasma Exciter": 9.0,
+            "Diamond": 6.0,
+            "Processor": 3.0
         }
     },
     {
         "product": "Laser Turret",
+        "quantity": 1.0,
         "ingredients": {
-            "Iron Ingot": 9,
-            "Plasma Exciter": 6,
-            "Circuit Board": 6,
-            "Photon Combiner": 9
+            "Iron Ingot": 9.0,
+            "Plasma Exciter": 6.0,
+            "Circuit Board": 6.0,
+            "Photon Combiner": 9.0
         }
     },
     {
         "product": "Logistics Distributor",
+        "quantity": 7.5,
         "ingredients": {
-            "Iron Ingot": 8,
-            "Plasma Exciter": 4,
-            "Processor": 4
+            "Iron Ingot": 60.0,
+            "Plasma Exciter": 30.0,
+            "Processor": 30.0
         }
     },
     {
         "product": "Matrix Lab",
+        "quantity": 20.0,
         "ingredients": {
-            "Iron Ingot": 8,
-            "Glass": 4,
-            "Circuit Board": 4,
-            "Magnetic Coil": 4
+            "Iron Ingot": 160.0,
+            "Glass": 80.0,
+            "Circuit Board": 80.0,
+            "Magnetic Coil": 80.0
         }
     },
     {
         "product": "Mini Fusion Power Plant",
+        "quantity": 6.0,
         "ingredients": {
-            "Titanium Alloy": 12,
-            "Supermagnetic Ring": 10,
-            "Carbon Nanotube": 8,
-            "Processor": 4
+            "Titanium Alloy": 72.0,
+            "Supermagnetic Ring": 60.0,
+            "Carbon Nanotube": 48.0,
+            "Processor": 24.0
         }
     },
     {
         "product": "Miniature Particle Collider",
+        "quantity": 1.0,
         "ingredients": {
-            "Titanium Alloy": 20,
-            "Frame Material": 20,
-            "Supermagnetic Ring": 25,
-            "Graphene": 10,
-            "Processor": 8
+            "Titanium Alloy": 20.0,
+            "Frame Material": 20.0,
+            "Supermagnetic Ring": 25.0,
+            "Graphene": 10.0,
+            "Processor": 8.0
         }
     },
     {
         "product": "Mining Machine",
+        "quantity": 20.0,
         "ingredients": {
-            "Iron Ingot": 4,
-            "Circuit Board": 2,
-            "Magnetic Coil": 2,
-            "Gear": 2
+            "Iron Ingot": 80.0,
+            "Circuit Board": 40.0,
+            "Magnetic Coil": 40.0,
+            "Gear": 40.0
         }
     },
     {
         "product": "Missile Turret",
+        "quantity": 1.0,
         "ingredients": {
-            "Iron Ingot": 8,
-            "Electric Motor": 6,
-            "Circuit Board": 12,
-            "Engine": 6
+            "Iron Ingot": 8.0,
+            "Electric Motor": 6.0,
+            "Circuit Board": 12.0,
+            "Engine": 6.0
         }
     },
     {
         "product": "Negentropy Smelter",
+        "quantity": 1.0,
         "ingredients": {
-            "Plane Smelter": 1,
-            "Negentropy Singularity": 10,
-            "Energy Shard": 30,
-            "Quantum Chip": 4
+            "Plane Smelter": 1.0,
+            "Negentropy Singularity": 10.0,
+            "Energy Shard": 30.0,
+            "Quantum Chip": 4.0
         }
     },
     {
         "product": "Oil Extractor",
+        "quantity": 1.0,
         "ingredients": {
-            "Steel": 12,
-            "Stone Brick": 12,
-            "Circuit Board": 6,
-            "Plasma Exciter": 4
+            "Steel": 12.0,
+            "Stone Brick": 12.0,
+            "Circuit Board": 6.0,
+            "Plasma Exciter": 4.0
         }
     },
     {
         "product": "Oil Refinery",
+        "quantity": 1.0,
         "ingredients": {
-            "Steel": 10,
-            "Stone Brick": 10,
-            "Circuit Board": 6,
-            "Plasma Exciter": 6
+            "Steel": 10.0,
+            "Stone Brick": 10.0,
+            "Circuit Board": 6.0,
+            "Plasma Exciter": 6.0
         }
     },
     {
         "product": "Orbital Collector",
+        "quantity": 1.0,
         "ingredients": {
-            "Interstellar Logistics Station": 1,
-            "Supermagnetic Ring": 50,
-            "Reinforced Thruster": 20,
-            "Accumulator (Charged)": 20
+            "Interstellar Logistics Station": 1.0,
+            "Supermagnetic Ring": 50.0,
+            "Reinforced Thruster": 20.0,
+            "Accumulator (Charged)": 20.0
         }
     },
     {
         "product": "Pile Sorter",
+        "quantity": 1.0,
         "ingredients": {
-            "Sorter MK III": 2,
-            "Supermagnetic Ring": 1,
-            "Processor": 1
+            "Sorter MK III": 2.0,
+            "Supermagnetic Ring": 1.0,
+            "Processor": 1.0
         }
     },
     {
         "product": "Plane Smelter",
+        "quantity": 12.0,
         "ingredients": {
-            "Arc Smelter": 1,
-            "Frame Material": 5,
-            "Plane Filter": 4,
-            "Unipolar Magnet": 15
+            "Arc Smelter": 12.0,
+            "Frame Material": 60.0,
+            "Plane Filter": 8.0,
+            "Unipolar Magnet": 180.0
         }
     },
     {
         "product": "Planetary Logistics Station",
+        "quantity": 3.0,
         "ingredients": {
-            "Steel": 40,
-            "Titanium Ingot": 40,
-            "Processor": 40,
-            "Particle Container": 20
+            "Steel": 120.0,
+            "Titanium Ingot": 120.0,
+            "Processor": 120.0,
+            "Particle Container": 60.0
         }
     },
     {
         "product": "Planetary Shield Generator",
+        "quantity": 1.0,
         "ingredients": {
-            "Steel": 20,
-            "Electromagnetic Turbine": 10,
-            "Supermagnetic Ring": 5,
-            "Particle Container": 5
+            "Steel": 20.0,
+            "Electromagnetic Turbine": 10.0,
+            "Supermagnetic Ring": 5.0,
+            "Particle Container": 5.0
         }
     },
     {
         "product": "Plasma Turret",
+        "quantity": 1.0,
         "ingredients": {
-            "Titanium Alloy": 20,
-            "Titanium Glass": 10,
-            "Supermagnetic Ring": 10,
-            "Plasma Exciter": 5,
-            "Processor": 5
+            "Titanium Alloy": 20.0,
+            "Titanium Glass": 10.0,
+            "Supermagnetic Ring": 10.0,
+            "Plasma Exciter": 5.0,
+            "Processor": 5.0
         }
     },
     {
         "product": "Quantum Chemical Plant",
+        "quantity": 6.0,
         "ingredients": {
-            "Chemical Plant": 1,
-            "Glass": 10,
-            "Strange Matter": 3,
-            "Quantum Chip": 3
+            "Chemical Plant": 6.0,
+            "Glass": 60.0,
+            "Strange Matter": 18.0,
+            "Quantum Chip": 18.0
         }
     },
     {
         "product": "Ray Receiver",
+        "quantity": 7.5,
         "ingredients": {
-            "Steel": 20,
-            "High-Purity Silicon": 20,
-            "Photon Combiner": 10,
-            "Processor": 5,
-            "Supermagnetic Ring": 20
+            "Steel": 150.0,
+            "High-Purity Silicon": 150.0,
+            "Photon Combiner": 75.0,
+            "Processor": 37.5,
+            "Supermagnetic Ring": 150.0
         }
     },
     {
         "product": "Recomposing Assembler",
+        "quantity": 1.0,
         "ingredients": {
-            "Assembling Machine MK III": 1,
-            "Matter Rocombinator": 10,
-            "Energy Shard": 30,
-            "Quantum Chip": 4
+            "Assembling Machine MK III": 1.0,
+            "Matter Rocombinator": 10.0,
+            "Energy Shard": 30.0,
+            "Quantum Chip": 4.0
         }
     },
     {
         "product": "Satellite Substation",
+        "quantity": 12.0,
         "ingredients": {
-            "Wireless Power Tower": 1,
-            "Supermagnetic Ring": 10,
-            "Frame Material": 2
+            "Wireless Power Tower": 12.0,
+            "Supermagnetic Ring": 120.0,
+            "Frame Material": 24.0
         }
     },
     {
         "product": "Self-Evolution Lab",
+        "quantity": 1.0,
         "ingredients": {
-            "Matrix Lab": 1,
-            "Silicon-Based Neuron": 10,
-            "Dark Fog Matrix": 20,
-            "Quantum Chip": 4
+            "Matrix Lab": 1.0,
+            "Silicon-Based Neuron": 10.0,
+            "Dark Fog Matrix": 20.0,
+            "Quantum Chip": 4.0
         }
     },
     {
         "product": "Signal tower",
+        "quantity": 1.0,
         "ingredients": {
-            "Wireless Power Tower": 2,
-            "Iron Ingot": 12,
-            "Crystal Silicon": 5
+            "Wireless Power Tower": 2.0,
+            "Iron Ingot": 12.0,
+            "Crystal Silicon": 5.0
         }
     },
     {
         "product": "Solar Panel",
+        "quantity": 1.0,
         "ingredients": {
-            "Copper Ingot": 10,
-            "High-Purity Silicon": 10,
-            "Circuit Board": 5
+            "Copper Ingot": 10.0,
+            "High-Purity Silicon": 10.0,
+            "Circuit Board": 5.0
         }
     },
     {
         "product": "Sorter MK I",
+        "quantity": 60.0,
         "ingredients": {
-            "Iron Ingot": 1,
-            "Circuit Board": 1
+            "Iron Ingot": 60.0,
+            "Circuit Board": 60.0
         }
     },
     {
         "product": "Sorter MK II",
+        "quantity": 120.0,
         "ingredients": {
-            "Sorter MK I": 2,
-            "Electric Motor": 1
+            "Sorter MK I": 120.0,
+            "Electric Motor": 60.0
         }
     },
     {
         "product": "Sorter MK III",
+        "quantity": 120.0,
         "ingredients": {
-            "Sorter MK II": 2,
-            "Electromagnetic Turbine": 1
+            "Sorter MK II": 120.0,
+            "Electromagnetic Turbine": 60.0
         }
     },
     {
         "product": "Splitter",
+        "quantity": 30.0,
         "ingredients": {
-            "Iron Ingot": 3,
-            "Gear": 2,
-            "Circuit Board": 1
+            "Iron Ingot": 90.0,
+            "Gear": 60.0,
+            "Circuit Board": 30.0
         }
     },
     {
         "product": "Spray Coater",
+        "quantity": 20.0,
         "ingredients": {
-            "Steel": 4,
-            "Plasma Exciter": 2,
-            "Circuit Board": 2,
-            "Microcrystalline Component": 2
+            "Steel": 80.0,
+            "Plasma Exciter": 40.0,
+            "Circuit Board": 40.0,
+            "Microcrystalline Component": 40.0
         }
     },
     {
         "product": "S-R Plasma Turret",
+        "quantity": 1.0,
         "ingredients": {
-            "Iron Ingot": 15,
-            "Steel": 10,
-            "Supermagnetic Ring": 5,
-            "Plasma Exciter": 5,
-            "Processor": 5
+            "Iron Ingot": 15.0,
+            "Steel": 10.0,
+            "Supermagnetic Ring": 5.0,
+            "Plasma Exciter": 5.0,
+            "Processor": 5.0
         }
     },
     {
         "product": "Storage Tank",
+        "quantity": 30.0,
         "ingredients": {
-            "Iron Ingot": 8,
-            "Stone Brick": 4,
-            "Glass": 4
+            "Iron Ingot": 240.0,
+            "Stone Brick": 120.0,
+            "Glass": 120.0
         }
     },
     {
         "product": "Tesla Tower",
+        "quantity": 60.0,
         "ingredients": {
-            "Iron Ingot": 2,
-            "Magnetic Coil": 1
+            "Iron Ingot": 120.0,
+            "Magnetic Coil": 60.0
         }
     },
     {
         "product": "Thermal Power Plant",
+        "quantity": 12.0,
         "ingredients": {
-            "Iron Ingot": 10,
-            "Stone Brick": 4,
-            "Gear": 4,
-            "Magnetic Coil": 4
+            "Iron Ingot": 120.0,
+            "Stone Brick": 48.0,
+            "Gear": 48.0,
+            "Magnetic Coil": 48.0
         }
     },
     {
         "product": "Traffic Monitor",
+        "quantity": 30.0,
         "ingredients": {
-            "Iron Ingot": 3,
-            "Gear": 2,
-            "Glass": 1,
-            "Circuit Board": 2
+            "Iron Ingot": 90.0,
+            "Gear": 60.0,
+            "Glass": 30.0,
+            "Circuit Board": 60.0
         }
     },
     {
         "product": "Vertical Launching Silo",
+        "quantity": 1.0,
         "ingredients": {
-            "Titanium Alloy": 80,
-            "Frame Material": 30,
-            "Graviton Lens": 20,
-            "Quantum Chip": 10
+            "Titanium Alloy": 80.0,
+            "Frame Material": 30.0,
+            "Graviton Lens": 20.0,
+            "Quantum Chip": 10.0
         }
     },
     {
         "product": "Water Pump",
+        "quantity": 15.0,
         "ingredients": {
-            "Iron Ingot": 8,
-            "Stone Brick": 4,
-            "Electric Motor": 4,
-            "Circuit Board": 2
+            "Iron Ingot": 120.0,
+            "Stone Brick": 60.0,
+            "Electric Motor": 60.0,
+            "Circuit Board": 30.0
         }
     },
     {
         "product": "Wind Turbine",
+        "quantity": 15.0,
         "ingredients": {
-            "Iron Ingot": 6,
-            "Gear": 1,
-            "Magnetic Coil": 3
+            "Iron Ingot": 90.0,
+            "Gear": 15.0,
+            "Magnetic Coil": 45.0
         }
     },
     {
         "product": "Wireless Power Tower",
+        "quantity": 20.0,
         "ingredients": {
-            "Tesla Tower": 1,
-            "Plasma Exciter": 3
+            "Tesla Tower": 20.0,
+            "Plasma Exciter": 60.0
         }
     }
 ]

@@ -1,720 +1,788 @@
 [
     {
-        "product": "Annihilation Constrain Sphere",
+        "product": "Annihilation Constraint Sphere",
+        "quantity": 1.0,
         "ingredients": {
-            "Particle Collider": 1,
-            "Processor": 1
+            "Particle Collider": 1.0,
+            "Processor": 1.0
         }
     },
     {
         "product": "Antimatter Capsule",
+        "quantity": 1.0,
         "ingredients": {
-            "Plasma Capsule": 1,
-            "Particle Container": 1,
-            "Hydrogen": 10,
-            "Antimatter": 10
+            "Plasma Capsule": 1.0,
+            "Particle Container": 1.0,
+            "Hydrogen": 10.0,
+            "Antimatter": 10.0
         }
     },
     {
         "product": "Antimatter Fuel Rod",
+        "quantity": 1.0,
         "ingredients": {
-            "Antimatter": 12,
-            "Hydrogen": 12,
-            "Annihilation Constrains Sphere": 1,
-            "Titanium Alloy": 1
+            "Antimatter": 12.0,
+            "Hydrogen": 12.0,
+            "Annihilation Constraint Sphere": 1.0,
+            "Titanium Alloy": 1.0
         }
     },
     {
         "product": "Attack Drone",
+        "quantity": 1.0,
         "ingredients": {
-            "Prototype": 1,
-            "Electromagnetic Turbine": 1,
-            "Processor": 1,
-            "Particle Container": 1
+            "Prototype": 1.0,
+            "Electromagnetic Turbine": 1.0,
+            "Processor": 1.0,
+            "Particle Container": 1.0
         }
     },
     {
         "product": "Carbon Nanotube",
+        "quantity": 30.0,
         "ingredients": {
-            "Graphene": 3,
-            "Titanium Ingot": 1
+            "Graphene": 45.0,
+            "Titanium Ingot": 15.0
         }
     },
     {
         "product": "Carbon Nanotube",
+        "quantity": 30.0,
         "ingredients": {
-            "Stalagmite Crystal": 6
+            "Stalagmite Crystal": 90.0
         }
     },
     {
         "product": "Casimir Crystal",
+        "quantity": 15.0,
         "ingredients": {
-            "Titanium Crystal": 1,
-            "Graphene": 2,
-            "Hydrogen": 12
+            "Titanium Crystal": 15.0,
+            "Graphene": 30.0,
+            "Hydrogen": 180.0
         }
     },
     {
         "product": "Casimir Crystal",
+        "quantity": 15.0,
         "ingredients": {
-            "Grating Crystal": 3,
-            "Graphene": 2,
-            "Hydrogen": 12
+            "Grating Crystal": 120.0,
+            "Graphene": 30.0,
+            "Hydrogen": 180.0
         }
     },
     {
         "product": "Circuit Board",
+        "quantity": 120.0,
         "ingredients": {
-            "Iron Ingot": 2,
-            "Copper Ingot": 1
+            "Iron Ingot": 120.0,
+            "Copper Ingot": 60.0
         }
     },
     {
         "product": "Combustible Unit",
+        "quantity": 20.0,
         "ingredients": {
-            "Coal": 3
+            "Coal": 60.0
         }
     },
     {
         "product": "Copper Ingot",
+        "quantity": 60.0,
         "ingredients": {
-            "Copper Ore": 1
+            "Copper Ore": 60.0
         }
     },
     {
         "product": "Corvette",
+        "quantity": 1.0,
         "ingredients": {
-            "Titanium Alloy": 5,
-            "Reinforced Thruster": 1,
-            "Processor": 2,
-            "Particle Container": 3
+            "Titanium Alloy": 5.0,
+            "Reinforced Thruster": 1.0,
+            "Processor": 2.0,
+            "Particle Container": 3.0
         }
     },
     {
         "product": "Crystal Explosive Unit",
+        "quantity": 1.0,
         "ingredients": {
-            "Combustible Unit": 8,
-            "Casimir Crystal": 1,
-            "Crystal Silicon": 8
+            "Combustible Unit": 8.0,
+            "Casimir Crystal": 1.0,
+            "Crystal Silicon": 8.0
         }
     },
     {
         "product": "Crystal Shell Set",
+        "quantity": 1.0,
         "ingredients": {
-            "High-Explosive Shell Set": 1,
-            "Titanium Alloy": 3,
-            "Crystal Explosive Unit": 2
+            "High-Explosive Shell Set": 1.0,
+            "Titanium Alloy": 3.0,
+            "Crystal Explosive Unit": 2.0
         }
     },
     {
         "product": "Crystal Silicon",
+        "quantity": 30.0,
         "ingredients": {
-            "High-Purity Silicon": 1
+            "High-Purity Silicon": 30.0
         }
     },
     {
         "product": "Crystal Silicon",
+        "quantity": 80.0,
         "ingredients": {
-            "Fractal Silicon": 1
+            "Fractal Silicon": 40.0
         }
     },
     {
         "product": "Destroyer",
+        "quantity": 1.0,
         "ingredients": {
-            "Frame Material": 20,
-            "Reinforced Thruster": 4,
-            "Processor": 4,
-            "Strange Matter": 1
+            "Frame Material": 20.0,
+            "Reinforced Thruster": 4.0,
+            "Processor": 4.0,
+            "Strange Matter": 1.0
         }
     },
     {
         "product": "Deuterium",
+        "quantity": 120.0,
         "ingredients": {
-            "Hydrogen": 10
+            "Hydrogen": 240.0
         }
     },
     {
         "product": "Deuteron Fuel Rod",
+        "quantity": 10.0,
         "ingredients": {
-            "Titanium Alloy": 1,
-            "Hydrogen": 20,
-            "Supermagnetic Ring": 1
+            "Titanium Alloy": 5.0,
+            "Hydrogen": 100.0,
+            "Supermagnetic Ring": 5.0
         }
     },
     {
         "product": "Diamond",
+        "quantity": 30.0,
         "ingredients": {
-            "Energetic Graphite": 1
+            "Energetic Graphite": 30.0
         }
     },
     {
         "product": "Diamond",
+        "quantity": 80.0,
         "ingredients": {
-            "Kimberlite Ore": 1
-        }
-    },
-    {
-        "product": "Deuterium Fractionation",
-        "ingredients": {
-            "Hydrogen": 1
+            "Kimberlite Ore": 40.0
         }
     },
     {
         "product": "Dyson Sphere Component",
+        "quantity": 7.5,
         "ingredients": {
-            "Frame Material": 3,
-            "Solar Sail": 3,
-            "Processor": 3
+            "Frame Material": 22.5,
+            "Solar Sail": 22.5,
+            "Processor": 22.5
         }
     },
     {
         "product": "Electric Motor",
+        "quantity": 30.0,
         "ingredients": {
-            "Iron Ingot": 2,
-            "Gear": 1,
-            "Magnetic Coil": 1
+            "Iron Ingot": 60.0,
+            "Gear": 30.0,
+            "Magnetic Coil": 30.0
         }
     },
     {
         "product": "Electromagnetic Turbine",
+        "quantity": 30.0,
         "ingredients": {
-            "Electric Motor": 2,
-            "Electromagnetic Coil": 2
+            "Electric Motor": 60.0,
+            "Electromagnetic Coil": 60.0
         }
     },
     {
         "product": "Electromagnetic Matrix",
+        "quantity": 20.0,
         "ingredients": {
-            "Magnetic Coil": 1,
-            "Circuit Board": 1
+            "Magnetic Coil": 20.0,
+            "Circuit Board": 20.0
         }
     },
     {
         "product": "Energetic Graphite",
+        "quantity": 30.0,
         "ingredients": {
-            "Coal": 2
+            "Coal": 60.0
         }
     },
     {
         "product": "Energy Matrix",
+        "quantity": 10.0,
         "ingredients": {
-            "Energetic Graphite": 2,
-            "Hydrogen": 2
+            "Energetic Graphite": 20.0,
+            "Hydrogen": 20.0
         }
     },
     {
         "product": "Engine",
+        "quantity": 20.0,
         "ingredients": {
-            "Magnetic Coil": 1,
-            "Copper Ingot": 2
+            "Magnetic Coil": 20.0,
+            "Copper Ingot": 40.0
         }
     },
     {
         "product": "Explosive Unit",
+        "quantity": 20.0,
         "ingredients": {
-            "Combustible Unit": 2,
-            "Plastic": 2,
-            "Sulfuric Acid": 1
+            "Combustible Unit": 20.0,
+            "Plastic": 20.0,
+            "Sulfuric Acid": 10.0
         }
     },
     {
         "product": "Foundation",
+        "quantity": 60.0,
         "ingredients": {
-            "Stone Brick": 3,
-            "Steel": 1
+            "Stone Brick": 180.0,
+            "Steel": 60.0
         }
     },
     {
         "product": "Frame Material",
+        "quantity": 10.0,
         "ingredients": {
-            "Carbon Nanotube": 4,
-            "Titanium Alloy": 1,
-            "High-Purity Silicon": 1
+            "Carbon Nanotube": 40.0,
+            "Titanium Alloy": 10.0,
+            "High-Purity Silicon": 10.0
         }
     },
     {
         "product": "Gear",
+        "quantity": 60.0,
         "ingredients": {
-            "Iron Ingot": 1
+            "Iron Ingot": 60.0
         }
     },
     {
         "product": "Glass",
+        "quantity": 30.0,
         "ingredients": {
-            "Stone": 4
+            "Stone": 60.0
         }
     },
     {
         "product": "Graphene",
+        "quantity": 40.0,
         "ingredients": {
-            "Sulfuric Acid": 1,
-            "Energetic Graphite": 3
+            "Sulfuric Acid": 20.0,
+            "Energetic Graphite": 60.0
         }
     },
     {
         "product": "Graphene",
+        "quantity": 60.0,
         "ingredients": {
-            "Fire Ice": 2
+            "Fire Ice": 60.0
         }
     },
     {
         "product": "Graviton Lens",
+        "quantity": 10.0,
         "ingredients": {
-            "Diamond": 4,
-            "Strange Matter": 1
+            "Diamond": 40.0,
+            "Strange Matter": 10.0
         }
     },
     {
         "product": "Gravity Matrix",
+        "quantity": 5.0,
         "ingredients": {
-            "Graviton Lens": 1,
-            "Quantum Chip": 1
+            "Graviton Lens": 2.5,
+            "Quantum Chip": 2.5
         }
     },
     {
         "product": "Gravity Missile Set",
+        "quantity": 1.0,
         "ingredients": {
-            "Supersonic Missile Set": 3,
-            "Crystal Explosive Unit": 6,
-            "Strange Matter": 3
+            "Supersonic Missile Set": 3.0,
+            "Crystal Explosive Unit": 6.0,
+            "Strange Matter": 3.0
         }
     },
     {
         "product": "High-Explosive Shell Set",
+        "quantity": 1.0,
         "ingredients": {
-            "Shell Set": 1,
-            "Titanium Ingot": 6,
-            "Explosive Unit": 2
+            "Shell Set": 1.0,
+            "Titanium Ingot": 6.0,
+            "Explosive Unit": 2.0
         }
     },
     {
         "product": "High-Purity Silicon",
+        "quantity": 30.0,
         "ingredients": {
-            "Silicon Ore": 2
+            "Silicon Ore": 60.0
         }
     },
     {
         "product": "Hydrogen Fuel Rod",
+        "quantity": 20.0,
         "ingredients": {
-            "Hydrogen": 10,
-            "Titanium Ingot": 1
+            "Hydrogen": 100.0,
+            "Titanium Ingot": 10.0
         }
     },
     {
         "product": "Information Matrix",
+        "quantity": 6.0,
         "ingredients": {
-            "Processor": 2,
-            "Particle Broadband": 1
+            "Processor": 12.0,
+            "Particle Broadband": 6.0
         }
     },
     {
-        "product": "Interstellar Logistics Carrier",
+        "product": "Interstellar Logistics Vessel",
+        "quantity": 10.0,
         "ingredients": {
-            "Titanium Alloy": 10,
-            "Processor": 10,
-            "Reinforced Thruster": 2
+            "Titanium Alloy": 100.0,
+            "Processor": 100.0,
+            "Reinforced Thruster": 20.0
         }
     },
     {
         "product": "Iron Ingot",
+        "quantity": 60.0,
         "ingredients": {
-            "Iron Ore": 1
+            "Iron Ore": 60.0
         }
     },
     {
         "product": "Jamming Capsule",
+        "quantity": 1.0,
         "ingredients": {
-            "Electromagnetic Turbine": 1,
-            "Plasma Exciter": 1,
-            "Hydrogen": 3
+            "Electromagnetic Turbine": 1.0,
+            "Plasma Exciter": 1.0,
+            "Hydrogen": 3.0
         }
     },
     {
         "product": "Logistics Bot",
+        "quantity": 30.0,
         "ingredients": {
-            "Iron Ingot": 2,
-            "Engine": 1,
-            "Processor": 1
+            "Iron Ingot": 60.0,
+            "Engine": 30.0,
+            "Processor": 30.0
         }
     },
     {
         "product": "Logistics Drone",
+        "quantity": 15.0,
         "ingredients": {
-            "Iron Ingot": 5,
-            "Processor": 2,
-            "Thruster": 2
+            "Iron Ingot": 75.0,
+            "Processor": 30.0,
+            "Thruster": 30.0
         }
     },
     {
         "product": "Magnet",
+        "quantity": 40.0,
         "ingredients": {
-            "Iron Ore": 1
+            "Iron Ore": 40.0
         }
     },
     {
         "product": "Magnetic Coil",
+        "quantity": 120.0,
         "ingredients": {
-            "Magnet": 2,
-            "Copper Ingot": 1
+            "Magnet": 120.0,
+            "Copper Ingot": 60.0
         }
     },
     {
         "product": "Magnum Ammo Box",
+        "quantity": 1.0,
         "ingredients": {
-            "Copper Ingot": 3
+            "Copper Ingot": 3.0
         }
     },
     {
         "product": "Mass Energy Storage",
+        "quantity": 1.0,
         "ingredients": {
-            "Critical Photon": 2
+            "Critical Photon": 2.0
         }
     },
     {
         "product": "Microcrystalline Component",
+        "quantity": 30.0,
         "ingredients": {
-            "High-Purity Silicon": 2,
-            "Copper Ingot": 1
+            "High-Purity Silicon": 60.0,
+            "Copper Ingot": 30.0
         }
     },
     {
         "product": "Missile Set",
+        "quantity": 1.0,
         "ingredients": {
-            "Copper Ingot": 6,
-            "Circuit Board": 3,
-            "Combustible Unit": 2,
-            "Engine": 1
+            "Copper Ingot": 6.0,
+            "Circuit Board": 3.0,
+            "Combustible Unit": 2.0,
+            "Engine": 1.0
         }
     },
     {
         "product": "Organic Crystal",
+        "quantity": 10.0,
         "ingredients": {
-            "Plastic": 2,
-            "Refined Oil": 1,
-            "Water": 1
+            "Plastic": 20.0,
+            "Refined Oil": 10.0,
+            "Water": 10.0
         }
     },
     {
         "product": "Particle Broadband",
+        "quantity": 7.5,
         "ingredients": {
-            "Carbon Nanotube": 2,
-            "Crystal Silicon": 2,
-            "Plastic": 1
+            "Carbon Nanotube": 15.0,
+            "Crystal Silicon": 15.0,
+            "Plastic": 7.5
         }
     },
     {
         "product": "Particle Container",
+        "quantity": 15.0,
         "ingredients": {
-            "Electromagnetic Turbine": 2,
-            "Copper Ingot": 2,
-            "Graphene": 2
+            "Electromagnetic Turbine": 30.0,
+            "Copper Ingot": 30.0,
+            "Graphene": 30.0
         }
     },
     {
         "product": "Particle Container",
+        "quantity": 15.0,
         "ingredients": {
-            "Unipolar Magnet": 10,
-            "Copper Ingot": 2
+            "Unipolar Magnet": 150.0,
+            "Copper Ingot": 30.0
         }
     },
     {
         "product": "Photon Combiner",
+        "quantity": 20.0,
         "ingredients": {
-            "Prism": 2,
-            "Circuit Board": 1
+            "Prism": 40.0,
+            "Circuit Board": 20.0
         }
     },
     {
         "product": "Photon Combiner",
+        "quantity": 20.0,
         "ingredients": {
-            "Grating Crystal": 1,
-            "Circuit Board": 1
+            "Grating Crystal": 20.0,
+            "Circuit Board": 20.0
         }
     },
     {
         "product": "Plane Filter",
+        "quantity": 1.0,
         "ingredients": {
-            "Casimir Crystal": 1,
-            "Titanium Glass": 2
+            "Casimir Crystal": 1.0,
+            "Titanium Glass": 2.0
         }
     },
     {
         "product": "Plasma Capsule",
+        "quantity": 1.0,
         "ingredients": {
-            "Graphene": 1,
-            "Magnet": 2,
-            "Deuterium": 10
+            "Graphene": 1.0,
+            "Magnet": 2.0,
+            "Deuterium": 10.0
         }
     },
     {
         "product": "Plasma Exciter",
+        "quantity": 1.0,
         "ingredients": {
-            "Magnetic Coil": 4,
-            "Prism": 2
+            "Magnetic Coil": 4.0,
+            "Prism": 2.0
         }
     },
     {
         "product": "Plasma Refining",
+        "quantity": 2.0,
         "ingredients": {
-            "Crude Oil": 1,
-            "Hydrogen": 2
+            "Crude Oil": 1.0,
+            "Hydrogen": 2.0
         }
     },
     {
         "product": "Plastic",
+        "quantity": 20.0,
         "ingredients": {
-            "Energetic Graphite": 1,
-            "Refined Oil": 2
+            "Energetic Graphite": 20.0,
+            "Refined Oil": 40.0
         }
     },
     {
         "product": "Precision Drone",
+        "quantity": 1.0,
         "ingredients": {
-            "Prototype": 1,
-            "Electromagnetic Turbine": 1,
-            "Circuit Board": 2,
-            "Photon Combiner": 2
+            "Prototype": 1.0,
+            "Electromagnetic Turbine": 1.0,
+            "Circuit Board": 2.0,
+            "Photon Combiner": 2.0
         }
     },
     {
         "product": "Prism",
+        "quantity": 60.0,
         "ingredients": {
-            "Glass": 3
+            "Glass": 90.0
         }
     },
     {
         "product": "Processor",
+        "quantity": 20.0,
         "ingredients": {
-            "Circuit Board": 2,
-            "Microcrystalline Component": 2
+            "Circuit Board": 40.0,
+            "Microcrystalline Component": 40.0
         }
     },
     {
         "product": "Proliferator MK I",
+        "quantity": 120.0,
         "ingredients": {
-            "Coal": 1
+            "Coal": 120.0
         }
     },
     {
         "product": "Proliferator MK II",
+        "quantity": 60.0,
         "ingredients": {
-            "Proliferator MK I": 2,
-            "Diamond": 1
+            "Proliferator MK I": 120.0,
+            "Diamond": 60.0
         }
     },
     {
         "product": "Proliferator MK III",
+        "quantity": 30.0,
         "ingredients": {
-            "Proliferator MK II": 2,
-            "Carbon Nanotube": 1
+            "Proliferator MK II": 60.0,
+            "Carbon Nanotube": 30.0
         }
     },
     {
         "product": "Prototype",
+        "quantity": 1.0,
         "ingredients": {
-            "Iron Ingot": 3,
-            "Engine": 1,
-            "Circuit Board": 2,
-            "Plasma Exciter": 1
+            "Iron Ingot": 3.0,
+            "Engine": 1.0,
+            "Circuit Board": 2.0,
+            "Plasma Exciter": 1.0
         }
     },
     {
         "product": "Quantum Chip",
+        "quantity": 10.0,
         "ingredients": {
-            "Processor": 2,
-            "Plane Filter": 2
-        }
-    },
-    {
-        "product": "Reformed Refinement",
-        "ingredients": {
-            "Refined Oil": 2,
-            "Hydrogen": 1,
-            "Coal": 1
+            "Processor": 20.0,
+            "Plane Filter": 20.0
         }
     },
     {
         "product": "Reinforced Thruster",
+        "quantity": 10.0,
         "ingredients": {
-            "Titanium Alloy": 5,
-            "Electromagnetic Turbine": 5
+            "Titanium Alloy": 50.0,
+            "Electromagnetic Turbine": 50.0
         }
     },
     {
         "product": "Shell Set",
+        "quantity": 1.0,
         "ingredients": {
-            "Copper Ingot": 9,
-            "Combustible Unit": 2
-        }
-    },
-    {
-        "product": "Silicon Ore",
-        "ingredients": {
-            "Stone": 10
+            "Copper Ingot": 9.0,
+            "Combustible Unit": 2.0
         }
     },
     {
         "product": "Small Carrier Rocket",
+        "quantity": 10.0,
         "ingredients": {
-            "Dyson Sphere Component": 2,
-            "Deuteron Fuel Rod": 4,
-            "Quantum Chip": 2
+            "Dyson Sphere Component": 20.0,
+            "Deuteron Fuel Rod": 40.0,
+            "Quantum Chip": 20.0
         }
     },
     {
         "product": "Solar Sail",
+        "quantity": 30.0,
         "ingredients": {
-            "Graphene": 1,
-            "Photon Combiner": 1
+            "Graphene": 15.0,
+            "Photon Combiner": 15.0
         }
     },
     {
         "product": "Space Warper",
+        "quantity": 6.0,
         "ingredients": {
-            "Graviton Lens": 1
+            "Graviton Lens": 6.0
         }
     },
     {
         "product": "Space Warper",
+        "quantity": 48.0,
         "ingredients": {
-            "Gravity Matrix": 1
+            "Gravity Matrix": 6.0
         }
     },
     {
         "product": "Steel",
+        "quantity": 20.0,
         "ingredients": {
-            "Iron Ingot": 3
+            "Iron Ingot": 60.0
         }
     },
     {
         "product": "Stone Brick",
+        "quantity": 60.0,
         "ingredients": {
-            "Stone": 1
+            "Stone": 60.0
         }
     },
     {
         "product": "Strange Annihilation Fuel Rod",
+        "quantity": 1.0,
         "ingredients": {
-            "Antimatter Fuel Rod": 8,
-            "Core Element": 1,
-            "Strange Matter": 2,
-            "Frame Material": 1
+            "Antimatter Fuel Rod": 8.0,
+            "Core Element": 1.0,
+            "Strange Matter": 2.0,
+            "Frame Material": 1.0
         }
     },
     {
         "product": "Strange Matter",
+        "quantity": 7.5,
         "ingredients": {
-            "Particle Container": 2,
-            "Iron Ingot": 2,
-            "Deuterium": 10
+            "Particle Container": 15.0,
+            "Iron Ingot": 15.0,
+            "Deuterium": 75.0
         }
     },
     {
         "product": "Structure Matrix",
+        "quantity": 7.5,
         "ingredients": {
-            "Diamond": 1,
-            "Titanium Crystal": 1
+            "Diamond": 7.5,
+            "Titanium Crystal": 7.5
         }
     },
     {
         "product": "Sulfuric Acid",
+        "quantity": 40.0,
         "ingredients": {
-            "Refined Oil": 6,
-            "Stone": 8,
-            "Water": 4
+            "Refined Oil": 60.0,
+            "Stone": 80.0,
+            "Water": 40.0
         }
     },
     {
         "product": "Superalloy Ammo Box",
+        "quantity": 1.0,
         "ingredients": {
-            "Titanium Ammo Box": 1,
-            "Titanium Alloy": 1
+            "Titanium Ammo Box": 1.0,
+            "Titanium Alloy": 1.0
         }
     },
     {
         "product": "Super-Magnetic Ring",
+        "quantity": 20.0,
         "ingredients": {
-            "Electromagnetic Turbine": 2,
-            "Magnet": 3,
-            "Energetic Graphite": 1
+            "Electromagnetic Turbine": 40.0,
+            "Magnet": 60.0,
+            "Energetic Graphite": 20.0
         }
     },
     {
         "product": "Supersonic Missile Set",
+        "quantity": 1.0,
         "ingredients": {
-            "Missile Set": 2,
-            "Processor": 4,
-            "Explosive Unit": 4,
-            "Thruster": 2
+            "Missile Set": 2.0,
+            "Processor": 4.0,
+            "Explosive Unit": 4.0,
+            "Thruster": 2.0
         }
     },
     {
         "product": "Suppressing Capsule",
+        "quantity": 1.0,
         "ingredients": {
-            "Jamming Capsule": 2,
-            "Supermagnetic Ring": 1,
-            "Titanium Glass": 2
+            "Jamming Capsule": 2.0,
+            "Supermagnetic Ring": 1.0,
+            "Titanium Glass": 2.0
         }
     },
     {
         "product": "Thruster",
+        "quantity": 15.0,
         "ingredients": {
-            "Steel": 2,
-            "Copper Ingot": 3
+            "Steel": 30.0,
+            "Copper Ingot": 45.0
         }
     },
     {
         "product": "Titanium Alloy",
+        "quantity": 20.0,
         "ingredients": {
-            "Titanium Ingot": 4,
-            "Steel": 4,
-            "Sulfuric Acid": 8
+            "Titanium Ingot": 20.0,
+            "Steel": 20.0,
+            "Sulfuric Acid": 40.0
         }
     },
     {
         "product": "Titanium Ammo Box",
+        "quantity": 1.0,
         "ingredients": {
-            "Magnum Ammo Box": 1,
-            "Titanium Ingot": 2
+            "Magnum Ammo Box": 1.0,
+            "Titanium Ingot": 2.0
         }
     },
     {
         "product": "Titanium Crystal",
+        "quantity": 15.0,
         "ingredients": {
-            "Organic Crystal": 1,
-            "Titanium Ingot": 3
+            "Organic Crystal": 15.0,
+            "Titanium Ingot": 45.0
         }
     },
     {
         "product": "Titanium Glass",
+        "quantity": 24.0,
         "ingredients": {
-            "Glass": 2,
-            "Titanium Ingot": 2,
-            "Water": 2
+            "Glass": 24.0,
+            "Titanium Ingot": 24.0,
+            "Water": 24.0
         }
     },
     {
         "product": "Titanium Ingot",
+        "quantity": 30.0,
         "ingredients": {
-            "Titanium Ore": 2
+            "Titanium Ore": 60.0
         }
     },
     {
         "product": "Universe Matrix",
+        "quantity": 1.0,
         "ingredients": {
-            "Electromagnetic Matrix": 1,
-            "Energy Matrix": 1,
-            "Structure Matrix": 1,
-            "Information Matrix": 1,
-            "Gravity Matrix": 1,
-            "Antimatter": 1
-        }
-    },
-    {
-        "product": "X-Ray Cracking",
-        "ingredients": {
-            "Refined Oil": 1,
-            "Hydrogen": 2
+            "Electromagnetic Matrix": 1.0,
+            "Energy Matrix": 1.0,
+            "Structure Matrix": 1.0,
+            "Information Matrix": 1.0,
+            "Gravity Matrix": 1.0,
+            "Antimatter": 1.0
         }
     }
 ]

@@ -26,6 +26,7 @@ class FuckassDSPDataTransformer:
         tokens = line.split(',"')
         key = tokens[0]
         weighted_valuemap = tokens[1].replace('"', '').split(',') # remove quotes and tokenize based on commas
+        quantity_produced = float(tokens[2].replace('"', ''))
         self._logger(LogLevel.TRACE, f"weighted_valuemap: {weighted_valuemap}")
 
         # split the #- ingredient weight pairs into something usable
@@ -33,7 +34,7 @@ class FuckassDSPDataTransformer:
         ingredients = {}        
         for ingredient in weighted_valuemap:
             ingredient_weight, ingredient_name = ingredient.split('- ')
-            ingredient_weight = int(ingredient_weight)
+            ingredient_weight = float(ingredient_weight)
 
             self._logger(LogLevel.TRACE, f"Ingredient parsed - Name: {ingredient_name}, Weight: {ingredient_weight}")
 
@@ -41,7 +42,7 @@ class FuckassDSPDataTransformer:
 
         self.transformed_data.append({
             "product": key,
-            # "quantity", "item_quantity" # for future use
+            "quantity": quantity_produced,
             "ingredients": ingredients
         })
 

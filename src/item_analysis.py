@@ -47,11 +47,11 @@ end_game_targets = {
     
     # Key buildings for expansion
     'Vertical Launching Silo': 1.0,
-    #'Interstellar Logistics Station': 2.0,
-    #'Planetary Logistics Station': 4.0,
+    'Interstellar Logistics Station': 2.0,
+    'Planetary Logistics Station': 4.0,
     #'Artificial Star': 2.0,
     #'Particle Collider': 1.0,
-    #'Ray Receiver': 5.0,   
+    'Ray Receiver': 5.0,   
     
     # Dyson Sphere components
     'Frame Material': 100.0,
@@ -79,11 +79,25 @@ def build_dependency_graph(items_data, buildings_data):
         building_dependencies[building["product"]] = building["ingredients"]
     
     return item_dependencies, building_dependencies
+
+def get_production_quantities(items_data, buildings_data):
+    item_quantities = dict()
+    building_quantities = dict()
+    
+    for item in items_data:
+        item_quantities[item["product"]] = item["quantity"]
         
-def analyze_item_dependencies(item_dependencies, building_dependencies, target_items):
+    for building in buildings_data:
+        building_quantities[building["product"]] = building["quantity"]
+    
+    return item_quantities, building_quantities
+
+def analyze_item_dependencies(prod_quantities, dependencies, target_items):
     results = {}
     sources = {}  # Track where demand comes from
     queue = deque()
+    item_quantities, building_quantities = prod_quantities[0], prod_quantities[1]
+    item_dependencies, building_dependencies = dependencies[0], dependencies[1]
     
     logger(LogLevel.INFO, "Analyzing item dependencies for target production rates...")
     
@@ -107,17 +121,25 @@ def analyze_item_dependencies(item_dependencies, building_dependencies, target_i
         
         # determine if the current node is an item or building
         dependencies = None
+        quantity_produced = None
         if current_node in item_dependencies:
             dependencies = item_dependencies[current_node]
+            quantity_produced = item_quantities[current_node]
         elif current_node in building_dependencies:
             dependencies = building_dependencies[current_node]
+            quantity_produced = building_quantities[current_node]
         else:
             logger(LogLevel.WARNING, f"  - Warning: No dependency data found for {current_node}")
             continue
         
+        # since some recipes produce multiple items per production cycle, 
+        # the downstream waterfall rate needs to be reduced accordingly to get accurate downstream values
+        waterfall_rate = required_rate / quantity_produced
+        logger(LogLevel.DEBUG, f"  - {current_node} produces {quantity_produced} per cycle, requiring a waterfall rate of {waterfall_rate:.2f} cycles/min")
+        
         # add all dependencies to the queue to be processed in the future
         for ingredient, quantity in dependencies.items():
-            value = quantity * required_rate
+            value = quantity * waterfall_rate
             queue.append((ingredient, value, f"Used by {current_node}"))
             logger(LogLevel.DEBUG, f"  - Queued dependency {ingredient} needing {value:.2f} items/min to support {current_node}")
                 
@@ -198,6 +220,7 @@ if __name__ == "__main__":
     
     items_data = load_data(f"{FINAL_DATA_DIR}/items.json")
     buildings_data = load_data(f"{FINAL_DATA_DIR}/buildings.json")
-    
-    item_preds, building_preds = build_dependency_graph(items_data, buildings_data)    
-    analyze_item_dependencies(item_preds, building_preds, end_game_targets)
+    prod_quantities = get_production_quantities(items_data, buildings_data)   
+    item_preds, building_preds = build_dependency_graph(items_data, buildings_data)  
+      
+    analyze_item_dependencies(prod_quantities, (item_preds, building_preds), end_game_targets)
