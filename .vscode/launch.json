@@ -15,6 +15,14 @@
             "program": "${workspaceFolder}/recipe_network/program.py",
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}/recipe_network"
-        }
+        },
+        {
+            "name": "Calculate Item Values",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/item_analysis.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/src"
+        },
     ]
 }

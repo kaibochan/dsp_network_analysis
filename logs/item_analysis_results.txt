@@ -1,0 +1,1462 @@
+
+====================================================================================================
+DEPENDENCY ANALYSIS COMPLETE - REQUIRED PRODUCTION RATES
+====================================================================================================
+
+Item                                           Items/Min      Assemblers Scale
+----------------------------------------------------------------------------------------------------
+Stone                                         97672.0   ~    1628           Multi-System (5+ planets)
+Iron Ore                                      42614.0   ~     710           Multi-Planet (3-4 planets)
+Iron Ingot                                    35148.0   ~     586           Multi-Planet (3-4 planets)
+Refined Oil                                   21046.0   ~     351           Multi-Planet (3-4 planets)
+Hydrogen                                      17584.0   ~     293           Full Planet
+Water                                         14762.0   ~     246           Full Planet
+Stalagmite Crystal                             9048.0   ~     151           Full Planet
+Copper Ingot                                   9003.0   ~     150           Full Planet
+Copper Ore                                     9003.0   ~     150           Full Planet
+Magnet                                         7466.0   ~     124           Full Planet
+Gear                                           7210.0   ~     120           Full Planet
+Silicon Ore                                    6428.0   ~     107           Full Planet
+Titanium Ore                                   6252.0   ~     104           Full Planet
+Magnetic Coil                                  3733.0   ~      62           Single Planet
+Conveyor Belt MK I                             3600.0   ~      60           Single Planet
+Electric Motor                                 3420.0   ~      57           Single Planet
+Sulfuric Acid                                  3376.0   ~      56           Single Planet
+Circuit Board                                  3284.0   ~      55           Single Planet
+High-Purity Silicon                            3214.0   ~      54           Single Planet
+Titanium Ingot                                 3126.0   ~      52           Single Planet
+Electromagnetic Coil                           2800.0   ~      47           Single Planet
+Fire Ice                                       2788.0   ~      46           Single Planet
+Unipolar Magnet                                2620.0   ~      44           Single Planet
+Steel                                          1804.0   ~      30           Single Planet
+Glass                                          1552.0   ~      26           Single Planet
+Carbon Nanotube                                1508.0   ~      25           Single Planet
+Microcrystalline Component                     1462.0   ~      24           Single Planet
+Electromagnetic Turbine                        1400.0   ~      23           Single Planet
+Graphene                                       1394.0   ~      23           Single Planet
+Deuterium                                      1310.0   ~      22           Single Planet
+Grating Crystal                                1226.0   ~      20           Single Planet
+Conveyor Belt MK II                            1200.0   ~      20           Single Planet
+Sorter MK I                                    1200.0   ~      20           Single Planet
+Coal                                           1060.0   ~      18           Single Planet
+Processor                                       726.0   ~      12           Regional
+Sorter MK II                                    600.0   ~      10           Regional
+Diamond                                         590.0   ~      10           Regional
+Kimberlite Ore                                  590.0   ~      10           Regional
+Titanium Glass                                  584.0   ~      10           Regional
+Energetic Graphite                              530.0   ~       9           Regional
+Titanium Alloy                                  422.0   ~       7           Regional
+Supermagnetic Ring                              420.0   ~       7           Regional
+Crystal Silicon                                 400.0   ~       7           Regional
+Fractal Silicon                                 400.0   ~       7           Regional
+Solar Sail                                      350.0   ~       6           Regional
+Photon Combiner                                 350.0   ~       6           Regional
+Plastic                                         350.0   ~       6           Regional
+Conveyor Belt MK III                            300.0   ~       5           Regional
+Plane Filter                                    292.0   ~       5           Regional
+Casimir Crystal                                 292.0   ~       5           Regional
+Frame Material                                  290.0   ~       5           Regional
+Particle Container                              262.0   ~       4           Regional
+Sorter MK III                                   200.0   ~       3           Regional
+Stone Brick                                     176.0   ~       3           Regional
+Particle Broadband                              170.0   ~       3           Regional
+Quantum Chip                                    146.0   ~       2           Regional
+Strange Matter                                  131.0   ~       2           Regional
+Graviton Lens                                   125.0   ~       2           Regional
+Electromagnetic Matrix                           90.0   ~       2           Local
+Energy Matrix                                    90.0   ~       2           Local
+Structure Matrix                                 90.0   ~       2           Local
+Information Matrix                               90.0   ~       2           Local
+Gravity Matrix                                   90.0   ~       2           Local
+Titanium Crystal                                 90.0   ~       2           Local
+Organic Crystal                                  90.0   ~       2           Local
+Prism                                            90.0   ~       2           Local
+Dyson Sphere Component                           50.0   ~       1           Local
+Plasma Exciter                                   45.0   ~       1           Local
+Deuteron Fuel Rod                                40.0   ~       1           Local
+Universe Matrix                                  30.0   ~       0           Local
+Antimatter                                       30.0   ~       0           Local
+Assembling Machine MK II                         20.0   ~       0           Local
+Accumulator                                      20.0   ~       0           Local
+Assembling Machine MK I                          20.0   ~       0           Local
+Arc Smelter                                      10.0   ~       0           Local
+Assembling Machine MK III                        10.0   ~       0           Local
+Traffic Monitor                                  10.0   ~       0           Local
+Small Carrier Rocket                             10.0   ~       0           Local
+Chemical Plant                                    7.0   ~       0           Local
+Spray Coater                                      5.0   ~       0           Local
+Depot MK I                                        5.0   ~       0           Local
+Depot MK II                                       5.0   ~       0           Local
+Storage Tank                                      5.0   ~       0           Local
+Logistics Distributor                             5.0   ~       0           Local
+Satellite Substation                              5.0   ~       0           Local
+Mining Machine                                    5.0   ~       0           Local
+Water Pump                                        5.0   ~       0           Local
+Wireless Power Tower                              5.0   ~       0           Local
+Tesla Tower                                       5.0   ~       0           Local
+Quantum Chemical Plant                            2.0   ~       0           Local
+Matrix Lab                                        2.0   ~       0           Local
+Mini Fusion Power Plant                           1.0   ~       0           Local
+Vertical Launching Silo                           1.0   ~       0           Local
+====================================================================================================
+GREATEST CONTRIBUTORS PER ITEM
+====================================================================================================
+
+Stone                                         97672.0   ~       0           Local
+    └─ Used by Silicon Ore: 9600.0 items/min
+    └─ Used by Silicon Ore: 9600.0 items/min
+    └─ Used by Silicon Ore: 7200.0 items/min
+Iron Ore                                      42614.0   ~       0           Local
+    └─ Used by Iron Ingot: 5400.0 items/min
+    └─ Used by Iron Ingot: 3600.0 items/min
+    └─ Used by Magnet: 3600.0 items/min
+Iron Ingot                                    35148.0   ~       0           Local
+    └─ Used by Conveyor Belt MK I: 5400.0 items/min
+    └─ Used by Electric Motor: 3600.0 items/min
+    └─ Used by Gear: 2700.0 items/min
+Refined Oil                                   21046.0   ~       0           Local
+    └─ Used by Sulfuric Acid: 4800.0 items/min
+    └─ Used by Sulfuric Acid: 4320.0 items/min
+    └─ Used by Sulfuric Acid: 3840.0 items/min
+Hydrogen                                      17584.0   ~       0           Local
+    └─ Used by Deuterium: 6000.0 items/min
+    └─ Used by Deuterium: 3000.0 items/min
+    └─ Used by Deuterium: 2000.0 items/min
+Water                                         14762.0   ~       0           Local
+    └─ Used by Sulfuric Acid: 3200.0 items/min
+    └─ Used by Sulfuric Acid: 2880.0 items/min
+    └─ Used by Sulfuric Acid: 2560.0 items/min
+Stalagmite Crystal                             9048.0   ~       0           Local
+    └─ Used by Carbon Nanotube: 2400.0 items/min
+    └─ Used by Carbon Nanotube: 2160.0 items/min
+    └─ Used by Carbon Nanotube: 1440.0 items/min
+Copper Ingot                                   9003.0   ~       0           Local
+    └─ Used by Magnetic Coil: 1800.0 items/min
+    └─ Used by Circuit Board: 800.0 items/min
+    └─ Used by Magnetic Coil: 600.0 items/min
+Copper Ore                                     9003.0   ~       0           Local
+    └─ Used by Copper Ingot: 1800.0 items/min
+    └─ Used by Copper Ingot: 800.0 items/min
+    └─ Used by Copper Ingot: 600.0 items/min
+Magnet                                         7466.0   ~       0           Local
+    └─ Used by Magnetic Coil: 3600.0 items/min
+    └─ Used by Magnetic Coil: 1200.0 items/min
+    └─ Used by Magnetic Coil: 800.0 items/min
+Gear                                           7210.0   ~       0           Local
+    └─ Used by Conveyor Belt MK I: 2700.0 items/min
+    └─ Used by Electric Motor: 1800.0 items/min
+    └─ Used by Conveyor Belt MK I: 900.0 items/min
+Silicon Ore                                    6428.0   ~       0           Local
+    └─ Used by High-Purity Silicon: 960.0 items/min
+    └─ Used by High-Purity Silicon: 960.0 items/min
+    └─ Used by High-Purity Silicon: 720.0 items/min
+Titanium Ore                                   6252.0   ~       0           Local
+    └─ Used by Titanium Ingot: 960.0 items/min
+    └─ Used by Titanium Ingot: 800.0 items/min
+    └─ Used by Titanium Ingot: 720.0 items/min
+Magnetic Coil                                  3733.0   ~       0           Local
+    └─ Used by Electric Motor: 1800.0 items/min
+    └─ Used by Electric Motor: 600.0 items/min
+    └─ Used by Electric Motor: 400.0 items/min
+Conveyor Belt MK I                             3600.0   ~       0           Local
+    └─ Used by Conveyor Belt MK II: 2700.0 items/min
+    └─ Used by Conveyor Belt MK II: 900.0 items/min
+Electric Motor                                 3420.0   ~       0           Local
+    └─ Used by Electromagnetic Turbine: 1800.0 items/min
+    └─ Used by Electromagnetic Turbine: 600.0 items/min
+    └─ Used by Sorter MK II: 400.0 items/min
+Sulfuric Acid                                  3376.0   ~       0           Local
+    └─ Used by Titanium Alloy: 800.0 items/min
+    └─ Used by Titanium Alloy: 720.0 items/min
+    └─ Used by Titanium Alloy: 640.0 items/min
+Circuit Board                                  3284.0   ~       0           Local
+    └─ Used by Sorter MK I: 800.0 items/min
+    └─ Used by Sorter MK I: 400.0 items/min
+    └─ Used by Processor: 240.0 items/min
+High-Purity Silicon                            3214.0   ~       0           Local
+    └─ Used by Microcrystalline Component: 480.0 items/min
+    └─ Used by Microcrystalline Component: 480.0 items/min
+    └─ Used by Microcrystalline Component: 360.0 items/min
+Titanium Ingot                                 3126.0   ~       0           Local
+    └─ Used by Titanium Glass: 480.0 items/min
+    └─ Used by Titanium Alloy: 400.0 items/min
+    └─ Used by Titanium Alloy: 360.0 items/min
+Electromagnetic Coil                           2800.0   ~       0           Local
+    └─ Used by Electromagnetic Turbine: 1800.0 items/min
+    └─ Used by Electromagnetic Turbine: 600.0 items/min
+    └─ Used by Electromagnetic Turbine: 400.0 items/min
+Fire Ice                                       2788.0   ~       0           Local
+    └─ Used by Graphene: 600.0 items/min
+    └─ Used by Graphene: 480.0 items/min
+    └─ Used by Graphene: 400.0 items/min
+Unipolar Magnet                                2620.0   ~       0           Local
+    └─ Used by Particle Container: 1200.0 items/min
+    └─ Used by Particle Container: 600.0 items/min
+    └─ Used by Particle Container: 400.0 items/min
+Steel                                          1804.0   ~       0           Local
+    └─ Used by Titanium Alloy: 400.0 items/min
+    └─ Used by Titanium Alloy: 360.0 items/min
+    └─ Used by Titanium Alloy: 320.0 items/min
+Glass                                          1552.0   ~       0           Local
+    └─ Used by Titanium Glass: 480.0 items/min
+    └─ Used by Titanium Glass: 240.0 items/min
+    └─ Used by Titanium Glass: 160.0 items/min
+Carbon Nanotube                                1508.0   ~       0           Local
+    └─ Used by Frame Material: 400.0 items/min
+    └─ Used by Frame Material: 360.0 items/min
+    └─ Used by Frame Material: 240.0 items/min
+Microcrystalline Component                     1462.0   ~       0           Local
+    └─ Used by Processor: 240.0 items/min
+    └─ Used by Processor: 240.0 items/min
+    └─ Used by Processor: 180.0 items/min
+Electromagnetic Turbine                        1400.0   ~       0           Local
+    └─ Used by Conveyor Belt MK II: 900.0 items/min
+    └─ Used by Conveyor Belt MK II: 300.0 items/min
+    └─ Used by Sorter MK III: 200.0 items/min
+Graphene                                       1394.0   ~       0           Local
+    └─ Used by Conveyor Belt MK III: 300.0 items/min
+    └─ Used by Casimir Crystal: 240.0 items/min
+    └─ Used by Solar Sail: 200.0 items/min
+Deuterium                                      1310.0   ~       0           Local
+    └─ Used by Strange Matter: 600.0 items/min
+    └─ Used by Strange Matter: 300.0 items/min
+    └─ Used by Strange Matter: 200.0 items/min
+Grating Crystal                                1226.0   ~       0           Local
+    └─ Used by Casimir Crystal: 360.0 items/min
+    └─ Used by Photon Combiner: 200.0 items/min
+    └─ Used by Casimir Crystal: 180.0 items/min
+Conveyor Belt MK II                            1200.0   ~       0           Local
+    └─ Used by Conveyor Belt MK III: 900.0 items/min
+    └─ End-game target: 300.0 items/min
+Sorter MK I                                    1200.0   ~       0           Local
+    └─ Used by Sorter MK II: 800.0 items/min
+    └─ Used by Sorter MK II: 400.0 items/min
+Coal                                           1060.0   ~       0           Local
+    └─ Used by Energetic Graphite: 240.0 items/min
+    └─ Used by Energetic Graphite: 240.0 items/min
+    └─ Used by Energetic Graphite: 160.0 items/min
+Processor                                       726.0   ~       0           Local
+    └─ Used by Information Matrix: 120.0 items/min
+    └─ Used by Quantum Chip: 120.0 items/min
+    └─ Used by Dyson Sphere Component: 90.0 items/min
+Sorter MK II                                    600.0   ~       0           Local
+    └─ Used by Sorter MK III: 400.0 items/min
+    └─ End-game target: 200.0 items/min
+Diamond                                         590.0   ~       0           Local
+    └─ Used by Graviton Lens: 240.0 items/min
+    └─ Used by Graviton Lens: 120.0 items/min
+    └─ Used by Graviton Lens: 80.0 items/min
+Kimberlite Ore                                  590.0   ~       0           Local
+    └─ Used by Diamond: 240.0 items/min
+    └─ Used by Diamond: 120.0 items/min
+    └─ Used by Diamond: 80.0 items/min
+Titanium Glass                                  584.0   ~       0           Local
+    └─ Used by Plane Filter: 240.0 items/min
+    └─ Used by Plane Filter: 120.0 items/min
+    └─ Used by Plane Filter: 80.0 items/min
+Energetic Graphite                              530.0   ~       0           Local
+    └─ Used by Energy Matrix: 120.0 items/min
+    └─ Used by Plastic: 120.0 items/min
+    └─ Used by Plastic: 80.0 items/min
+Titanium Alloy                                  422.0   ~       0           Local
+    └─ Used by Frame Material: 100.0 items/min
+    └─ Used by Frame Material: 90.0 items/min
+    └─ Used by Vertical Launching Silo: 80.0 items/min
+Supermagnetic Ring                              420.0   ~       0           Local
+    └─ Used by Conveyor Belt MK III: 300.0 items/min
+    └─ Used by Satellite Substation: 50.0 items/min
+    └─ Used by Deuteron Fuel Rod: 40.0 items/min
+Crystal Silicon                                 400.0   ~       0           Local
+    └─ Used by Particle Broadband: 160.0 items/min
+    └─ Used by Particle Broadband: 120.0 items/min
+    └─ Used by Accumulator: 60.0 items/min
+Fractal Silicon                                 400.0   ~       0           Local
+    └─ Used by Crystal Silicon: 160.0 items/min
+    └─ Used by Crystal Silicon: 120.0 items/min
+    └─ Used by Crystal Silicon: 60.0 items/min
+Solar Sail                                      350.0   ~       0           Local
+    └─ End-game target: 200.0 items/min
+    └─ Used by Dyson Sphere Component: 90.0 items/min
+    └─ Used by Dyson Sphere Component: 60.0 items/min
+Photon Combiner                                 350.0   ~       0           Local
+    └─ Used by Solar Sail: 200.0 items/min
+    └─ Used by Solar Sail: 90.0 items/min
+    └─ Used by Solar Sail: 60.0 items/min
+Plastic                                         350.0   ~       0           Local
+    └─ Used by Organic Crystal: 120.0 items/min
+    └─ Used by Particle Broadband: 80.0 items/min
+    └─ Used by Particle Broadband: 60.0 items/min
+Conveyor Belt MK III                            300.0   ~       0           Local
+    └─ End-game target: 300.0 items/min
+Plane Filter                                    292.0   ~       0           Local
+    └─ Used by Quantum Chip: 120.0 items/min
+    └─ Used by Quantum Chip: 60.0 items/min
+    └─ Used by Quantum Chip: 40.0 items/min
+Casimir Crystal                                 292.0   ~       0           Local
+    └─ Used by Plane Filter: 120.0 items/min
+    └─ Used by Plane Filter: 60.0 items/min
+    └─ Used by Plane Filter: 40.0 items/min
+Frame Material                                  290.0   ~       0           Local
+    └─ End-game target: 100.0 items/min
+    └─ Used by Dyson Sphere Component: 90.0 items/min
+    └─ Used by Dyson Sphere Component: 60.0 items/min
+Particle Container                              262.0   ~       0           Local
+    └─ Used by Strange Matter: 120.0 items/min
+    └─ Used by Strange Matter: 60.0 items/min
+    └─ Used by Strange Matter: 40.0 items/min
+Sorter MK III                                   200.0   ~       0           Local
+    └─ End-game target: 200.0 items/min
+Stone Brick                                     176.0   ~       0           Local
+    └─ Used by Depot MK II: 40.0 items/min
+    └─ Used by Chemical Plant: 40.0 items/min
+    └─ Used by Arc Smelter: 20.0 items/min
+Particle Broadband                              170.0   ~       0           Local
+    └─ Used by Assembling Machine MK III: 80.0 items/min
+    └─ Used by Information Matrix: 60.0 items/min
+    └─ Used by Information Matrix: 30.0 items/min
+Quantum Chip                                    146.0   ~       0           Local
+    └─ Used by Gravity Matrix: 60.0 items/min
+    └─ Used by Gravity Matrix: 30.0 items/min
+    └─ Used by Assembling Machine MK III: 20.0 items/min
+Strange Matter                                  131.0   ~       0           Local
+    └─ Used by Graviton Lens: 60.0 items/min
+    └─ Used by Graviton Lens: 30.0 items/min
+    └─ Used by Graviton Lens: 20.0 items/min
+Graviton Lens                                   125.0   ~       0           Local
+    └─ Used by Gravity Matrix: 60.0 items/min
+    └─ Used by Gravity Matrix: 30.0 items/min
+    └─ Used by Vertical Launching Silo: 20.0 items/min
+Electromagnetic Matrix                           90.0   ~       0           Local
+    └─ End-game target: 60.0 items/min
+    └─ Used by Universe Matrix: 30.0 items/min
+Energy Matrix                                    90.0   ~       0           Local
+    └─ End-game target: 60.0 items/min
+    └─ Used by Universe Matrix: 30.0 items/min
+Structure Matrix                                 90.0   ~       0           Local
+    └─ End-game target: 60.0 items/min
+    └─ Used by Universe Matrix: 30.0 items/min
+Information Matrix                               90.0   ~       0           Local
+    └─ End-game target: 60.0 items/min
+    └─ Used by Universe Matrix: 30.0 items/min
+Gravity Matrix                                   90.0   ~       0           Local
+    └─ End-game target: 60.0 items/min
+    └─ Used by Universe Matrix: 30.0 items/min
+Titanium Crystal                                 90.0   ~       0           Local
+    └─ Used by Structure Matrix: 60.0 items/min
+    └─ Used by Structure Matrix: 30.0 items/min
+Organic Crystal                                  90.0   ~       0           Local
+    └─ Used by Titanium Crystal: 60.0 items/min
+    └─ Used by Titanium Crystal: 30.0 items/min
+Prism                                            90.0   ~       0           Local
+    └─ Used by Plasma Exciter: 40.0 items/min
+    └─ Used by Plasma Exciter: 30.0 items/min
+    └─ Used by Plasma Exciter: 20.0 items/min
+Dyson Sphere Component                           50.0   ~       0           Local
+    └─ End-game target: 30.0 items/min
+    └─ Used by Small Carrier Rocket: 20.0 items/min
+Plasma Exciter                                   45.0   ~       0           Local
+    └─ Used by Logistics Distributor: 20.0 items/min
+    └─ Used by Wireless Power Tower: 15.0 items/min
+    └─ Used by Spray Coater: 10.0 items/min
+Deuteron Fuel Rod                                40.0   ~       0           Local
+    └─ Used by Small Carrier Rocket: 40.0 items/min
+Universe Matrix                                  30.0   ~       0           Local
+    └─ End-game target: 30.0 items/min
+Antimatter                                       30.0   ~       0           Local
+    └─ Used by Universe Matrix: 30.0 items/min
+Assembling Machine MK II                         20.0   ~       0           Local
+    └─ End-game target: 10.0 items/min
+    └─ Used by Assembling Machine MK III: 10.0 items/min
+Accumulator                                      20.0   ~       0           Local
+    └─ End-game target: 20.0 items/min
+Assembling Machine MK I                          20.0   ~       0           Local
+    └─ Used by Assembling Machine MK II: 10.0 items/min
+    └─ Used by Assembling Machine MK II: 10.0 items/min
+Arc Smelter                                      10.0   ~       0           Local
+    └─ End-game target: 10.0 items/min
+Assembling Machine MK III                        10.0   ~       0           Local
+    └─ End-game target: 10.0 items/min
+Traffic Monitor                                  10.0   ~       0           Local
+    └─ End-game target: 10.0 items/min
+Small Carrier Rocket                             10.0   ~       0           Local
+    └─ End-game target: 10.0 items/min
+Chemical Plant                                    7.0   ~       0           Local
+    └─ End-game target: 5.0 items/min
+    └─ Used by Quantum Chemical Plant: 2.0 items/min
+Spray Coater                                      5.0   ~       0           Local
+    └─ End-game target: 5.0 items/min
+Depot MK I                                        5.0   ~       0           Local
+    └─ End-game target: 5.0 items/min
+Depot MK II                                       5.0   ~       0           Local
+    └─ End-game target: 5.0 items/min
+Storage Tank                                      5.0   ~       0           Local
+    └─ End-game target: 5.0 items/min
+Logistics Distributor                             5.0   ~       0           Local
+    └─ End-game target: 5.0 items/min
+Satellite Substation                              5.0   ~       0           Local
+    └─ End-game target: 5.0 items/min
+Mining Machine                                    5.0   ~       0           Local
+    └─ End-game target: 5.0 items/min
+Water Pump                                        5.0   ~       0           Local
+    └─ End-game target: 5.0 items/min
+Wireless Power Tower                              5.0   ~       0           Local
+    └─ Used by Satellite Substation: 5.0 items/min
+Tesla Tower                                       5.0   ~       0           Local
+    └─ Used by Wireless Power Tower: 5.0 items/min
+Quantum Chemical Plant                            2.0   ~       0           Local
+    └─ End-game target: 2.0 items/min
+Matrix Lab                                        2.0   ~       0           Local
+    └─ End-game target: 2.0 items/min
+Mini Fusion Power Plant                           1.0   ~       0           Local
+    └─ End-game target: 1.0 items/min
+Vertical Launching Silo                           1.0   ~       0           Local
+    └─ End-game target: 1.0 items/min
+
+====================================================================================================
+ALL SOURCES WITH CONTRIBUTIONS
+====================================================================================================
+
+Stone: Total 97672.0 items/min
+    └─ Used by Stone Brick: 20.0 items/min
+    └─ Used by Glass: 40.0 items/min
+    └─ Used by Stone Brick: 20.0 items/min
+    └─ Used by Stone Brick: 40.0 items/min
+    └─ Used by Stone Brick: 20.0 items/min
+    └─ Used by Glass: 80.0 items/min
+    └─ Used by Stone Brick: 20.0 items/min
+    └─ Used by Stone Brick: 40.0 items/min
+    └─ Used by Glass: 160.0 items/min
+    └─ Used by Glass: 80.0 items/min
+    └─ Used by Glass: 32.0 items/min
+    └─ Used by Sulfuric Acid: 768.0 items/min
+    └─ Used by Stone Brick: 16.0 items/min
+    └─ Used by Glass: 64.0 items/min
+    └─ Used by Sulfuric Acid: 5120.0 items/min
+    └─ Used by Sulfuric Acid: 6400.0 items/min
+    └─ Used by Silicon Ore: 2000.0 items/min
+    └─ Used by Glass: 240.0 items/min
+    └─ Used by Silicon Ore: 400.0 items/min
+    └─ Used by Glass: 480.0 items/min
+    └─ Used by Sulfuric Acid: 640.0 items/min
+    └─ Used by Silicon Ore: 200.0 items/min
+    └─ Used by Sulfuric Acid: 1920.0 items/min
+    └─ Used by Silicon Ore: 600.0 items/min
+    └─ Used by Sulfuric Acid: 5760.0 items/min
+    └─ Used by Silicon Ore: 1800.0 items/min
+    └─ Used by Sulfuric Acid: 2560.0 items/min
+    └─ Used by Silicon Ore: 9600.0 items/min
+    └─ Used by Glass: 1920.0 items/min
+    └─ Used by Silicon Ore: 3200.0 items/min
+    └─ Used by Glass: 640.0 items/min
+    └─ Used by Silicon Ore: 1600.0 items/min
+    └─ Used by Glass: 360.0 items/min
+    └─ Used by Silicon Ore: 320.0 items/min
+    └─ Used by Glass: 192.0 items/min
+    └─ Used by Glass: 320.0 items/min
+    └─ Used by Silicon Ore: 7200.0 items/min
+    └─ Used by Sulfuric Acid: 3840.0 items/min
+    └─ Used by Silicon Ore: 1200.0 items/min
+    └─ Used by Glass: 640.0 items/min
+    └─ Used by Silicon Ore: 9600.0 items/min
+    └─ Used by Silicon Ore: 4800.0 items/min
+    └─ Used by Glass: 960.0 items/min
+    └─ Used by Silicon Ore: 3200.0 items/min
+    └─ Used by Silicon Ore: 3200.0 items/min
+    └─ Used by Silicon Ore: 960.0 items/min
+    └─ Used by Silicon Ore: 1600.0 items/min
+    └─ Used by Silicon Ore: 4800.0 items/min
+    └─ Used by Silicon Ore: 3200.0 items/min
+    └─ Used by Silicon Ore: 4800.0 items/min
+
+Iron Ore: Total 42614.0 items/min
+    └─ Used by Iron Ingot: 40.0 items/min
+    └─ Used by Iron Ingot: 30.0 items/min
+    └─ Used by Iron Ingot: 20.0 items/min
+    └─ Used by Iron Ingot: 40.0 items/min
+    └─ Used by Iron Ingot: 40.0 items/min
+    └─ Used by Iron Ingot: 120.0 items/min
+    └─ Used by Iron Ingot: 20.0 items/min
+    └─ Used by Iron Ingot: 40.0 items/min
+    └─ Used by Iron Ingot: 16.0 items/min
+    └─ Used by Magnet: 120.0 items/min
+    └─ Used by Iron Ingot: 120.0 items/min
+    └─ Used by Iron Ingot: 1800.0 items/min
+    └─ Used by Iron Ingot: 400.0 items/min
+    └─ Used by Iron Ingot: 400.0 items/min
+    └─ Used by Iron Ingot: 80.0 items/min
+    └─ Used by Magnet: 40.0 items/min
+    └─ Used by Iron Ingot: 40.0 items/min
+    └─ Used by Iron Ingot: 20.0 items/min
+    └─ Used by Iron Ingot: 40.0 items/min
+    └─ Used by Iron Ingot: 60.0 items/min
+    └─ Used by Iron Ingot: 20.0 items/min
+    └─ Used by Iron Ingot: 120.0 items/min
+    └─ Used by Iron Ingot: 20.0 items/min
+    └─ Used by Magnet: 20.0 items/min
+    └─ Used by Iron Ingot: 10.0 items/min
+    └─ Used by Iron Ingot: 40.0 items/min
+    └─ Used by Iron Ingot: 20.0 items/min
+    └─ Used by Iron Ingot: 120.0 items/min
+    └─ Used by Iron Ingot: 20.0 items/min
+    └─ Used by Iron Ingot: 12.0 items/min
+    └─ Used by Iron Ingot: 16.0 items/min
+    └─ Used by Magnet: 16.0 items/min
+    └─ Used by Iron Ingot: 30.0 items/min
+    └─ Used by Iron Ingot: 480.0 items/min
+    └─ Used by Iron Ingot: 120.0 items/min
+    └─ Used by Magnet: 60.0 items/min
+    └─ Used by Iron Ingot: 60.0 items/min
+    └─ Used by Iron Ingot: 900.0 items/min
+    └─ Used by Iron Ingot: 1200.0 items/min
+    └─ Used by Iron Ingot: 5400.0 items/min
+    └─ Used by Iron Ingot: 800.0 items/min
+    └─ Used by Iron Ingot: 200.0 items/min
+    └─ Used by Magnet: 400.0 items/min
+    └─ Used by Iron Ingot: 800.0 items/min
+    └─ Used by Iron Ingot: 800.0 items/min
+    └─ Used by Iron Ingot: 800.0 items/min
+    └─ Used by Iron Ingot: 80.0 items/min
+    └─ Used by Iron Ingot: 80.0 items/min
+    └─ Used by Iron Ingot: 160.0 items/min
+    └─ Used by Iron Ingot: 40.0 items/min
+    └─ Used by Magnet: 80.0 items/min
+    └─ Used by Magnet: 160.0 items/min
+    └─ Used by Iron Ingot: 80.0 items/min
+    └─ Used by Iron Ingot: 10.0 items/min
+    └─ Used by Iron Ingot: 144.0 items/min
+    └─ Used by Iron Ingot: 16.0 items/min
+    └─ Used by Iron Ingot: 20.0 items/min
+    └─ Used by Magnet: 40.0 items/min
+    └─ Used by Iron Ingot: 48.0 items/min
+    └─ Used by Iron Ingot: 8.0 items/min
+    └─ Used by Iron Ingot: 960.0 items/min
+    └─ Used by Iron Ingot: 40.0 items/min
+    └─ Used by Iron Ingot: 1200.0 items/min
+    └─ Used by Iron Ingot: 360.0 items/min
+    └─ Used by Iron Ingot: 400.0 items/min
+    └─ Used by Iron Ingot: 480.0 items/min
+    └─ Used by Iron Ingot: 240.0 items/min
+    └─ Used by Iron Ingot: 60.0 items/min
+    └─ Used by Iron Ingot: 600.0 items/min
+    └─ Used by Magnet: 1200.0 items/min
+    └─ Used by Iron Ingot: 2700.0 items/min
+    └─ Used by Iron Ingot: 3600.0 items/min
+    └─ Used by Iron Ingot: 1600.0 items/min
+    └─ Used by Iron Ingot: 400.0 items/min
+    └─ Used by Magnet: 800.0 items/min
+    └─ Used by Iron Ingot: 400.0 items/min
+    └─ Used by Magnet: 800.0 items/min
+    └─ Used by Iron Ingot: 80.0 items/min
+    └─ Used by Iron Ingot: 80.0 items/min
+    └─ Used by Iron Ingot: 160.0 items/min
+    └─ Used by Iron Ingot: 160.0 items/min
+    └─ Used by Magnet: 10.0 items/min
+    └─ Used by Magnet: 120.0 items/min
+    └─ Used by Iron Ingot: 120.0 items/min
+    └─ Used by Iron Ingot: 48.0 items/min
+    └─ Used by Iron Ingot: 360.0 items/min
+    └─ Used by Iron Ingot: 80.0 items/min
+    └─ Used by Iron Ingot: 1080.0 items/min
+    └─ Used by Iron Ingot: 180.0 items/min
+    └─ Used by Iron Ingot: 240.0 items/min
+    └─ Used by Iron Ingot: 480.0 items/min
+    └─ Used by Iron Ingot: 160.0 items/min
+    └─ Used by Iron Ingot: 240.0 items/min
+    └─ Used by Iron Ingot: 1800.0 items/min
+    └─ Used by Magnet: 3600.0 items/min
+    └─ Used by Iron Ingot: 720.0 items/min
+    └─ Used by Iron Ingot: 120.0 items/min
+
+Iron Ingot: Total 35148.0 items/min
+    └─ Used by Arc Smelter: 40.0 items/min
+    └─ Used by Traffic Monitor: 30.0 items/min
+    └─ Used by Depot MK I: 20.0 items/min
+    └─ Used by Storage Tank: 40.0 items/min
+    └─ Used by Logistics Distributor: 40.0 items/min
+    └─ Used by Accumulator: 120.0 items/min
+    └─ Used by Mining Machine: 20.0 items/min
+    └─ Used by Water Pump: 40.0 items/min
+    └─ Used by Matrix Lab: 16.0 items/min
+    └─ Used by Circuit Board: 120.0 items/min
+    └─ Used by Conveyor Belt MK I: 1800.0 items/min
+    └─ Used by Sorter MK I: 400.0 items/min
+    └─ Used by Electric Motor: 400.0 items/min
+    └─ Used by Circuit Board: 80.0 items/min
+    └─ Used by Assembling Machine MK I: 40.0 items/min
+    └─ Used by Gear: 20.0 items/min
+    └─ Used by Circuit Board: 40.0 items/min
+    └─ Used by Steel: 60.0 items/min
+    └─ Used by Circuit Board: 20.0 items/min
+    └─ Used by Steel: 120.0 items/min
+    └─ Used by Circuit Board: 20.0 items/min
+    └─ Used by Gear: 10.0 items/min
+    └─ Used by Electric Motor: 40.0 items/min
+    └─ Used by Circuit Board: 20.0 items/min
+    └─ Used by Steel: 120.0 items/min
+    └─ Used by Circuit Board: 20.0 items/min
+    └─ Used by Strange Matter: 12.0 items/min
+    └─ Used by Circuit Board: 16.0 items/min
+    └─ Used by Strange Matter: 30.0 items/min
+    └─ Used by Circuit Board: 480.0 items/min
+    └─ Used by Strange Matter: 120.0 items/min
+    └─ Used by Circuit Board: 60.0 items/min
+    └─ Used by Gear: 900.0 items/min
+    └─ Used by Electric Motor: 1200.0 items/min
+    └─ Used by Conveyor Belt MK I: 5400.0 items/min
+    └─ Used by Circuit Board: 800.0 items/min
+    └─ Used by Gear: 200.0 items/min
+    └─ Used by Sorter MK I: 800.0 items/min
+    └─ Used by Electric Motor: 800.0 items/min
+    └─ Used by Electric Motor: 800.0 items/min
+    └─ Used by Gear: 80.0 items/min
+    └─ Used by Circuit Board: 80.0 items/min
+    └─ Used by Circuit Board: 160.0 items/min
+    └─ Used by Assembling Machine MK I: 40.0 items/min
+    └─ Used by Circuit Board: 80.0 items/min
+    └─ Used by Tesla Tower: 10.0 items/min
+    └─ Used by Steel: 144.0 items/min
+    └─ Used by Circuit Board: 16.0 items/min
+    └─ Used by Gear: 20.0 items/min
+    └─ Used by Steel: 48.0 items/min
+    └─ Used by Circuit Board: 8.0 items/min
+    └─ Used by Steel: 960.0 items/min
+    └─ Used by Strange Matter: 40.0 items/min
+    └─ Used by Steel: 1200.0 items/min
+    └─ Used by Circuit Board: 360.0 items/min
+    └─ Used by Circuit Board: 400.0 items/min
+    └─ Used by Circuit Board: 480.0 items/min
+    └─ Used by Circuit Board: 240.0 items/min
+    └─ Used by Strange Matter: 60.0 items/min
+    └─ Used by Gear: 600.0 items/min
+    └─ Used by Gear: 2700.0 items/min
+    └─ Used by Electric Motor: 3600.0 items/min
+    └─ Used by Circuit Board: 1600.0 items/min
+    └─ Used by Gear: 400.0 items/min
+    └─ Used by Gear: 400.0 items/min
+    └─ Used by Gear: 80.0 items/min
+    └─ Used by Circuit Board: 80.0 items/min
+    └─ Used by Circuit Board: 160.0 items/min
+    └─ Used by Circuit Board: 160.0 items/min
+    └─ Used by Steel: 120.0 items/min
+    └─ Used by Circuit Board: 48.0 items/min
+    └─ Used by Steel: 360.0 items/min
+    └─ Used by Circuit Board: 80.0 items/min
+    └─ Used by Steel: 1080.0 items/min
+    └─ Used by Circuit Board: 180.0 items/min
+    └─ Used by Circuit Board: 240.0 items/min
+    └─ Used by Steel: 480.0 items/min
+    └─ Used by Circuit Board: 160.0 items/min
+    └─ Used by Circuit Board: 240.0 items/min
+    └─ Used by Gear: 1800.0 items/min
+    └─ Used by Steel: 720.0 items/min
+    └─ Used by Circuit Board: 120.0 items/min
+
+Refined Oil: Total 21046.0 items/min
+    └─ Used by Organic Crystal: 60.0 items/min
+    └─ Used by Plastic: 120.0 items/min
+    └─ Used by Plastic: 160.0 items/min
+    └─ Used by Sulfuric Acid: 576.0 items/min
+    └─ Used by Sulfuric Acid: 3840.0 items/min
+    └─ Used by Sulfuric Acid: 4800.0 items/min
+    └─ Used by Plastic: 240.0 items/min
+    └─ Used by Organic Crystal: 30.0 items/min
+    └─ Used by Plastic: 60.0 items/min
+    └─ Used by Sulfuric Acid: 480.0 items/min
+    └─ Used by Sulfuric Acid: 1440.0 items/min
+    └─ Used by Sulfuric Acid: 4320.0 items/min
+    └─ Used by Sulfuric Acid: 1920.0 items/min
+    └─ Used by Plastic: 120.0 items/min
+    └─ Used by Sulfuric Acid: 2880.0 items/min
+
+Hydrogen: Total 17584.0 items/min
+    └─ Used by Energy Matrix: 120.0 items/min
+    └─ Used by Energy Matrix: 60.0 items/min
+    └─ Used by Deuteron Fuel Rod: 800.0 items/min
+    └─ Used by Deuterium: 600.0 items/min
+    └─ Used by Deuterium: 1500.0 items/min
+    └─ Used by Deuterium: 6000.0 items/min
+    └─ Used by Casimir Crystal: 1440.0 items/min
+    └─ Used by Casimir Crystal: 480.0 items/min
+    └─ Used by Casimir Crystal: 144.0 items/min
+    └─ Used by Deuterium: 2000.0 items/min
+    └─ Used by Casimir Crystal: 240.0 items/min
+    └─ Used by Casimir Crystal: 480.0 items/min
+    └─ Used by Deuterium: 3000.0 items/min
+    └─ Used by Casimir Crystal: 720.0 items/min
+
+Water: Total 14762.0 items/min
+    └─ Used by Organic Crystal: 60.0 items/min
+    └─ Used by Sulfuric Acid: 384.0 items/min
+    └─ Used by Sulfuric Acid: 2560.0 items/min
+    └─ Used by Sulfuric Acid: 3200.0 items/min
+    └─ Used by Titanium Glass: 480.0 items/min
+    └─ Used by Organic Crystal: 30.0 items/min
+    └─ Used by Titanium Glass: 160.0 items/min
+    └─ Used by Sulfuric Acid: 320.0 items/min
+    └─ Used by Titanium Glass: 48.0 items/min
+    └─ Used by Sulfuric Acid: 960.0 items/min
+    └─ Used by Titanium Glass: 80.0 items/min
+    └─ Used by Sulfuric Acid: 2880.0 items/min
+    └─ Used by Sulfuric Acid: 1280.0 items/min
+    └─ Used by Titanium Glass: 160.0 items/min
+    └─ Used by Titanium Glass: 240.0 items/min
+    └─ Used by Sulfuric Acid: 1920.0 items/min
+
+Stalagmite Crystal: Total 9048.0 items/min
+    └─ Used by Carbon Nanotube: 48.0 items/min
+    └─ Used by Carbon Nanotube: 2400.0 items/min
+    └─ Used by Carbon Nanotube: 720.0 items/min
+    └─ Used by Carbon Nanotube: 960.0 items/min
+    └─ Used by Carbon Nanotube: 240.0 items/min
+    └─ Used by Carbon Nanotube: 720.0 items/min
+    └─ Used by Carbon Nanotube: 2160.0 items/min
+    └─ Used by Carbon Nanotube: 360.0 items/min
+    └─ Used by Carbon Nanotube: 1440.0 items/min
+
+Copper Ingot: Total 9003.0 items/min
+    └─ Used by Magnetic Coil: 60.0 items/min
+    └─ Used by Circuit Board: 60.0 items/min
+    └─ Used by Circuit Board: 40.0 items/min
+    └─ Used by Magnetic Coil: 20.0 items/min
+    └─ Used by Circuit Board: 20.0 items/min
+    └─ Used by Circuit Board: 10.0 items/min
+    └─ Used by Microcrystalline Component: 10.0 items/min
+    └─ Used by Circuit Board: 10.0 items/min
+    └─ Used by Magnetic Coil: 10.0 items/min
+    └─ Used by Circuit Board: 10.0 items/min
+    └─ Used by Circuit Board: 10.0 items/min
+    └─ Used by Circuit Board: 8.0 items/min
+    └─ Used by Magnetic Coil: 8.0 items/min
+    └─ Used by Circuit Board: 240.0 items/min
+    └─ Used by Microcrystalline Component: 240.0 items/min
+    └─ Used by Magnetic Coil: 30.0 items/min
+    └─ Used by Circuit Board: 30.0 items/min
+    └─ Used by Circuit Board: 400.0 items/min
+    └─ Used by Magnetic Coil: 200.0 items/min
+    └─ Used by Circuit Board: 40.0 items/min
+    └─ Used by Circuit Board: 80.0 items/min
+    └─ Used by Microcrystalline Component: 80.0 items/min
+    └─ Used by Magnetic Coil: 40.0 items/min
+    └─ Used by Magnetic Coil: 80.0 items/min
+    └─ Used by Circuit Board: 40.0 items/min
+    └─ Used by Microcrystalline Component: 40.0 items/min
+    └─ Used by Circuit Board: 8.0 items/min
+    └─ Used by Microcrystalline Component: 8.0 items/min
+    └─ Used by Magnetic Coil: 20.0 items/min
+    └─ Used by Circuit Board: 4.0 items/min
+    └─ Used by Particle Container: 24.0 items/min
+    └─ Used by Circuit Board: 180.0 items/min
+    └─ Used by Microcrystalline Component: 180.0 items/min
+    └─ Used by Circuit Board: 200.0 items/min
+    └─ Used by Particle Container: 60.0 items/min
+    └─ Used by Particle Container: 240.0 items/min
+    └─ Used by Circuit Board: 240.0 items/min
+    └─ Used by Microcrystalline Component: 240.0 items/min
+    └─ Used by Circuit Board: 120.0 items/min
+    └─ Used by Microcrystalline Component: 120.0 items/min
+    └─ Used by Magnetic Coil: 600.0 items/min
+    └─ Used by Circuit Board: 800.0 items/min
+    └─ Used by Magnetic Coil: 400.0 items/min
+    └─ Used by Magnetic Coil: 400.0 items/min
+    └─ Used by Circuit Board: 40.0 items/min
+    └─ Used by Circuit Board: 80.0 items/min
+    └─ Used by Microcrystalline Component: 80.0 items/min
+    └─ Used by Circuit Board: 80.0 items/min
+    └─ Used by Microcrystalline Component: 80.0 items/min
+    └─ Used by Magnetic Coil: 5.0 items/min
+    └─ Used by Magnetic Coil: 60.0 items/min
+    └─ Used by Circuit Board: 24.0 items/min
+    └─ Used by Microcrystalline Component: 24.0 items/min
+    └─ Used by Particle Container: 80.0 items/min
+    └─ Used by Circuit Board: 40.0 items/min
+    └─ Used by Microcrystalline Component: 40.0 items/min
+    └─ Used by Circuit Board: 90.0 items/min
+    └─ Used by Circuit Board: 120.0 items/min
+    └─ Used by Microcrystalline Component: 120.0 items/min
+    └─ Used by Circuit Board: 80.0 items/min
+    └─ Used by Microcrystalline Component: 80.0 items/min
+    └─ Used by Particle Container: 120.0 items/min
+    └─ Used by Circuit Board: 120.0 items/min
+    └─ Used by Microcrystalline Component: 120.0 items/min
+    └─ Used by Magnetic Coil: 1800.0 items/min
+    └─ Used by Circuit Board: 60.0 items/min
+
+Copper Ore: Total 9003.0 items/min
+    └─ Used by Copper Ingot: 60.0 items/min
+    └─ Used by Copper Ingot: 60.0 items/min
+    └─ Used by Copper Ingot: 40.0 items/min
+    └─ Used by Copper Ingot: 20.0 items/min
+    └─ Used by Copper Ingot: 20.0 items/min
+    └─ Used by Copper Ingot: 10.0 items/min
+    └─ Used by Copper Ingot: 10.0 items/min
+    └─ Used by Copper Ingot: 10.0 items/min
+    └─ Used by Copper Ingot: 10.0 items/min
+    └─ Used by Copper Ingot: 10.0 items/min
+    └─ Used by Copper Ingot: 10.0 items/min
+    └─ Used by Copper Ingot: 8.0 items/min
+    └─ Used by Copper Ingot: 8.0 items/min
+    └─ Used by Copper Ingot: 240.0 items/min
+    └─ Used by Copper Ingot: 240.0 items/min
+    └─ Used by Copper Ingot: 30.0 items/min
+    └─ Used by Copper Ingot: 30.0 items/min
+    └─ Used by Copper Ingot: 400.0 items/min
+    └─ Used by Copper Ingot: 200.0 items/min
+    └─ Used by Copper Ingot: 40.0 items/min
+    └─ Used by Copper Ingot: 80.0 items/min
+    └─ Used by Copper Ingot: 80.0 items/min
+    └─ Used by Copper Ingot: 40.0 items/min
+    └─ Used by Copper Ingot: 80.0 items/min
+    └─ Used by Copper Ingot: 40.0 items/min
+    └─ Used by Copper Ingot: 40.0 items/min
+    └─ Used by Copper Ingot: 8.0 items/min
+    └─ Used by Copper Ingot: 8.0 items/min
+    └─ Used by Copper Ingot: 20.0 items/min
+    └─ Used by Copper Ingot: 4.0 items/min
+    └─ Used by Copper Ingot: 24.0 items/min
+    └─ Used by Copper Ingot: 180.0 items/min
+    └─ Used by Copper Ingot: 180.0 items/min
+    └─ Used by Copper Ingot: 200.0 items/min
+    └─ Used by Copper Ingot: 60.0 items/min
+    └─ Used by Copper Ingot: 240.0 items/min
+    └─ Used by Copper Ingot: 240.0 items/min
+    └─ Used by Copper Ingot: 240.0 items/min
+    └─ Used by Copper Ingot: 120.0 items/min
+    └─ Used by Copper Ingot: 120.0 items/min
+    └─ Used by Copper Ingot: 600.0 items/min
+    └─ Used by Copper Ingot: 800.0 items/min
+    └─ Used by Copper Ingot: 400.0 items/min
+    └─ Used by Copper Ingot: 400.0 items/min
+    └─ Used by Copper Ingot: 40.0 items/min
+    └─ Used by Copper Ingot: 80.0 items/min
+    └─ Used by Copper Ingot: 80.0 items/min
+    └─ Used by Copper Ingot: 80.0 items/min
+    └─ Used by Copper Ingot: 80.0 items/min
+    └─ Used by Copper Ingot: 5.0 items/min
+    └─ Used by Copper Ingot: 60.0 items/min
+    └─ Used by Copper Ingot: 24.0 items/min
+    └─ Used by Copper Ingot: 24.0 items/min
+    └─ Used by Copper Ingot: 80.0 items/min
+    └─ Used by Copper Ingot: 40.0 items/min
+    └─ Used by Copper Ingot: 40.0 items/min
+    └─ Used by Copper Ingot: 90.0 items/min
+    └─ Used by Copper Ingot: 120.0 items/min
+    └─ Used by Copper Ingot: 120.0 items/min
+    └─ Used by Copper Ingot: 80.0 items/min
+    └─ Used by Copper Ingot: 80.0 items/min
+    └─ Used by Copper Ingot: 120.0 items/min
+    └─ Used by Copper Ingot: 120.0 items/min
+    └─ Used by Copper Ingot: 120.0 items/min
+    └─ Used by Copper Ingot: 1800.0 items/min
+    └─ Used by Copper Ingot: 60.0 items/min
+
+Magnet: Total 7466.0 items/min
+    └─ Used by Magnetic Coil: 120.0 items/min
+    └─ Used by Magnetic Coil: 40.0 items/min
+    └─ Used by Magnetic Coil: 20.0 items/min
+    └─ Used by Magnetic Coil: 16.0 items/min
+    └─ Used by Magnetic Coil: 60.0 items/min
+    └─ Used by Magnetic Coil: 400.0 items/min
+    └─ Used by Magnetic Coil: 80.0 items/min
+    └─ Used by Magnetic Coil: 160.0 items/min
+    └─ Used by Magnetic Coil: 40.0 items/min
+    └─ Used by Magnetic Coil: 1200.0 items/min
+    └─ Used by Magnetic Coil: 800.0 items/min
+    └─ Used by Magnetic Coil: 800.0 items/min
+    └─ Used by Magnetic Coil: 10.0 items/min
+    └─ Used by Magnetic Coil: 120.0 items/min
+    └─ Used by Magnetic Coil: 3600.0 items/min
+
+Gear: Total 7210.0 items/min
+    └─ Used by Traffic Monitor: 20.0 items/min
+    └─ Used by Mining Machine: 10.0 items/min
+    └─ Used by Conveyor Belt MK I: 900.0 items/min
+    └─ Used by Electric Motor: 200.0 items/min
+    └─ Used by Assembling Machine MK I: 80.0 items/min
+    └─ Used by Electric Motor: 20.0 items/min
+    └─ Used by Electric Motor: 600.0 items/min
+    └─ Used by Conveyor Belt MK I: 2700.0 items/min
+    └─ Used by Electric Motor: 400.0 items/min
+    └─ Used by Electric Motor: 400.0 items/min
+    └─ Used by Assembling Machine MK I: 80.0 items/min
+    └─ Used by Electric Motor: 1800.0 items/min
+
+Silicon Ore: Total 6428.0 items/min
+    └─ Used by High-Purity Silicon: 200.0 items/min
+    └─ Used by High-Purity Silicon: 40.0 items/min
+    └─ Used by High-Purity Silicon: 20.0 items/min
+    └─ Used by High-Purity Silicon: 60.0 items/min
+    └─ Used by High-Purity Silicon: 180.0 items/min
+    └─ Used by High-Purity Silicon: 960.0 items/min
+    └─ Used by High-Purity Silicon: 320.0 items/min
+    └─ Used by High-Purity Silicon: 160.0 items/min
+    └─ Used by High-Purity Silicon: 32.0 items/min
+    └─ Used by High-Purity Silicon: 720.0 items/min
+    └─ Used by High-Purity Silicon: 120.0 items/min
+    └─ Used by High-Purity Silicon: 960.0 items/min
+    └─ Used by High-Purity Silicon: 480.0 items/min
+    └─ Used by High-Purity Silicon: 320.0 items/min
+    └─ Used by High-Purity Silicon: 320.0 items/min
+    └─ Used by High-Purity Silicon: 96.0 items/min
+    └─ Used by High-Purity Silicon: 160.0 items/min
+    └─ Used by High-Purity Silicon: 480.0 items/min
+    └─ Used by High-Purity Silicon: 320.0 items/min
+    └─ Used by High-Purity Silicon: 480.0 items/min
+
+Titanium Ore: Total 6252.0 items/min
+    └─ Used by Titanium Ingot: 360.0 items/min
+    └─ Used by Titanium Ingot: 96.0 items/min
+    └─ Used by Titanium Ingot: 640.0 items/min
+    └─ Used by Titanium Ingot: 800.0 items/min
+    └─ Used by Titanium Ingot: 180.0 items/min
+    └─ Used by Titanium Ingot: 80.0 items/min
+    └─ Used by Titanium Ingot: 240.0 items/min
+    └─ Used by Titanium Ingot: 720.0 items/min
+    └─ Used by Titanium Ingot: 320.0 items/min
+    └─ Used by Titanium Ingot: 960.0 items/min
+    └─ Used by Titanium Ingot: 320.0 items/min
+    └─ Used by Titanium Ingot: 96.0 items/min
+    └─ Used by Titanium Ingot: 160.0 items/min
+    └─ Used by Titanium Ingot: 480.0 items/min
+    └─ Used by Titanium Ingot: 320.0 items/min
+    └─ Used by Titanium Ingot: 480.0 items/min
+
+Magnetic Coil: Total 3733.0 items/min
+    └─ Used by Electromagnetic Matrix: 60.0 items/min
+    └─ Used by Arc Smelter: 20.0 items/min
+    └─ Used by Mining Machine: 10.0 items/min
+    └─ Used by Matrix Lab: 8.0 items/min
+    └─ Used by Electromagnetic Matrix: 30.0 items/min
+    └─ Used by Electric Motor: 200.0 items/min
+    └─ Used by Plasma Exciter: 40.0 items/min
+    └─ Used by Plasma Exciter: 80.0 items/min
+    └─ Used by Electric Motor: 20.0 items/min
+    └─ Used by Electric Motor: 600.0 items/min
+    └─ Used by Electric Motor: 400.0 items/min
+    └─ Used by Electric Motor: 400.0 items/min
+    └─ Used by Tesla Tower: 5.0 items/min
+    └─ Used by Plasma Exciter: 60.0 items/min
+    └─ Used by Electric Motor: 1800.0 items/min
+
+Conveyor Belt MK I: Total 3600.0 items/min
+    └─ Used by Conveyor Belt MK II: 900.0 items/min
+    └─ Used by Conveyor Belt MK II: 2700.0 items/min
+
+Electric Motor: Total 3420.0 items/min
+    └─ Used by Sorter MK II: 200.0 items/min
+    └─ Used by Water Pump: 20.0 items/min
+    └─ Used by Electromagnetic Turbine: 600.0 items/min
+    └─ Used by Sorter MK II: 400.0 items/min
+    └─ Used by Electromagnetic Turbine: 400.0 items/min
+    └─ Used by Electromagnetic Turbine: 1800.0 items/min
+
+Sulfuric Acid: Total 3376.0 items/min
+    └─ Used by Titanium Alloy: 96.0 items/min
+    └─ Used by Titanium Alloy: 640.0 items/min
+    └─ Used by Titanium Alloy: 800.0 items/min
+    └─ Used by Titanium Alloy: 80.0 items/min
+    └─ Used by Titanium Alloy: 240.0 items/min
+    └─ Used by Titanium Alloy: 720.0 items/min
+    └─ Used by Titanium Alloy: 320.0 items/min
+    └─ Used by Titanium Alloy: 480.0 items/min
+
+Circuit Board: Total 3284.0 items/min
+    └─ Used by Electromagnetic Matrix: 60.0 items/min
+    └─ Used by Arc Smelter: 40.0 items/min
+    └─ Used by Traffic Monitor: 20.0 items/min
+    └─ Used by Spray Coater: 10.0 items/min
+    └─ Used by Mining Machine: 10.0 items/min
+    └─ Used by Water Pump: 10.0 items/min
+    └─ Used by Chemical Plant: 10.0 items/min
+    └─ Used by Matrix Lab: 8.0 items/min
+    └─ Used by Processor: 240.0 items/min
+    └─ Used by Electromagnetic Matrix: 30.0 items/min
+    └─ Used by Sorter MK I: 400.0 items/min
+    └─ Used by Assembling Machine MK I: 40.0 items/min
+    └─ Used by Processor: 80.0 items/min
+    └─ Used by Processor: 40.0 items/min
+    └─ Used by Processor: 8.0 items/min
+    └─ Used by Chemical Plant: 4.0 items/min
+    └─ Used by Processor: 180.0 items/min
+    └─ Used by Photon Combiner: 200.0 items/min
+    └─ Used by Processor: 240.0 items/min
+    └─ Used by Processor: 120.0 items/min
+    └─ Used by Sorter MK I: 800.0 items/min
+    └─ Used by Assembling Machine MK I: 40.0 items/min
+    └─ Used by Processor: 80.0 items/min
+    └─ Used by Processor: 80.0 items/min
+    └─ Used by Processor: 24.0 items/min
+    └─ Used by Processor: 40.0 items/min
+    └─ Used by Photon Combiner: 90.0 items/min
+    └─ Used by Processor: 120.0 items/min
+    └─ Used by Processor: 80.0 items/min
+    └─ Used by Processor: 120.0 items/min
+    └─ Used by Photon Combiner: 60.0 items/min
+
+High-Purity Silicon: Total 3214.0 items/min
+    └─ Used by Frame Material: 100.0 items/min
+    └─ Used by Microcrystalline Component: 20.0 items/min
+    └─ Used by Frame Material: 10.0 items/min
+    └─ Used by Frame Material: 30.0 items/min
+    └─ Used by Frame Material: 90.0 items/min
+    └─ Used by Microcrystalline Component: 480.0 items/min
+    └─ Used by Microcrystalline Component: 160.0 items/min
+    └─ Used by Microcrystalline Component: 80.0 items/min
+    └─ Used by Microcrystalline Component: 16.0 items/min
+    └─ Used by Microcrystalline Component: 360.0 items/min
+    └─ Used by Frame Material: 60.0 items/min
+    └─ Used by Microcrystalline Component: 480.0 items/min
+    └─ Used by Microcrystalline Component: 240.0 items/min
+    └─ Used by Microcrystalline Component: 160.0 items/min
+    └─ Used by Microcrystalline Component: 160.0 items/min
+    └─ Used by Microcrystalline Component: 48.0 items/min
+    └─ Used by Microcrystalline Component: 80.0 items/min
+    └─ Used by Microcrystalline Component: 240.0 items/min
+    └─ Used by Microcrystalline Component: 160.0 items/min
+    └─ Used by Microcrystalline Component: 240.0 items/min
+
+Titanium Ingot: Total 3126.0 items/min
+    └─ Used by Titanium Crystal: 180.0 items/min
+    └─ Used by Titanium Alloy: 48.0 items/min
+    └─ Used by Titanium Alloy: 320.0 items/min
+    └─ Used by Titanium Alloy: 400.0 items/min
+    └─ Used by Titanium Crystal: 90.0 items/min
+    └─ Used by Titanium Alloy: 40.0 items/min
+    └─ Used by Titanium Alloy: 120.0 items/min
+    └─ Used by Titanium Alloy: 360.0 items/min
+    └─ Used by Titanium Alloy: 160.0 items/min
+    └─ Used by Titanium Glass: 480.0 items/min
+    └─ Used by Titanium Glass: 160.0 items/min
+    └─ Used by Titanium Glass: 48.0 items/min
+    └─ Used by Titanium Glass: 80.0 items/min
+    └─ Used by Titanium Alloy: 240.0 items/min
+    └─ Used by Titanium Glass: 160.0 items/min
+    └─ Used by Titanium Glass: 240.0 items/min
+
+Electromagnetic Coil: Total 2800.0 items/min
+    └─ Used by Electromagnetic Turbine: 600.0 items/min
+    └─ Used by Electromagnetic Turbine: 400.0 items/min
+    └─ Used by Electromagnetic Turbine: 1800.0 items/min
+
+Fire Ice: Total 2788.0 items/min
+    └─ Used by Graphene: 600.0 items/min
+    └─ Used by Graphene: 160.0 items/min
+    └─ Used by Graphene: 400.0 items/min
+    └─ Used by Graphene: 160.0 items/min
+    └─ Used by Graphene: 180.0 items/min
+    └─ Used by Graphene: 120.0 items/min
+    └─ Used by Graphene: 480.0 items/min
+    └─ Used by Graphene: 160.0 items/min
+    └─ Used by Graphene: 48.0 items/min
+    └─ Used by Graphene: 80.0 items/min
+    └─ Used by Graphene: 160.0 items/min
+    └─ Used by Graphene: 240.0 items/min
+
+Unipolar Magnet: Total 2620.0 items/min
+    └─ Used by Particle Container: 120.0 items/min
+    └─ Used by Particle Container: 300.0 items/min
+    └─ Used by Particle Container: 1200.0 items/min
+    └─ Used by Particle Container: 400.0 items/min
+    └─ Used by Particle Container: 600.0 items/min
+
+Steel: Total 1804.0 items/min
+    └─ Used by Spray Coater: 20.0 items/min
+    └─ Used by Depot MK II: 40.0 items/min
+    └─ Used by Chemical Plant: 40.0 items/min
+    └─ Used by Titanium Alloy: 48.0 items/min
+    └─ Used by Chemical Plant: 16.0 items/min
+    └─ Used by Titanium Alloy: 320.0 items/min
+    └─ Used by Titanium Alloy: 400.0 items/min
+    └─ Used by Titanium Alloy: 40.0 items/min
+    └─ Used by Titanium Alloy: 120.0 items/min
+    └─ Used by Titanium Alloy: 360.0 items/min
+    └─ Used by Titanium Alloy: 160.0 items/min
+    └─ Used by Titanium Alloy: 240.0 items/min
+
+Glass: Total 1552.0 items/min
+    └─ Used by Traffic Monitor: 10.0 items/min
+    └─ Used by Storage Tank: 20.0 items/min
+    └─ Used by Chemical Plant: 40.0 items/min
+    └─ Used by Quantum Chemical Plant: 20.0 items/min
+    └─ Used by Matrix Lab: 8.0 items/min
+    └─ Used by Chemical Plant: 16.0 items/min
+    └─ Used by Prism: 60.0 items/min
+    └─ Used by Prism: 120.0 items/min
+    └─ Used by Titanium Glass: 480.0 items/min
+    └─ Used by Titanium Glass: 160.0 items/min
+    └─ Used by Prism: 90.0 items/min
+    └─ Used by Titanium Glass: 48.0 items/min
+    └─ Used by Titanium Glass: 80.0 items/min
+    └─ Used by Titanium Glass: 160.0 items/min
+    └─ Used by Titanium Glass: 240.0 items/min
+
+Carbon Nanotube: Total 1508.0 items/min
+    └─ Used by Mini Fusion Power Plant: 8.0 items/min
+    └─ Used by Frame Material: 400.0 items/min
+    └─ Used by Particle Broadband: 120.0 items/min
+    └─ Used by Particle Broadband: 160.0 items/min
+    └─ Used by Frame Material: 40.0 items/min
+    └─ Used by Frame Material: 120.0 items/min
+    └─ Used by Frame Material: 360.0 items/min
+    └─ Used by Particle Broadband: 60.0 items/min
+    └─ Used by Frame Material: 240.0 items/min
+
+Microcrystalline Component: Total 1462.0 items/min
+    └─ Used by Spray Coater: 10.0 items/min
+    └─ Used by Processor: 240.0 items/min
+    └─ Used by Processor: 80.0 items/min
+    └─ Used by Processor: 40.0 items/min
+    └─ Used by Processor: 8.0 items/min
+    └─ Used by Processor: 180.0 items/min
+    └─ Used by Processor: 240.0 items/min
+    └─ Used by Processor: 120.0 items/min
+    └─ Used by Processor: 80.0 items/min
+    └─ Used by Processor: 80.0 items/min
+    └─ Used by Processor: 24.0 items/min
+    └─ Used by Processor: 40.0 items/min
+    └─ Used by Processor: 120.0 items/min
+    └─ Used by Processor: 80.0 items/min
+    └─ Used by Processor: 120.0 items/min
+
+Electromagnetic Turbine: Total 1400.0 items/min
+    └─ Used by Conveyor Belt MK II: 300.0 items/min
+    └─ Used by Sorter MK III: 200.0 items/min
+    └─ Used by Conveyor Belt MK II: 900.0 items/min
+
+Graphene: Total 1394.0 items/min
+    └─ Used by Conveyor Belt MK III: 300.0 items/min
+    └─ Used by Assembling Machine MK II: 80.0 items/min
+    └─ Used by Solar Sail: 200.0 items/min
+    └─ Used by Assembling Machine MK II: 80.0 items/min
+    └─ Used by Solar Sail: 90.0 items/min
+    └─ Used by Solar Sail: 60.0 items/min
+    └─ Used by Casimir Crystal: 240.0 items/min
+    └─ Used by Casimir Crystal: 80.0 items/min
+    └─ Used by Casimir Crystal: 24.0 items/min
+    └─ Used by Casimir Crystal: 40.0 items/min
+    └─ Used by Casimir Crystal: 80.0 items/min
+    └─ Used by Casimir Crystal: 120.0 items/min
+
+Deuterium: Total 1310.0 items/min
+    └─ Used by Strange Matter: 60.0 items/min
+    └─ Used by Strange Matter: 150.0 items/min
+    └─ Used by Strange Matter: 600.0 items/min
+    └─ Used by Strange Matter: 200.0 items/min
+    └─ Used by Strange Matter: 300.0 items/min
+
+Grating Crystal: Total 1226.0 items/min
+    └─ Used by Photon Combiner: 200.0 items/min
+    └─ Used by Photon Combiner: 90.0 items/min
+    └─ Used by Casimir Crystal: 360.0 items/min
+    └─ Used by Casimir Crystal: 120.0 items/min
+    └─ Used by Casimir Crystal: 36.0 items/min
+    └─ Used by Casimir Crystal: 60.0 items/min
+    └─ Used by Photon Combiner: 60.0 items/min
+    └─ Used by Casimir Crystal: 120.0 items/min
+    └─ Used by Casimir Crystal: 180.0 items/min
+
+Conveyor Belt MK II: Total 1200.0 items/min
+    └─ End-game target: 300.0 items/min
+    └─ Used by Conveyor Belt MK III: 900.0 items/min
+
+Sorter MK I: Total 1200.0 items/min
+    └─ Used by Sorter MK II: 400.0 items/min
+    └─ Used by Sorter MK II: 800.0 items/min
+
+Coal: Total 1060.0 items/min
+    └─ Used by Energetic Graphite: 240.0 items/min
+    └─ Used by Energetic Graphite: 120.0 items/min
+    └─ Used by Energetic Graphite: 120.0 items/min
+    └─ Used by Energetic Graphite: 160.0 items/min
+    └─ Used by Energetic Graphite: 240.0 items/min
+    └─ Used by Energetic Graphite: 60.0 items/min
+    └─ Used by Energetic Graphite: 120.0 items/min
+
+Processor: Total 726.0 items/min
+    └─ Used by Information Matrix: 120.0 items/min
+    └─ Used by Assembling Machine MK II: 40.0 items/min
+    └─ Used by Logistics Distributor: 20.0 items/min
+    └─ Used by Mini Fusion Power Plant: 4.0 items/min
+    └─ Used by Dyson Sphere Component: 90.0 items/min
+    └─ Used by Quantum Chip: 120.0 items/min
+    └─ Used by Information Matrix: 60.0 items/min
+    └─ Used by Assembling Machine MK II: 40.0 items/min
+    └─ Used by Quantum Chip: 40.0 items/min
+    └─ Used by Quantum Chip: 12.0 items/min
+    └─ Used by Quantum Chip: 20.0 items/min
+    └─ Used by Dyson Sphere Component: 60.0 items/min
+    └─ Used by Quantum Chip: 40.0 items/min
+    └─ Used by Quantum Chip: 60.0 items/min
+
+Sorter MK II: Total 600.0 items/min
+    └─ End-game target: 200.0 items/min
+    └─ Used by Sorter MK III: 400.0 items/min
+
+Diamond: Total 590.0 items/min
+    └─ Used by Structure Matrix: 60.0 items/min
+    └─ Used by Graviton Lens: 60.0 items/min
+    └─ Used by Graviton Lens: 240.0 items/min
+    └─ Used by Structure Matrix: 30.0 items/min
+    └─ Used by Graviton Lens: 80.0 items/min
+    └─ Used by Graviton Lens: 120.0 items/min
+
+Kimberlite Ore: Total 590.0 items/min
+    └─ Used by Diamond: 60.0 items/min
+    └─ Used by Diamond: 60.0 items/min
+    └─ Used by Diamond: 240.0 items/min
+    └─ Used by Diamond: 30.0 items/min
+    └─ Used by Diamond: 80.0 items/min
+    └─ Used by Diamond: 120.0 items/min
+
+Titanium Glass: Total 584.0 items/min
+    └─ Used by Plane Filter: 240.0 items/min
+    └─ Used by Plane Filter: 80.0 items/min
+    └─ Used by Plane Filter: 24.0 items/min
+    └─ Used by Plane Filter: 40.0 items/min
+    └─ Used by Plane Filter: 80.0 items/min
+    └─ Used by Plane Filter: 120.0 items/min
+
+Energetic Graphite: Total 530.0 items/min
+    └─ Used by Energy Matrix: 120.0 items/min
+    └─ Used by Energy Matrix: 60.0 items/min
+    └─ Used by Plastic: 60.0 items/min
+    └─ Used by Plastic: 80.0 items/min
+    └─ Used by Plastic: 120.0 items/min
+    └─ Used by Plastic: 30.0 items/min
+    └─ Used by Plastic: 60.0 items/min
+
+Titanium Alloy: Total 422.0 items/min
+    └─ Used by Mini Fusion Power Plant: 12.0 items/min
+    └─ Used by Vertical Launching Silo: 80.0 items/min
+    └─ Used by Frame Material: 100.0 items/min
+    └─ Used by Frame Material: 10.0 items/min
+    └─ Used by Frame Material: 30.0 items/min
+    └─ Used by Frame Material: 90.0 items/min
+    └─ Used by Deuteron Fuel Rod: 40.0 items/min
+    └─ Used by Frame Material: 60.0 items/min
+
+Supermagnetic Ring: Total 420.0 items/min
+    └─ Used by Conveyor Belt MK III: 300.0 items/min
+    └─ Used by Satellite Substation: 50.0 items/min
+    └─ Used by Accumulator: 20.0 items/min
+    └─ Used by Mini Fusion Power Plant: 10.0 items/min
+    └─ Used by Deuteron Fuel Rod: 40.0 items/min
+
+Crystal Silicon: Total 400.0 items/min
+    └─ Used by Accumulator: 60.0 items/min
+    └─ Used by Particle Broadband: 120.0 items/min
+    └─ Used by Particle Broadband: 160.0 items/min
+    └─ Used by Particle Broadband: 60.0 items/min
+
+Fractal Silicon: Total 400.0 items/min
+    └─ Used by Crystal Silicon: 60.0 items/min
+    └─ Used by Crystal Silicon: 120.0 items/min
+    └─ Used by Crystal Silicon: 160.0 items/min
+    └─ Used by Crystal Silicon: 60.0 items/min
+
+Solar Sail: Total 350.0 items/min
+    └─ End-game target: 200.0 items/min
+    └─ Used by Dyson Sphere Component: 90.0 items/min
+    └─ Used by Dyson Sphere Component: 60.0 items/min
+
+Photon Combiner: Total 350.0 items/min
+    └─ Used by Solar Sail: 200.0 items/min
+    └─ Used by Solar Sail: 90.0 items/min
+    └─ Used by Solar Sail: 60.0 items/min
+
+Plastic: Total 350.0 items/min
+    └─ Used by Particle Broadband: 60.0 items/min
+    └─ Used by Particle Broadband: 80.0 items/min
+    └─ Used by Organic Crystal: 120.0 items/min
+    └─ Used by Particle Broadband: 30.0 items/min
+    └─ Used by Organic Crystal: 60.0 items/min
+
+Conveyor Belt MK III: Total 300.0 items/min
+    └─ End-game target: 300.0 items/min
+
+Plane Filter: Total 292.0 items/min
+    └─ Used by Quantum Chip: 120.0 items/min
+    └─ Used by Quantum Chip: 40.0 items/min
+    └─ Used by Quantum Chip: 12.0 items/min
+    └─ Used by Quantum Chip: 20.0 items/min
+    └─ Used by Quantum Chip: 40.0 items/min
+    └─ Used by Quantum Chip: 60.0 items/min
+
+Casimir Crystal: Total 292.0 items/min
+    └─ Used by Plane Filter: 120.0 items/min
+    └─ Used by Plane Filter: 40.0 items/min
+    └─ Used by Plane Filter: 12.0 items/min
+    └─ Used by Plane Filter: 20.0 items/min
+    └─ Used by Plane Filter: 40.0 items/min
+    └─ Used by Plane Filter: 60.0 items/min
+
+Frame Material: Total 290.0 items/min
+    └─ End-game target: 100.0 items/min
+    └─ Used by Satellite Substation: 10.0 items/min
+    └─ Used by Vertical Launching Silo: 30.0 items/min
+    └─ Used by Dyson Sphere Component: 90.0 items/min
+    └─ Used by Dyson Sphere Component: 60.0 items/min
+
+Particle Container: Total 262.0 items/min
+    └─ Used by Strange Matter: 12.0 items/min
+    └─ Used by Strange Matter: 30.0 items/min
+    └─ Used by Strange Matter: 120.0 items/min
+    └─ Used by Strange Matter: 40.0 items/min
+    └─ Used by Strange Matter: 60.0 items/min
+
+Sorter MK III: Total 200.0 items/min
+    └─ End-game target: 200.0 items/min
+
+Stone Brick: Total 176.0 items/min
+    └─ Used by Arc Smelter: 20.0 items/min
+    └─ Used by Depot MK I: 20.0 items/min
+    └─ Used by Depot MK II: 40.0 items/min
+    └─ Used by Storage Tank: 20.0 items/min
+    └─ Used by Water Pump: 20.0 items/min
+    └─ Used by Chemical Plant: 40.0 items/min
+    └─ Used by Chemical Plant: 16.0 items/min
+
+Particle Broadband: Total 170.0 items/min
+    └─ Used by Information Matrix: 60.0 items/min
+    └─ Used by Assembling Machine MK III: 80.0 items/min
+    └─ Used by Information Matrix: 30.0 items/min
+
+Quantum Chip: Total 146.0 items/min
+    └─ Used by Gravity Matrix: 60.0 items/min
+    └─ Used by Assembling Machine MK III: 20.0 items/min
+    └─ Used by Quantum Chemical Plant: 6.0 items/min
+    └─ Used by Vertical Launching Silo: 10.0 items/min
+    └─ Used by Small Carrier Rocket: 20.0 items/min
+    └─ Used by Gravity Matrix: 30.0 items/min
+
+Strange Matter: Total 131.0 items/min
+    └─ Used by Quantum Chemical Plant: 6.0 items/min
+    └─ Used by Graviton Lens: 15.0 items/min
+    └─ Used by Graviton Lens: 60.0 items/min
+    └─ Used by Graviton Lens: 20.0 items/min
+    └─ Used by Graviton Lens: 30.0 items/min
+
+Graviton Lens: Total 125.0 items/min
+    └─ End-game target: 15.0 items/min
+    └─ Used by Gravity Matrix: 60.0 items/min
+    └─ Used by Vertical Launching Silo: 20.0 items/min
+    └─ Used by Gravity Matrix: 30.0 items/min
+
+Electromagnetic Matrix: Total 90.0 items/min
+    └─ End-game target: 60.0 items/min
+    └─ Used by Universe Matrix: 30.0 items/min
+
+Energy Matrix: Total 90.0 items/min
+    └─ End-game target: 60.0 items/min
+    └─ Used by Universe Matrix: 30.0 items/min
+
+Structure Matrix: Total 90.0 items/min
+    └─ End-game target: 60.0 items/min
+    └─ Used by Universe Matrix: 30.0 items/min
+
+Information Matrix: Total 90.0 items/min
+    └─ End-game target: 60.0 items/min
+    └─ Used by Universe Matrix: 30.0 items/min
+
+Gravity Matrix: Total 90.0 items/min
+    └─ End-game target: 60.0 items/min
+    └─ Used by Universe Matrix: 30.0 items/min
+
+Titanium Crystal: Total 90.0 items/min
+    └─ Used by Structure Matrix: 60.0 items/min
+    └─ Used by Structure Matrix: 30.0 items/min
+
+Organic Crystal: Total 90.0 items/min
+    └─ Used by Titanium Crystal: 60.0 items/min
+    └─ Used by Titanium Crystal: 30.0 items/min
+
+Prism: Total 90.0 items/min
+    └─ Used by Plasma Exciter: 20.0 items/min
+    └─ Used by Plasma Exciter: 40.0 items/min
+    └─ Used by Plasma Exciter: 30.0 items/min
+
+Dyson Sphere Component: Total 50.0 items/min
+    └─ End-game target: 30.0 items/min
+    └─ Used by Small Carrier Rocket: 20.0 items/min
+
+Plasma Exciter: Total 45.0 items/min
+    └─ Used by Spray Coater: 10.0 items/min
+    └─ Used by Logistics Distributor: 20.0 items/min
+    └─ Used by Wireless Power Tower: 15.0 items/min
+
+Deuteron Fuel Rod: Total 40.0 items/min
+    └─ Used by Small Carrier Rocket: 40.0 items/min
+
+Universe Matrix: Total 30.0 items/min
+    └─ End-game target: 30.0 items/min
+
+Antimatter: Total 30.0 items/min
+    └─ Used by Universe Matrix: 30.0 items/min
+
+Assembling Machine MK II: Total 20.0 items/min
+    └─ End-game target: 10.0 items/min
+    └─ Used by Assembling Machine MK III: 10.0 items/min
+
+Accumulator: Total 20.0 items/min
+    └─ End-game target: 20.0 items/min
+
+Assembling Machine MK I: Total 20.0 items/min
+    └─ Used by Assembling Machine MK II: 10.0 items/min
+    └─ Used by Assembling Machine MK II: 10.0 items/min
+
+Arc Smelter: Total 10.0 items/min
+    └─ End-game target: 10.0 items/min
+
+Assembling Machine MK III: Total 10.0 items/min
+    └─ End-game target: 10.0 items/min
+
+Traffic Monitor: Total 10.0 items/min
+    └─ End-game target: 10.0 items/min
+
+Small Carrier Rocket: Total 10.0 items/min
+    └─ End-game target: 10.0 items/min
+
+Chemical Plant: Total 7.0 items/min
+    └─ End-game target: 5.0 items/min
+    └─ Used by Quantum Chemical Plant: 2.0 items/min
+
+Spray Coater: Total 5.0 items/min
+    └─ End-game target: 5.0 items/min
+
+Depot MK I: Total 5.0 items/min
+    └─ End-game target: 5.0 items/min
+
+Depot MK II: Total 5.0 items/min
+    └─ End-game target: 5.0 items/min
+
+Storage Tank: Total 5.0 items/min
+    └─ End-game target: 5.0 items/min
+
+Logistics Distributor: Total 5.0 items/min
+    └─ End-game target: 5.0 items/min
+
+Satellite Substation: Total 5.0 items/min
+    └─ End-game target: 5.0 items/min
+
+Mining Machine: Total 5.0 items/min
+    └─ End-game target: 5.0 items/min
+
+Water Pump: Total 5.0 items/min
+    └─ End-game target: 5.0 items/min
+
+Wireless Power Tower: Total 5.0 items/min
+    └─ Used by Satellite Substation: 5.0 items/min
+
+Tesla Tower: Total 5.0 items/min
+    └─ Used by Wireless Power Tower: 5.0 items/min
+
+Quantum Chemical Plant: Total 2.0 items/min
+    └─ End-game target: 2.0 items/min
+
+Matrix Lab: Total 2.0 items/min
+    └─ End-game target: 2.0 items/min
+
+Mini Fusion Power Plant: Total 1.0 items/min
+    └─ End-game target: 1.0 items/min
+
+Vertical Launching Silo: Total 1.0 items/min
+    └─ End-game target: 1.0 items/min

@@ -38,5 +38,6 @@ class Logger:
         if reset:
             write_mode = "w"
 
-        with open(f"{self.log_path}/{self.log_name}", write_mode) as log_file:
+        with open(f"{self.log_path}/{self.log_name}", write_mode, encoding='utf-8') as log_file:
             log_file.write(f"{now}: [{level.name}] - {message}\n")
+            log_file.flush()
